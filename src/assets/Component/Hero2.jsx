@@ -12,11 +12,11 @@ function Hero2() {
           know more
         </button>
       </div>
-      <div className="flex absolute right-0 justify-between items-center pr-10">
-        <div className="border border-gray-200 rounded-xl p-4 w-[250px] h-[200px] relative right-11 shadow-md  ">
+      <div className="flex  justify-between items-center pr-10">
+        <div className="border border-gray-200 bg-white rounded-3xl p-4 w-[250px] h-[250px] relative  top-2 bottom-20 left-[470px] shadow-md   ">
           <p>your score</p>
         </div>
-        <div className="border bg-white border-solid border-gray-200 rounded-xl p-4 w-[350px] h-[200px]  absolute -bottom-40 -left-40 shadow-md ">
+        <div className="border border-solid bg-white border-gray-200 rounded-3xl p-4 w-[350px] h-[200px]  relative  top-32 right-2 shadow-md ">
           <p>personal loan</p>
         </div>
       </div>

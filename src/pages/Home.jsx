@@ -4,6 +4,8 @@ import Navbar from "../assets/Component/Navbar";
 import growwhero from "../../public/growwhero.png";
 import Hero1 from "../assets/Component/Hero1";
 import Hero2 from "../assets/Component/hero2";
+import Hero3 from "../assets/Component/Hero3";
+import Hero4 from "../assets/Component/Hero4";
 function Home() {
   return (
     <>
@@ -45,6 +47,11 @@ function Home() {
       </div>
       <div className="flex ml-36">
         <Hero2 />
+      </div>
+      <Hero3 />
+
+      <div>
+        <Hero4 />
       </div>
     </>
   );

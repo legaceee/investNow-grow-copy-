@@ -1,6 +1,24 @@
 import { Search } from "lucide-react";
+import { useEffect, useRef, useState } from "react";
 
 function Navbar() {
+  const [query, setQuery] = useState("");
+  const inputEl = useRef(null);
+  useEffect(function () {
+    function callback(e) {
+      console.log(e.code);
+      if (document.activeElement === inputEl.current) return;
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
+        e.preventDefault();
+        inputEl.current.focus();
+        setQuery("");
+      }
+    }
+    document.addEventListener("keydown", callback);
+
+    //cleanup function
+    return () => document.removeEventListener("keydown", callback);
+  }, []);
   return (
     <nav className="bg-white p-4">
       <div className="flex justify-around items-center fixed top-0 left-0 right-0 z-50 bg-white p-4">
@@ -17,7 +35,7 @@ function Navbar() {
           </ul>
         </div>
         {/* Centered Input Field */}{" "}
-        <div className="relative">
+        <div className="relative ml-20 flex ">
           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
             <svg
               className="h-5 w-5 text-gray-400"
@@ -35,18 +53,26 @@ function Navbar() {
           <input
             type="text"
             placeholder="Search..."
+            ref={inputEl}
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
             className="block w-96 pl-10 pr-3 py-2 border border-gray-300 rounded-lg leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
           />
-          <h2 className="absolute inset-y-0 flex items-center pointer-events-none right-3 font-gray-500 text-sm">
+          <h2 className="absolute inset-y-0 flex items-center pointer-events-none right-48 font-gray-500 text-sm">
             ctrl+k
           </h2>
+          <div className="flex items-center mr-10">
+            <button className="bg-green-500 text-white rounded-md px-2 py-2 ml-4">
+              Signup/Login
+            </button>
+          </div>
         </div>
         {/* Button with Spacing */}
-        <div className="flex items-center">
+        {/*  <div className="flex items-center mr-10">
           <button className="bg-green-500 text-white rounded-md px-2 py-2 ml-4">
             Signup/Login
           </button>
-        </div>
+        </div> */}
       </div>
     </nav>
   );
