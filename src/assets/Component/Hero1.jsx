@@ -2,6 +2,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import buildinggroww from "../../../public/buildinggroww.webp";
 import phonegroww from "../../../public/phonegroww.webp";
+import { useState } from "react";
 
 function Hero1() {
   /* useGSAP(() => {
@@ -10,6 +11,7 @@ function Hero1() {
   function onclick() {
     console.log("Button clicked!");
   } */
+
   return (
     <div className="flex justify-between mt-10 pt-[80px] pb-[80px] bg-white">
       <div className="flex flex-col pl-40 pt-10">

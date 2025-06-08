@@ -53,20 +53,20 @@ function Hero4() {
     <div>
       <div className="flex flex-col">
         <div className="flex justify-center gap-5 mt-20">
-          <div className="h-[250px] w-[200px] bg-slate-500 rounded-2xl  relative  left-36 -rotate-6  hover:relative hover:bottom-28 hover:z-10 hover:rotate-0">
+          <div className="h-[300px] w-[290px] bg-slate-500 rounded-2xl  relative  left-36 -rotate-6  top-4  hover:-translate-y-28 transition-all duration-500  hover:z-10 hover:rotate-0">
             1
           </div>
-          <div className="h-[200px] w-[320px] bg-red-400 rounded-2xl relative top-10 left-16 rotate-3 hover:relative hover:rotate-0 hover:z-10 hover:-top-6">
+          <div className="h-[200px] w-[320px] bg-red-400 rounded-2xl relative top-10 left-16 rotate-3  hover:rotate-0 hover:z-10 hover:-translate-y-14 transition-all duration-500">
             2
           </div>
-          <div className="h-[200px] w-[320px] bg-slate-500 rounded-2xl relative hover:relative hover:bottom-9">
+          <div className="h-[200px] w-[320px] bg-slate-500 rounded-2xl relative  hover:-translate-y-9 hover:z-10  transition-all duration-500">
             3
           </div>
-          <div className="w-[250px] h-[30 px] bg-orange-300 rounded-2xl relative  right-40 rotate-6 hover:relative hover:rotate-0 hover:bottom-10 ">
+          <div className="w-[345px] h-[347px] bg-orange-300 rounded-2xl relative  right-40 top-6 rotate-6  hover:rotate-0 hover:-translate-y-20  transition-all duration-500 ">
             4
           </div>
         </div>
-        <div className="w-full bg-gray-300  h-[600px] z-20 relative bottom-[50px]"></div>
+        <div className="w-full bg-gray-300  h-[600px] z-20 relative bottom-[150px]"></div>
       </div>
     </div>
   );

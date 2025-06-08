@@ -38,7 +38,7 @@ function Hero3() {
         finance simplified,<br></br> In your language!
       </p>
       <div className="flex justify-between ">
-        <button className="rounded-full  bg-white text-black mt-6 p-4 border border-gray-300 w-44 h-14   hover:shadow-2xl transition mr-8">
+        <button className="rounded-full  bg-white text-black mt-6 p-4 border border-gray-300 w-44 h-14   hover:shadow-2xl transition  mr-8">
           youtube
         </button>
         <button className="rounded-full  bg-white text-black mt-6 p-4 border border-gray-300 w-44 h-14   hover:shadow-2xl transition">

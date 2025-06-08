@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../assets/Component/Navbar";
 
 import growwhero from "../../public/growwhero.png";
@@ -6,11 +6,14 @@ import Hero1 from "../assets/Component/Hero1";
 import Hero2 from "../assets/Component/hero2";
 import Hero3 from "../assets/Component/Hero3";
 import Hero4 from "../assets/Component/Hero4";
+import Login from "./Login";
+
 function Home() {
+  const [clicked, setIsClicked] = useState(false);
   return (
     <>
       <div className="flex flex-col items-center justify-center min-h-screen bg-white">
-        <Navbar />
+        <Navbar clicked={clicked} clickManage={setIsClicked} />
         <div className="flex flex-col  justify-center mt-28 text-center bg-white">
           <h2 className="text-[75px]  font-semibold text-slate-700">
             All things finance,
@@ -41,7 +44,7 @@ function Home() {
           </div>
         </div>
       </div>
-
+      {clicked ? <Login /> : ""}
       <div>
         <Hero1 />
       </div>
