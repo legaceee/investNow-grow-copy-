@@ -44,7 +44,7 @@ function Home() {
           </div>
         </div>
       </div>
-      {clicked ? <Login /> : ""}
+      {clicked ? <Login clicked={clicked} clickManage={setIsClicked} /> : ""}
       <div>
         <Hero1 />
       </div>

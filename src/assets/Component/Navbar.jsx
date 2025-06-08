@@ -25,7 +25,7 @@ function Navbar({ clicked, clickManage }) {
   console.log(clicked);
   return (
     <>
-      <nav className="bg-white p-4 z-[1002]">
+      <nav className="bg-white p-4 z-20">
         <div className="flex justify-around items-center fixed top-0 left-0 right-0 z-50 bg-white p-4">
           {/* Logo Section */}
           <div className="flex items-center">
@@ -68,7 +68,7 @@ function Navbar({ clicked, clickManage }) {
             </h2>
             <div className="flex items-center mr-10">
               <button
-                className="bg-green-500 text-white rounded-md px-2 py-2 ml-4"
+                className="bg-green-500 text-white rounded-md px-2 py-2 ml-4 hover:z-50"
                 onClick={() => clickManage((clicked) => !clicked)}
               >
                 Signup/Login
