@@ -46,7 +46,7 @@ function Login({ clicked, clickManage }) {
             >
               &times;
             </button>
-            <h3 className="text-xl font-semibold">Welcome to Groww</h3>
+            <h3 className="text-xl font-semibold">Welcome to INVESTnow</h3>
             <button className="border border-gray-300 py-2 px-4 rounded-md flex items-center justify-center gap-2 hover:bg-gray-100">
               <img
                 src="https://www.svgrepo.com/show/475656/google-color.svg"
