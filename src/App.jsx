@@ -1,12 +1,11 @@
-import { useState } from "react";
 import Home from "./pages/Home";
+import { GoogleOAuthProvider } from "@react-oauth/google";
 
 function App() {
-  const [logInClicked, setLogInClicked] = useState(false);
   return (
-    <div>
+    <GoogleOAuthProvider clientId="your_google_id">
       <Home />
-    </div>
+    </GoogleOAuthProvider>
   );
 }
 

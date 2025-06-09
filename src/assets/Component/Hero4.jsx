@@ -66,7 +66,7 @@ function Hero4() {
             4
           </div>
         </div>
-        <div className="w-full bg-gray-300  h-[600px] z-10 relative bottom-[150px]"></div>
+        <div className="w-full bg-gray-100  h-[600px] z-10 relative  -mt-[146px]"></div>
       </div>
     </div>
   );

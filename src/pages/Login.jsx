@@ -18,12 +18,24 @@
 export default Login;
  */
 
+import { useGoogleLogin } from "@react-oauth/google";
 function Login({ clicked, clickManage }) {
   function onClose() {
     clickManage((clicked) => !clicked);
   }
+
+  const login = useGoogleLogin({
+    onSuccess: (tokenResponse) => {
+      console.log(tokenResponse);
+      // tokenResponse.access_token can be used to fetch user data
+    },
+    onError: () => {
+      console.log("Login Failed");
+    },
+  });
+
   return (
-    <div onClick={onClose}>
+    <div>
       <div
         className="fixed inset-0 bg-black bg-opacity-40 z-40"
         onClick={onClose}
@@ -42,12 +54,15 @@ function Login({ clicked, clickManage }) {
           <div className="w-3/5 p-8 flex flex-col gap-4 relative">
             <button
               onClick={onClose}
-              className="absolute top-2 right-4 text-gray-400 hover:text-black text-xl"
+              className="absolute top-2 right-4 text-gray-400 hover:text-black text-xl hover:z-30"
             >
               &times;
             </button>
             <h3 className="text-xl font-semibold">Welcome to INVESTnow</h3>
-            <button className="border border-gray-300 py-2 px-4 rounded-md flex items-center justify-center gap-2 hover:bg-gray-100">
+            <button
+              className="border border-gray-300 py-2 px-4 rounded-md flex items-center justify-center gap-2 hover:bg-gray-100"
+              onClick={login}
+            >
               <img
                 src="https://www.svgrepo.com/show/475656/google-color.svg"
                 alt="Google"
