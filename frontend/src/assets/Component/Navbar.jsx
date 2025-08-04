@@ -1,6 +1,7 @@
 import { LogIn, Search } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import Login from "../../pages/Login";
+import Button from "./Button";
 
 function Navbar({ clicked, clickManage }) {
   const [query, setQuery] = useState("");
@@ -67,12 +68,7 @@ function Navbar({ clicked, clickManage }) {
               ctrl+k
             </h2>
             <div className="flex items-center mr-10">
-              <button
-                className="bg-green-500 text-white rounded-md px-2 py-2 ml-4 hover:z-50"
-                onClick={() => clickManage((clicked) => !clicked)}
-              >
-                Signup/Login
-              </button>
+              <Button clickManage={clickManage}>Login/Signup</Button>
             </div>
           </div>
           {/* Button with Spacing */}

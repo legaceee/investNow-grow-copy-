@@ -1,8 +1,5 @@
-import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
 import buildinggroww from "../../../public/buildinggroww.webp";
 import phonegroww from "../../../public/phonegroww.webp";
-import { useState } from "react";
 
 function Hero1() {
   /* useGSAP(() => {
