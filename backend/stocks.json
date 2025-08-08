@@ -1,0 +1,4002 @@
+[
+  {
+    "id": "effbbcdc-9d1e-45b3-b578-8dbfce706905",
+    "symbol": "ULTRCEMELT27",
+    "companyName": "UltraTech Cement Ltd 150",
+    "currentPrice": 1522.83,
+    "exchange": "BSE",
+    "sector": "Energy",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "9aec5052-375b-47a4-a676-0072aaee2754",
+    "symbol": "TATASTEELT78",
+    "companyName": "Tata Steel Ltd 71",
+    "currentPrice": 1754.47,
+    "exchange": "BSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "6ca5e111-2f3c-4d46-806e-d5604eae438d",
+    "symbol": "DRREDDLABO49",
+    "companyName": "Dr Reddy's Laboratories Ltd 38",
+    "currentPrice": 2791.76,
+    "exchange": "BSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "7634d0b8-b6d3-488c-84cc-2227a83964a9",
+    "symbol": "ULTRCEMELT67",
+    "companyName": "UltraTech Cement Ltd 82",
+    "currentPrice": 2621.86,
+    "exchange": "NSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "4fe70277-2941-407e-9cbc-3b2b657fc209",
+    "symbol": "TATACONSSE66",
+    "companyName": "Tata Consultancy Services Ltd 46",
+    "currentPrice": 4472.36,
+    "exchange": "BSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "dd6bfee0-d310-4251-b6e6-f66666e63035",
+    "symbol": "STATBANKOF93",
+    "companyName": "State Bank of India 80",
+    "currentPrice": 3400.84,
+    "exchange": "NSE",
+    "sector": "Real Estate",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "b2a3c1a1-2f3e-4e52-a4d5-777d47a23b81",
+    "symbol": "JSWSTEELTD64",
+    "companyName": "JSW Steel Ltd 121",
+    "currentPrice": 3836.1,
+    "exchange": "BSE",
+    "sector": "Chemicals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "b00ebbea-a2b4-4832-978b-4c3df3e0cb76",
+    "symbol": "TECHMAHILT1",
+    "companyName": "Tech Mahindra Ltd 94",
+    "currentPrice": 4983.66,
+    "exchange": "NSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "e2409845-c9bc-4da6-8ad0-2b21b5c70204",
+    "symbol": "OILNATUGAS24",
+    "companyName": "Oil & Natural Gas Corporation Ltd 187",
+    "currentPrice": 1018.12,
+    "exchange": "BSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "0bcfdec1-78f0-423f-b6d6-6840148c7e21",
+    "symbol": "NESTINDILT26",
+    "companyName": "Nestle India Ltd 27",
+    "currentPrice": 1469.26,
+    "exchange": "BSE",
+    "sector": "Energy",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "de8dbcfc-1248-48f4-b951-7b3ca77fbdd8",
+    "symbol": "INFOLTD18",
+    "companyName": "Infosys Ltd 178",
+    "currentPrice": 2993.16,
+    "exchange": "BSE",
+    "sector": "IT Services",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "e9643b36-ee0f-44e2-8ae5-933bb222b4b4",
+    "symbol": "ASIAPAINLT27",
+    "companyName": "Asian Paints Ltd 22",
+    "currentPrice": 3384.26,
+    "exchange": "NSE",
+    "sector": "Pharmaceuticals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "946be47d-1290-466b-9d05-bb559bb8344b",
+    "symbol": "MARUSUZUIN20",
+    "companyName": "Maruti Suzuki India Ltd 14",
+    "currentPrice": 2268.39,
+    "exchange": "BSE",
+    "sector": "Real Estate",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "5c6b7caa-909c-4abd-a5f7-d016a5d58d3b",
+    "symbol": "HINDUNILLT15",
+    "companyName": "Hindustan Unilever Ltd 145",
+    "currentPrice": 447.72,
+    "exchange": "BSE",
+    "sector": "Media",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "5237f0e7-db3f-4de7-a14d-ee5505ec49df",
+    "symbol": "SUNPHARIND95",
+    "companyName": "Sun Pharmaceutical Industries Ltd 7",
+    "currentPrice": 1482.61,
+    "exchange": "NSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "36df130f-5ebe-4e61-9fd5-f630a8869182",
+    "symbol": "LARSTOUBLT18",
+    "companyName": "Larsen & Toubro Ltd 12",
+    "currentPrice": 2344.05,
+    "exchange": "NSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "38e4d2fa-c0ec-4d2f-a192-d2dccdcc7428",
+    "symbol": "HCLTECHLTD94",
+    "companyName": "HCL Technologies Ltd 68",
+    "currentPrice": 3247.16,
+    "exchange": "NSE",
+    "sector": "Real Estate",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "b8c4c0f6-7fe6-453f-ab9a-295450355041",
+    "symbol": "NESTINDILT92",
+    "companyName": "Nestle India Ltd 143",
+    "currentPrice": 1160.58,
+    "exchange": "NSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "53e19d71-9856-4b50-bb34-3b5015359da6",
+    "symbol": "ADANENTELT34",
+    "companyName": "Adani Enterprises Ltd 137",
+    "currentPrice": 2186.86,
+    "exchange": "NSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "34b3591a-41af-429c-a034-9f53c095adea",
+    "symbol": "NTPCLTD16",
+    "companyName": "NTPC Ltd 117",
+    "currentPrice": 335.37,
+    "exchange": "BSE",
+    "sector": "Telecom",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "a99052f8-96c8-4475-8775-1ee60572a54e",
+    "symbol": "TATACONSSE58",
+    "companyName": "Tata Consultancy Services Ltd 90",
+    "currentPrice": 2565.07,
+    "exchange": "BSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "5d0aaad2-dbd0-4b61-ad20-61feb59c1c45",
+    "symbol": "OILNATUGAS64",
+    "companyName": "Oil & Natural Gas Corporation Ltd 191",
+    "currentPrice": 3664.45,
+    "exchange": "NSE",
+    "sector": "Media",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "e0a86dec-5318-465b-a082-9a0184d357b9",
+    "symbol": "BHARAIRTLT85",
+    "companyName": "Bharti Airtel Ltd 151",
+    "currentPrice": 4135.93,
+    "exchange": "BSE",
+    "sector": "Media",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "79460c1e-77c4-492c-a101-95c09eb9ad39",
+    "symbol": "ASIAPAINLT11",
+    "companyName": "Asian Paints Ltd 91",
+    "currentPrice": 4590.43,
+    "exchange": "BSE",
+    "sector": "Real Estate",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "61df5c24-bd8e-4770-b374-7c2c9c46b9f9",
+    "symbol": "MARUSUZUIN3",
+    "companyName": "Maruti Suzuki India Ltd 130",
+    "currentPrice": 1126.34,
+    "exchange": "NSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "2dd63cea-0d21-4884-9640-dfcb9c6b458b",
+    "symbol": "MARUSUZUIN83",
+    "companyName": "Maruti Suzuki India Ltd 145",
+    "currentPrice": 1334.88,
+    "exchange": "BSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "9d0a2280-38f6-4e58-a47d-bf516f4b39af",
+    "symbol": "NTPCLTD40",
+    "companyName": "NTPC Ltd 21",
+    "currentPrice": 1454.51,
+    "exchange": "NSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "6637b7b7-7951-4165-b7a0-85d18a21f8ce",
+    "symbol": "RELIINDULT5",
+    "companyName": "Reliance Industries Ltd 46",
+    "currentPrice": 3577.78,
+    "exchange": "NSE",
+    "sector": "Media",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "9fe3a570-ed7a-4173-917f-ab9389e6fcd6",
+    "symbol": "ASIAPAINLT8",
+    "companyName": "Asian Paints Ltd 81",
+    "currentPrice": 4794.34,
+    "exchange": "BSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "0e426ead-1fed-4454-bab7-cab817922b7b",
+    "symbol": "GRASINDULT22",
+    "companyName": "Grasim Industries Ltd 52",
+    "currentPrice": 1152.09,
+    "exchange": "BSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "64890b94-6961-46c7-b79a-57cc7dac4df6",
+    "symbol": "HINDUNILLT69",
+    "companyName": "Hindustan Unilever Ltd 15",
+    "currentPrice": 4161.69,
+    "exchange": "BSE",
+    "sector": "Media",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "67eae327-4fc3-466e-b4b9-6ca25110b542",
+    "symbol": "CIPLLTD63",
+    "companyName": "Cipla Ltd 14",
+    "currentPrice": 426.45,
+    "exchange": "NSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "2de482b2-8044-4e84-a2b1-323954360bb1",
+    "symbol": "HINDUNILLT78",
+    "companyName": "Hindustan Unilever Ltd 156",
+    "currentPrice": 652.16,
+    "exchange": "NSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "eca6d10a-8a7c-4189-9543-3dec17b57659",
+    "symbol": "RELIINDULT67",
+    "companyName": "Reliance Industries Ltd 66",
+    "currentPrice": 4154.45,
+    "exchange": "BSE",
+    "sector": "Telecom",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "de536c5e-c003-422f-bde3-058b9504e631",
+    "symbol": "NESTINDILT32",
+    "companyName": "Nestle India Ltd 8",
+    "currentPrice": 259.63,
+    "exchange": "NSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "3b37d1a9-4a25-40a1-81b7-0fa0ee4fec7f",
+    "symbol": "POWEGRIDCO76",
+    "companyName": "Power Grid Corporation of India Ltd 129",
+    "currentPrice": 3964.92,
+    "exchange": "BSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "9903c1ae-0dc3-4312-bc30-636fec17c222",
+    "symbol": "BAJAFINALT11",
+    "companyName": "Bajaj Finance Ltd 133",
+    "currentPrice": 702.4,
+    "exchange": "NSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "3e0422ec-66f2-45e8-8bd5-490787353a14",
+    "symbol": "KOTAMAHIBA75",
+    "companyName": "Kotak Mahindra Bank Ltd 40",
+    "currentPrice": 470.42,
+    "exchange": "NSE",
+    "sector": "Telecom",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "48004b75-0df8-4f5e-a983-8d0a10e2ac42",
+    "symbol": "ADANENTELT50",
+    "companyName": "Adani Enterprises Ltd 97",
+    "currentPrice": 4853.59,
+    "exchange": "NSE",
+    "sector": "Telecom",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "d4be3625-8992-4c97-af5a-ec0ef10789eb",
+    "symbol": "STATBANKOF55",
+    "companyName": "State Bank of India 115",
+    "currentPrice": 213.34,
+    "exchange": "BSE",
+    "sector": "Chemicals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "fa4ba476-36d8-49c1-82f4-3029c0803d40",
+    "symbol": "DRREDDLABO55",
+    "companyName": "Dr Reddy's Laboratories Ltd 122",
+    "currentPrice": 2109.4,
+    "exchange": "BSE",
+    "sector": "Media",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "22e99777-e2a6-4924-82e7-88244411c024",
+    "symbol": "ASIAPAINLT32",
+    "companyName": "Asian Paints Ltd 160",
+    "currentPrice": 3775.43,
+    "exchange": "BSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "70702a84-9e54-41b8-b3fe-5ca03b232e1c",
+    "symbol": "LARSTOUBLT14",
+    "companyName": "Larsen & Toubro Ltd 180",
+    "currentPrice": 1934.26,
+    "exchange": "BSE",
+    "sector": "Telecom",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "a463b4b1-bb83-4e27-9dae-2f462299b2f3",
+    "symbol": "RELIINDULT16",
+    "companyName": "Reliance Industries Ltd 72",
+    "currentPrice": 2289.09,
+    "exchange": "NSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "81cc014a-96a1-477f-afc3-e35428a1bf71",
+    "symbol": "DRREDDLABO37",
+    "companyName": "Dr Reddy's Laboratories Ltd 85",
+    "currentPrice": 1238.32,
+    "exchange": "BSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "3c0c08df-b31e-44d2-b254-0edb6f354ab8",
+    "symbol": "MARUSUZUIN6",
+    "companyName": "Maruti Suzuki India Ltd 110",
+    "currentPrice": 1671.95,
+    "exchange": "NSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "3d7de134-571c-47a9-9adf-20b5667085d4",
+    "symbol": "STATBANKOF35",
+    "companyName": "State Bank of India 194",
+    "currentPrice": 4773.07,
+    "exchange": "NSE",
+    "sector": "Pharmaceuticals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "cfd136da-0256-460b-9c42-c20b12674b20",
+    "symbol": "STATBANKOF26",
+    "companyName": "State Bank of India 36",
+    "currentPrice": 3571.25,
+    "exchange": "NSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "b4b2af4d-db00-45ad-8d4c-db7d9fab4284",
+    "symbol": "ADANENTELT37",
+    "companyName": "Adani Enterprises Ltd 95",
+    "currentPrice": 3099.86,
+    "exchange": "NSE",
+    "sector": "Pharmaceuticals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "08cec846-f9ed-48e0-b6e7-f6d94602c7e4",
+    "symbol": "STATBANKOF68",
+    "companyName": "State Bank of India 95",
+    "currentPrice": 1927.35,
+    "exchange": "NSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "72cc1554-01a4-447e-8d9f-e653e8f790fa",
+    "symbol": "ASIAPAINLT87",
+    "companyName": "Asian Paints Ltd 7",
+    "currentPrice": 1006.98,
+    "exchange": "NSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "a23e464d-43e2-4b10-9643-4155c63b3c58",
+    "symbol": "POWEGRIDCO83",
+    "companyName": "Power Grid Corporation of India Ltd 115",
+    "currentPrice": 1022.82,
+    "exchange": "BSE",
+    "sector": "Telecom",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "832fdf04-0362-4fd7-ad03-1cb76f9d35e4",
+    "symbol": "ADANENTELT47",
+    "companyName": "Adani Enterprises Ltd 30",
+    "currentPrice": 2877.56,
+    "exchange": "NSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "779e94a6-da89-4d0f-973e-90c4d0222547",
+    "symbol": "KOTAMAHIBA21",
+    "companyName": "Kotak Mahindra Bank Ltd 85",
+    "currentPrice": 4831.34,
+    "exchange": "BSE",
+    "sector": "Telecom",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "9280a3ad-4870-442a-ab4f-9e72bc1ad139",
+    "symbol": "INFOLTD86",
+    "companyName": "Infosys Ltd 75",
+    "currentPrice": 2982.17,
+    "exchange": "BSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "a3796e42-167e-46ba-a6d7-0d4cfec1b48c",
+    "symbol": "ICICBANKLT88",
+    "companyName": "ICICI Bank Ltd 141",
+    "currentPrice": 521.02,
+    "exchange": "NSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "1f70f4dd-e89b-476b-919f-0183982b8195",
+    "symbol": "ICICBANKLT43",
+    "companyName": "ICICI Bank Ltd 31",
+    "currentPrice": 1644.38,
+    "exchange": "NSE",
+    "sector": "Telecom",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "f20c24e2-8c7f-4019-bcbe-2cc3fa8f65b9",
+    "symbol": "HCLTECHLTD62",
+    "companyName": "HCL Technologies Ltd 120",
+    "currentPrice": 1766.26,
+    "exchange": "BSE",
+    "sector": "Chemicals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "15c93561-c74f-4566-a490-a09f365e82a7",
+    "symbol": "BAJAFINALT27",
+    "companyName": "Bajaj Finance Ltd 68",
+    "currentPrice": 3290.51,
+    "exchange": "BSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "b13c3f15-4a50-40df-87c4-c47364055762",
+    "symbol": "MAHIMAHILT35",
+    "companyName": "Mahindra & Mahindra Ltd 120",
+    "currentPrice": 3608.78,
+    "exchange": "BSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "9d4400ca-b065-41aa-963d-f3ba45784196",
+    "symbol": "ITCLTD31",
+    "companyName": "ITC Ltd 4",
+    "currentPrice": 1276.86,
+    "exchange": "BSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "57c1d18b-e9f6-444e-8ed7-6107f5395638",
+    "symbol": "LARSTOUBLT34",
+    "companyName": "Larsen & Toubro Ltd 3",
+    "currentPrice": 2891.92,
+    "exchange": "BSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "13c0ecc4-5774-4071-b20c-1aca1f587b7d",
+    "symbol": "BHARAIRTLT76",
+    "companyName": "Bharti Airtel Ltd 164",
+    "currentPrice": 1473.15,
+    "exchange": "NSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "ccf801c5-f761-484a-a517-613f92b074b1",
+    "symbol": "HDFCBANKLT61",
+    "companyName": "HDFC Bank Ltd 58",
+    "currentPrice": 2245.82,
+    "exchange": "BSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "bb13701d-ab50-4719-9f74-5a20d3a6f902",
+    "symbol": "INFOLTD17",
+    "companyName": "Infosys Ltd 169",
+    "currentPrice": 126.02,
+    "exchange": "BSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "5cb75e3b-af58-47ed-9e4f-780037ab1200",
+    "symbol": "POWEGRIDCO22",
+    "companyName": "Power Grid Corporation of India Ltd 180",
+    "currentPrice": 796.19,
+    "exchange": "BSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "0995ea3b-d39c-4f97-9717-bcb68f18b589",
+    "symbol": "HCLTECHLTD93",
+    "companyName": "HCL Technologies Ltd 81",
+    "currentPrice": 452.31,
+    "exchange": "NSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "5022c3d1-06d7-4bfc-ae45-c2a03637d371",
+    "symbol": "JSWSTEELTD77",
+    "companyName": "JSW Steel Ltd 50",
+    "currentPrice": 2782.8,
+    "exchange": "NSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "a24c1ad5-8a31-4c22-9b67-c8ef9390d60b",
+    "symbol": "HCLTECHLTD50",
+    "companyName": "HCL Technologies Ltd 66",
+    "currentPrice": 4287.42,
+    "exchange": "NSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "f0ca8323-561e-47b7-b3af-2a1c4fdab152",
+    "symbol": "RELIINDULT61",
+    "companyName": "Reliance Industries Ltd 38",
+    "currentPrice": 3632.74,
+    "exchange": "NSE",
+    "sector": "IT Services",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "12840553-c24a-4a89-bdba-abc7b89ef01c",
+    "symbol": "POWEGRIDCO3",
+    "companyName": "Power Grid Corporation of India Ltd 35",
+    "currentPrice": 3224.7,
+    "exchange": "BSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "4fe225a5-509b-4eec-8660-96dc44f91aff",
+    "symbol": "MARUSUZUIN86",
+    "companyName": "Maruti Suzuki India Ltd 110",
+    "currentPrice": 1292.73,
+    "exchange": "NSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "315cbac1-2ef5-4bab-a30a-d1fb5664dc43",
+    "symbol": "DRREDDLABO33",
+    "companyName": "Dr Reddy's Laboratories Ltd 77",
+    "currentPrice": 3182.27,
+    "exchange": "BSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "aaf4237f-e149-498e-8ce1-05413b3594ad",
+    "symbol": "ITCLTD8",
+    "companyName": "ITC Ltd 129",
+    "currentPrice": 1061.04,
+    "exchange": "BSE",
+    "sector": "Media",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "d220746d-0549-4f93-a8e5-acd0e0efae49",
+    "symbol": "GRASINDULT58",
+    "companyName": "Grasim Industries Ltd 109",
+    "currentPrice": 269.74,
+    "exchange": "BSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "a9f87615-1891-4d63-b9ec-58f340495866",
+    "symbol": "BHARAIRTLT22",
+    "companyName": "Bharti Airtel Ltd 40",
+    "currentPrice": 161.13,
+    "exchange": "NSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "eb86d98e-9bdb-4fb8-a5a3-cb4c31823471",
+    "symbol": "HCLTECHLTD79",
+    "companyName": "HCL Technologies Ltd 183",
+    "currentPrice": 733.67,
+    "exchange": "BSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "4e329272-0840-4d7f-9368-7a27be72a358",
+    "symbol": "SUNPHARIND3",
+    "companyName": "Sun Pharmaceutical Industries Ltd 17",
+    "currentPrice": 1331.71,
+    "exchange": "NSE",
+    "sector": "Energy",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "4de6ad77-d78b-4c0f-a031-2971d9c7c7b1",
+    "symbol": "HINDUNILLT10",
+    "companyName": "Hindustan Unilever Ltd 93",
+    "currentPrice": 3949.55,
+    "exchange": "BSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "72ddaf01-b44e-4821-bdef-9f1ad4ffc660",
+    "symbol": "POWEGRIDCO82",
+    "companyName": "Power Grid Corporation of India Ltd 43",
+    "currentPrice": 3716.13,
+    "exchange": "BSE",
+    "sector": "Pharmaceuticals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "256fefed-61d7-4faf-81b1-655b43e667e2",
+    "symbol": "MARUSUZUIN29",
+    "companyName": "Maruti Suzuki India Ltd 117",
+    "currentPrice": 4228.43,
+    "exchange": "NSE",
+    "sector": "IT Services",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "7460b1b3-c062-4b0f-822c-36ff3ea445b9",
+    "symbol": "GRASINDULT16",
+    "companyName": "Grasim Industries Ltd 31",
+    "currentPrice": 4472.32,
+    "exchange": "NSE",
+    "sector": "Real Estate",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "2b5c7107-ace5-4fc7-aeb2-f7e29cf5654e",
+    "symbol": "ITCLTD66",
+    "companyName": "ITC Ltd 153",
+    "currentPrice": 2786.1,
+    "exchange": "NSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "b0723bf3-503a-42da-9331-38b11267ef55",
+    "symbol": "ICICBANKLT58",
+    "companyName": "ICICI Bank Ltd 113",
+    "currentPrice": 117.39,
+    "exchange": "BSE",
+    "sector": "Real Estate",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "a31584f6-cca0-468f-9979-43a931776acf",
+    "symbol": "TECHMAHILT84",
+    "companyName": "Tech Mahindra Ltd 112",
+    "currentPrice": 3961.77,
+    "exchange": "BSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "7c421a72-c10f-453b-b59a-58ef954a87bc",
+    "symbol": "INFOLTD90",
+    "companyName": "Infosys Ltd 130",
+    "currentPrice": 4874.18,
+    "exchange": "BSE",
+    "sector": "Telecom",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "8eaa7b5a-0a24-4d9b-bcf3-fffd5678231e",
+    "symbol": "MARUSUZUIN54",
+    "companyName": "Maruti Suzuki India Ltd 198",
+    "currentPrice": 1412.05,
+    "exchange": "NSE",
+    "sector": "Media",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "107d0654-3f09-4b83-b651-4257580d58c8",
+    "symbol": "ULTRCEMELT35",
+    "companyName": "UltraTech Cement Ltd 146",
+    "currentPrice": 1867.9,
+    "exchange": "NSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "0fcbff2f-5bf3-46cd-afa6-cf555c732a37",
+    "symbol": "TATACONSSE71",
+    "companyName": "Tata Consultancy Services Ltd 150",
+    "currentPrice": 1906.84,
+    "exchange": "NSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "7a150d66-034b-451e-9bb5-75df0f049827",
+    "symbol": "HCLTECHLTD57",
+    "companyName": "HCL Technologies Ltd 94",
+    "currentPrice": 1624.38,
+    "exchange": "BSE",
+    "sector": "IT Services",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "b24c0bac-0ef2-4d8a-916e-a9d944b2c9ed",
+    "symbol": "TECHMAHILT42",
+    "companyName": "Tech Mahindra Ltd 173",
+    "currentPrice": 932.46,
+    "exchange": "BSE",
+    "sector": "Telecom",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "0ba0eb37-57f9-4b10-83e2-d988979af8f3",
+    "symbol": "HCLTECHLTD90",
+    "companyName": "HCL Technologies Ltd 103",
+    "currentPrice": 2072.04,
+    "exchange": "BSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "db3b9a6a-cdbe-46fc-b196-2c06af6ef862",
+    "symbol": "HCLTECHLTD20",
+    "companyName": "HCL Technologies Ltd 150",
+    "currentPrice": 2840.48,
+    "exchange": "BSE",
+    "sector": "IT Services",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "ffde01cc-7f7d-4131-8db3-6c662cefc3af",
+    "symbol": "STATBANKOF42",
+    "companyName": "State Bank of India 114",
+    "currentPrice": 2899.59,
+    "exchange": "BSE",
+    "sector": "Real Estate",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "af38c67e-fbaa-4d0b-b57b-da7fe5929e38",
+    "symbol": "OILNATUGAS53",
+    "companyName": "Oil & Natural Gas Corporation Ltd 120",
+    "currentPrice": 3809.39,
+    "exchange": "NSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "5687c2d3-de45-4be7-82fa-672cdd3c9b93",
+    "symbol": "LARSTOUBLT13",
+    "companyName": "Larsen & Toubro Ltd 58",
+    "currentPrice": 4053.05,
+    "exchange": "BSE",
+    "sector": "Chemicals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "396a8e16-4214-4596-9363-1fcfab402c3a",
+    "symbol": "POWEGRIDCO3",
+    "companyName": "Power Grid Corporation of India Ltd 154",
+    "currentPrice": 701.85,
+    "exchange": "BSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "211b3144-cc74-4d3d-89cc-0275d7a0fffd",
+    "symbol": "RELIINDULT5",
+    "companyName": "Reliance Industries Ltd 112",
+    "currentPrice": 2007.45,
+    "exchange": "NSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "09845d64-d4c7-4a27-9c8c-f2125e96bbc7",
+    "symbol": "HDFCBANKLT17",
+    "companyName": "HDFC Bank Ltd 84",
+    "currentPrice": 161.16,
+    "exchange": "NSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "8fb3941f-f0e0-4ca2-85cc-867e2b6afdd1",
+    "symbol": "TATASTEELT97",
+    "companyName": "Tata Steel Ltd 141",
+    "currentPrice": 4080.18,
+    "exchange": "NSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "5dd78539-fc0f-4ab7-893a-335d7674e883",
+    "symbol": "ASIAPAINLT38",
+    "companyName": "Asian Paints Ltd 155",
+    "currentPrice": 144.51,
+    "exchange": "BSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "b4f767ae-ad7d-41c5-acb2-1a1b5f18f606",
+    "symbol": "OILNATUGAS24",
+    "companyName": "Oil & Natural Gas Corporation Ltd 13",
+    "currentPrice": 2586.01,
+    "exchange": "NSE",
+    "sector": "Telecom",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "201d993d-eec8-4ddf-abb4-9047aeee8f12",
+    "symbol": "NTPCLTD76",
+    "companyName": "NTPC Ltd 166",
+    "currentPrice": 3219.47,
+    "exchange": "NSE",
+    "sector": "Chemicals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "c68cd873-9e29-4ec4-8aea-b4068678057e",
+    "symbol": "HINDUNILLT25",
+    "companyName": "Hindustan Unilever Ltd 152",
+    "currentPrice": 4181.84,
+    "exchange": "BSE",
+    "sector": "Energy",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "972106c4-7dde-4df2-8849-49362191b6ae",
+    "symbol": "BAJAFINALT74",
+    "companyName": "Bajaj Finance Ltd 5",
+    "currentPrice": 1119.87,
+    "exchange": "NSE",
+    "sector": "IT Services",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "260f8d0a-cb08-4ac2-86df-facb963719e0",
+    "symbol": "ICICBANKLT29",
+    "companyName": "ICICI Bank Ltd 26",
+    "currentPrice": 4380.62,
+    "exchange": "NSE",
+    "sector": "Pharmaceuticals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "3f2e2fd8-b56d-466b-bcca-70e616ce36aa",
+    "symbol": "POWEGRIDCO77",
+    "companyName": "Power Grid Corporation of India Ltd 171",
+    "currentPrice": 3830.72,
+    "exchange": "BSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "2911346b-9325-4e42-83c4-bb5c2ab0b89a",
+    "symbol": "KOTAMAHIBA2",
+    "companyName": "Kotak Mahindra Bank Ltd 36",
+    "currentPrice": 4433.29,
+    "exchange": "NSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "4b938a5a-e759-4117-aa2d-fd0cae630519",
+    "symbol": "SUNPHARIND5",
+    "companyName": "Sun Pharmaceutical Industries Ltd 61",
+    "currentPrice": 1447.04,
+    "exchange": "BSE",
+    "sector": "Energy",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "fa02a9ca-7b6b-4a1f-8deb-55fcf6c5cbb6",
+    "symbol": "BAJAFINALT92",
+    "companyName": "Bajaj Finance Ltd 95",
+    "currentPrice": 1015.54,
+    "exchange": "NSE",
+    "sector": "Chemicals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "259eb476-e43b-4d59-8165-8be02e428ddd",
+    "symbol": "MARUSUZUIN95",
+    "companyName": "Maruti Suzuki India Ltd 162",
+    "currentPrice": 1574.17,
+    "exchange": "BSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "93c68fb1-d481-4294-8e58-2d049939063d",
+    "symbol": "STATBANKOF80",
+    "companyName": "State Bank of India 127",
+    "currentPrice": 4310.34,
+    "exchange": "NSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "062f6aaa-36ba-4028-abb4-acddb0fc2341",
+    "symbol": "ASIAPAINLT88",
+    "companyName": "Asian Paints Ltd 17",
+    "currentPrice": 919.68,
+    "exchange": "NSE",
+    "sector": "Pharmaceuticals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "e7ac0ae2-3d68-455c-b5b8-957a9b05f12c",
+    "symbol": "ITCLTD49",
+    "companyName": "ITC Ltd 134",
+    "currentPrice": 513.19,
+    "exchange": "BSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "41db567d-7b4a-44df-8af0-3393b6b3be43",
+    "symbol": "TECHMAHILT28",
+    "companyName": "Tech Mahindra Ltd 126",
+    "currentPrice": 2639.64,
+    "exchange": "NSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "2cff9cc7-093f-4e77-8d6e-29438ff1fd39",
+    "symbol": "MAHIMAHILT27",
+    "companyName": "Mahindra & Mahindra Ltd 71",
+    "currentPrice": 1046.13,
+    "exchange": "BSE",
+    "sector": "Telecom",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "ee82500a-e698-42a2-ac0e-a9ee01e75346",
+    "symbol": "ITCLTD21",
+    "companyName": "ITC Ltd 85",
+    "currentPrice": 1038.65,
+    "exchange": "NSE",
+    "sector": "Telecom",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "9ef0e0c4-0f1c-4d3b-b2b7-acd3037d4e9e",
+    "symbol": "ULTRCEMELT39",
+    "companyName": "UltraTech Cement Ltd 58",
+    "currentPrice": 1943.04,
+    "exchange": "BSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "8ee33905-de4c-47ee-86d7-83e9533ce9de",
+    "symbol": "DRREDDLABO97",
+    "companyName": "Dr Reddy's Laboratories Ltd 72",
+    "currentPrice": 1184.08,
+    "exchange": "NSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "596a5def-379b-4e21-a83b-8ae97fb58843",
+    "symbol": "STATBANKOF53",
+    "companyName": "State Bank of India 187",
+    "currentPrice": 3324.49,
+    "exchange": "BSE",
+    "sector": "Energy",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "d956a30d-3389-4edb-97df-ad717ef6ef5b",
+    "symbol": "ADANENTELT62",
+    "companyName": "Adani Enterprises Ltd 78",
+    "currentPrice": 3085.31,
+    "exchange": "BSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "8cf35234-43a5-402c-a73e-2917c80e9bd2",
+    "symbol": "TATACONSSE47",
+    "companyName": "Tata Consultancy Services Ltd 126",
+    "currentPrice": 1623.11,
+    "exchange": "BSE",
+    "sector": "IT Services",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "2418d81c-f08a-4df3-bd0d-643dac1329b1",
+    "symbol": "JSWSTEELTD95",
+    "companyName": "JSW Steel Ltd 88",
+    "currentPrice": 1622.6,
+    "exchange": "NSE",
+    "sector": "IT Services",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "df22f4b6-17c3-40b3-a84e-07f6882fb689",
+    "symbol": "ULTRCEMELT7",
+    "companyName": "UltraTech Cement Ltd 131",
+    "currentPrice": 739.64,
+    "exchange": "NSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "5076b482-8be5-475d-ae1c-a6289b684d54",
+    "symbol": "LARSTOUBLT39",
+    "companyName": "Larsen & Toubro Ltd 40",
+    "currentPrice": 1242.21,
+    "exchange": "NSE",
+    "sector": "Energy",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "1cffaeda-8dcc-4f91-b618-8e03d03d7283",
+    "symbol": "HINDUNILLT80",
+    "companyName": "Hindustan Unilever Ltd 142",
+    "currentPrice": 1742.2,
+    "exchange": "NSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "d72f5149-b670-44cf-950d-ab46bef87306",
+    "symbol": "LARSTOUBLT66",
+    "companyName": "Larsen & Toubro Ltd 160",
+    "currentPrice": 1502.35,
+    "exchange": "NSE",
+    "sector": "IT Services",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "251ce3ba-4f81-4d84-ba13-b9f94bded19b",
+    "symbol": "MARUSUZUIN33",
+    "companyName": "Maruti Suzuki India Ltd 164",
+    "currentPrice": 4646.75,
+    "exchange": "BSE",
+    "sector": "Energy",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "f115a5c9-fb1b-48ab-8bd7-6c29a3269ae5",
+    "symbol": "JSWSTEELTD26",
+    "companyName": "JSW Steel Ltd 93",
+    "currentPrice": 486.65,
+    "exchange": "NSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "4996852e-85a7-4ff8-a063-e29f30c0c72c",
+    "symbol": "BHARAIRTLT7",
+    "companyName": "Bharti Airtel Ltd 163",
+    "currentPrice": 4432.62,
+    "exchange": "BSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "d6c9a967-3455-4d01-a791-eaf71830945b",
+    "symbol": "TECHMAHILT42",
+    "companyName": "Tech Mahindra Ltd 161",
+    "currentPrice": 1826.33,
+    "exchange": "NSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "cbb0cad1-782b-4152-a566-c21f0788ef7b",
+    "symbol": "STATBANKOF79",
+    "companyName": "State Bank of India 67",
+    "currentPrice": 1178.3,
+    "exchange": "BSE",
+    "sector": "Energy",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "fceb9ce2-24bf-4442-b1e4-25771d9df63f",
+    "symbol": "JSWSTEELTD35",
+    "companyName": "JSW Steel Ltd 167",
+    "currentPrice": 1809.46,
+    "exchange": "BSE",
+    "sector": "Pharmaceuticals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "29dc56bb-1e0f-4008-87fb-078864cda636",
+    "symbol": "ICICBANKLT65",
+    "companyName": "ICICI Bank Ltd 138",
+    "currentPrice": 2674.79,
+    "exchange": "BSE",
+    "sector": "Energy",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "04d2a304-4e90-4b71-88ea-f671e47378b1",
+    "symbol": "WIPRLTD76",
+    "companyName": "Wipro Ltd 103",
+    "currentPrice": 3457.17,
+    "exchange": "BSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "12342022-cde9-400a-a711-aa3263707d4f",
+    "symbol": "POWEGRIDCO43",
+    "companyName": "Power Grid Corporation of India Ltd 158",
+    "currentPrice": 2315.0,
+    "exchange": "NSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "9dd41416-aeca-49ee-81da-33022146f23f",
+    "symbol": "WIPRLTD60",
+    "companyName": "Wipro Ltd 196",
+    "currentPrice": 4747.22,
+    "exchange": "NSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "8c20a70a-ab4a-4f0f-b735-8cf09aefa13d",
+    "symbol": "TATACONSSE56",
+    "companyName": "Tata Consultancy Services Ltd 162",
+    "currentPrice": 2007.13,
+    "exchange": "BSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "0f5c550e-4021-43b2-94fc-0fcda531ecc0",
+    "symbol": "NTPCLTD96",
+    "companyName": "NTPC Ltd 113",
+    "currentPrice": 4962.86,
+    "exchange": "BSE",
+    "sector": "Media",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "ed24702c-2dc9-4c3f-be76-719ad59af4e1",
+    "symbol": "ULTRCEMELT47",
+    "companyName": "UltraTech Cement Ltd 65",
+    "currentPrice": 485.18,
+    "exchange": "BSE",
+    "sector": "Chemicals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "0bf81542-2c17-46de-8555-5bc5220bcf66",
+    "symbol": "OILNATUGAS16",
+    "companyName": "Oil & Natural Gas Corporation Ltd 12",
+    "currentPrice": 2900.67,
+    "exchange": "BSE",
+    "sector": "Media",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "d3b24823-f997-4813-89e3-6c5d77fe759c",
+    "symbol": "KOTAMAHIBA45",
+    "companyName": "Kotak Mahindra Bank Ltd 198",
+    "currentPrice": 4017.78,
+    "exchange": "NSE",
+    "sector": "Real Estate",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "420867b9-4bc3-4aae-8268-9ba4cab8c5c6",
+    "symbol": "SUNPHARIND56",
+    "companyName": "Sun Pharmaceutical Industries Ltd 94",
+    "currentPrice": 4186.17,
+    "exchange": "NSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "a3957c0c-9ecd-4ef6-b185-2d02a0accd71",
+    "symbol": "INFOLTD16",
+    "companyName": "Infosys Ltd 161",
+    "currentPrice": 2206.64,
+    "exchange": "BSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "625aac60-9494-4ebe-b5fa-3a0ad45afa1c",
+    "symbol": "CIPLLTD98",
+    "companyName": "Cipla Ltd 161",
+    "currentPrice": 4607.41,
+    "exchange": "BSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "8e23ad20-625c-4300-96f3-c62ec5d5fda3",
+    "symbol": "HCLTECHLTD84",
+    "companyName": "HCL Technologies Ltd 85",
+    "currentPrice": 690.0,
+    "exchange": "NSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "2a2736a6-6290-4a21-a7cc-ce002faf44d0",
+    "symbol": "HCLTECHLTD88",
+    "companyName": "HCL Technologies Ltd 64",
+    "currentPrice": 203.73,
+    "exchange": "NSE",
+    "sector": "Chemicals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "4929672a-5044-4ef7-ba3e-a7919400013c",
+    "symbol": "LARSTOUBLT51",
+    "companyName": "Larsen & Toubro Ltd 199",
+    "currentPrice": 3742.78,
+    "exchange": "BSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "5ce2d2d1-1ca0-407b-8a09-b547ac2b276f",
+    "symbol": "TATASTEELT42",
+    "companyName": "Tata Steel Ltd 68",
+    "currentPrice": 2241.23,
+    "exchange": "BSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "2fa727d0-85e3-4c7b-b847-928aa584c6eb",
+    "symbol": "ADANENTELT34",
+    "companyName": "Adani Enterprises Ltd 155",
+    "currentPrice": 2950.67,
+    "exchange": "BSE",
+    "sector": "Media",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "b29418d2-3e35-41d1-8214-5009e6374458",
+    "symbol": "DRREDDLABO32",
+    "companyName": "Dr Reddy's Laboratories Ltd 200",
+    "currentPrice": 4035.54,
+    "exchange": "BSE",
+    "sector": "Real Estate",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "457d3864-c733-465d-8c6d-bfa37055cb9a",
+    "symbol": "BAJAFINALT8",
+    "companyName": "Bajaj Finance Ltd 135",
+    "currentPrice": 3546.52,
+    "exchange": "NSE",
+    "sector": "Media",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "3f482e2e-463b-4bb1-b36a-7f09c5b532d2",
+    "symbol": "WIPRLTD55",
+    "companyName": "Wipro Ltd 34",
+    "currentPrice": 1707.66,
+    "exchange": "BSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "4ac801c2-11cd-425f-b1c0-aecfae7e6493",
+    "symbol": "ASIAPAINLT90",
+    "companyName": "Asian Paints Ltd 86",
+    "currentPrice": 2225.37,
+    "exchange": "BSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "e392e9eb-e790-4702-9bb3-c6aa66fccc4f",
+    "symbol": "RELIINDULT91",
+    "companyName": "Reliance Industries Ltd 70",
+    "currentPrice": 4678.31,
+    "exchange": "NSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "0b9af557-61cb-4f02-8984-1b7df22ea5e4",
+    "symbol": "ULTRCEMELT65",
+    "companyName": "UltraTech Cement Ltd 28",
+    "currentPrice": 79.67,
+    "exchange": "NSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "608af7bd-ad18-4b07-8e9e-01ccbf122096",
+    "symbol": "TATACONSSE57",
+    "companyName": "Tata Consultancy Services Ltd 13",
+    "currentPrice": 3580.74,
+    "exchange": "BSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "1d54967e-8df5-40b3-ab41-a9c1d787556d",
+    "symbol": "RELIINDULT59",
+    "companyName": "Reliance Industries Ltd 30",
+    "currentPrice": 1021.86,
+    "exchange": "NSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "ef63e28d-8a77-4398-8fd2-f37ece99b905",
+    "symbol": "TATASTEELT77",
+    "companyName": "Tata Steel Ltd 63",
+    "currentPrice": 4890.6,
+    "exchange": "BSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "b5d408b2-7443-4a9c-bdbe-f6f1238be455",
+    "symbol": "ASIAPAINLT48",
+    "companyName": "Asian Paints Ltd 102",
+    "currentPrice": 4393.58,
+    "exchange": "BSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "70cb1011-046d-4f32-a306-dce1d51f90f0",
+    "symbol": "NTPCLTD14",
+    "companyName": "NTPC Ltd 154",
+    "currentPrice": 3040.42,
+    "exchange": "BSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "edbe8f8d-782f-4665-868a-58c024f12162",
+    "symbol": "ICICBANKLT5",
+    "companyName": "ICICI Bank Ltd 6",
+    "currentPrice": 3357.76,
+    "exchange": "NSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "b52a8fd2-2fb9-4b55-8606-3461521c7144",
+    "symbol": "RELIINDULT54",
+    "companyName": "Reliance Industries Ltd 140",
+    "currentPrice": 2828.6,
+    "exchange": "NSE",
+    "sector": "IT Services",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "d975c39b-e6a4-4a1c-ab5b-912fd82133b3",
+    "symbol": "LARSTOUBLT99",
+    "companyName": "Larsen & Toubro Ltd 75",
+    "currentPrice": 4512.64,
+    "exchange": "NSE",
+    "sector": "Pharmaceuticals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "a1a13845-3921-4d32-a988-444a3e6677b6",
+    "symbol": "STATBANKOF93",
+    "companyName": "State Bank of India 77",
+    "currentPrice": 3325.43,
+    "exchange": "NSE",
+    "sector": "Chemicals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "bc5d1319-5747-4df3-b7d6-f83cd84c63d8",
+    "symbol": "HINDUNILLT94",
+    "companyName": "Hindustan Unilever Ltd 145",
+    "currentPrice": 1840.72,
+    "exchange": "NSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "62d66bd7-e19f-4657-846f-2489ca60f0f4",
+    "symbol": "INFOLTD64",
+    "companyName": "Infosys Ltd 159",
+    "currentPrice": 4869.73,
+    "exchange": "NSE",
+    "sector": "Real Estate",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "d159e1dc-f63d-44d9-a5b5-70f123c5a02c",
+    "symbol": "MARUSUZUIN84",
+    "companyName": "Maruti Suzuki India Ltd 135",
+    "currentPrice": 3094.23,
+    "exchange": "NSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "f23bdbb6-fd76-46f8-a6d0-0f42650cbfaa",
+    "symbol": "DRREDDLABO10",
+    "companyName": "Dr Reddy's Laboratories Ltd 48",
+    "currentPrice": 1607.27,
+    "exchange": "BSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "cb0d975d-50bb-4ff4-8c75-2545becec6cf",
+    "symbol": "SUNPHARIND77",
+    "companyName": "Sun Pharmaceutical Industries Ltd 42",
+    "currentPrice": 63.65,
+    "exchange": "NSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "106d7c72-979a-417d-81bc-8c23c4c80581",
+    "symbol": "ICICBANKLT63",
+    "companyName": "ICICI Bank Ltd 148",
+    "currentPrice": 4668.47,
+    "exchange": "NSE",
+    "sector": "Telecom",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "ebaaba39-cc4d-42c8-8a75-b81ff0b15537",
+    "symbol": "STATBANKOF91",
+    "companyName": "State Bank of India 108",
+    "currentPrice": 4984.0,
+    "exchange": "BSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "e47f11aa-d094-4a65-ab1a-c99661fef48d",
+    "symbol": "NTPCLTD50",
+    "companyName": "NTPC Ltd 13",
+    "currentPrice": 3936.77,
+    "exchange": "NSE",
+    "sector": "Energy",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "3317434b-235e-4125-87df-0d6259c9a1a8",
+    "symbol": "DRREDDLABO34",
+    "companyName": "Dr Reddy's Laboratories Ltd 185",
+    "currentPrice": 4381.39,
+    "exchange": "NSE",
+    "sector": "Pharmaceuticals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "db92ea40-03bc-4975-973e-cfd6cb34a3de",
+    "symbol": "POWEGRIDCO36",
+    "companyName": "Power Grid Corporation of India Ltd 110",
+    "currentPrice": 764.72,
+    "exchange": "BSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "66168eee-9d64-40cb-b516-017355821fa7",
+    "symbol": "WIPRLTD48",
+    "companyName": "Wipro Ltd 24",
+    "currentPrice": 3696.95,
+    "exchange": "NSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "e28e3dde-8931-4f4f-812c-c81b686caff5",
+    "symbol": "SUNPHARIND40",
+    "companyName": "Sun Pharmaceutical Industries Ltd 180",
+    "currentPrice": 4942.49,
+    "exchange": "BSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "25dea66e-2d4b-4e59-a098-175e1d5b05cf",
+    "symbol": "HCLTECHLTD4",
+    "companyName": "HCL Technologies Ltd 186",
+    "currentPrice": 917.56,
+    "exchange": "NSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "e8c156fa-467f-4738-856e-7f6b4bf3cb13",
+    "symbol": "BAJAFINALT7",
+    "companyName": "Bajaj Finance Ltd 142",
+    "currentPrice": 2838.5,
+    "exchange": "NSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "06a93d2c-81cd-4307-8cc0-a000f60c58cd",
+    "symbol": "KOTAMAHIBA48",
+    "companyName": "Kotak Mahindra Bank Ltd 19",
+    "currentPrice": 158.15,
+    "exchange": "BSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "5e7e3dd4-71a9-48a7-9010-eab3a1e2363c",
+    "symbol": "STATBANKOF21",
+    "companyName": "State Bank of India 116",
+    "currentPrice": 4248.28,
+    "exchange": "BSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "de7b901f-34bc-462d-afd7-2f3aaf66e077",
+    "symbol": "ICICBANKLT53",
+    "companyName": "ICICI Bank Ltd 85",
+    "currentPrice": 3598.01,
+    "exchange": "BSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "7c4b1c4d-d982-4293-8f6b-6f4d57dcfbbb",
+    "symbol": "STATBANKOF22",
+    "companyName": "State Bank of India 37",
+    "currentPrice": 4623.03,
+    "exchange": "BSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "f457f486-44cb-47e7-9831-8efa8a4bb201",
+    "symbol": "BAJAFINALT33",
+    "companyName": "Bajaj Finance Ltd 185",
+    "currentPrice": 3742.91,
+    "exchange": "BSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "0c8deae6-df96-4446-805f-192ca8e128e5",
+    "symbol": "RELIINDULT57",
+    "companyName": "Reliance Industries Ltd 171",
+    "currentPrice": 904.27,
+    "exchange": "BSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "d6ea671c-0163-42f3-ba64-e82799e9bbeb",
+    "symbol": "INFOLTD34",
+    "companyName": "Infosys Ltd 92",
+    "currentPrice": 4693.55,
+    "exchange": "BSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "7b8c488d-2968-40af-bcae-20884a62d80c",
+    "symbol": "GRASINDULT42",
+    "companyName": "Grasim Industries Ltd 54",
+    "currentPrice": 65.69,
+    "exchange": "NSE",
+    "sector": "Real Estate",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "2280d303-9b47-4e9a-9d08-bc9848c5f603",
+    "symbol": "OILNATUGAS15",
+    "companyName": "Oil & Natural Gas Corporation Ltd 58",
+    "currentPrice": 315.97,
+    "exchange": "BSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "b7ebf32b-fdf9-461c-ae25-6ccbdb2fa9da",
+    "symbol": "HDFCBANKLT26",
+    "companyName": "HDFC Bank Ltd 44",
+    "currentPrice": 551.13,
+    "exchange": "NSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "bdfa8faa-bc40-4ddc-98b1-9c078b858450",
+    "symbol": "HCLTECHLTD41",
+    "companyName": "HCL Technologies Ltd 190",
+    "currentPrice": 4380.78,
+    "exchange": "BSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "767b3ef8-968e-4942-87f1-fe8537d749a3",
+    "symbol": "ICICBANKLT17",
+    "companyName": "ICICI Bank Ltd 169",
+    "currentPrice": 829.22,
+    "exchange": "NSE",
+    "sector": "Real Estate",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "3c374ca2-c4b0-4fae-83ff-0c43836cfd9c",
+    "symbol": "HCLTECHLTD2",
+    "companyName": "HCL Technologies Ltd 173",
+    "currentPrice": 3599.16,
+    "exchange": "BSE",
+    "sector": "Pharmaceuticals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "77c41449-fb89-4c05-b772-f516e357ab96",
+    "symbol": "OILNATUGAS1",
+    "companyName": "Oil & Natural Gas Corporation Ltd 136",
+    "currentPrice": 3382.85,
+    "exchange": "BSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "1efe6d9a-86fe-49fb-bd2b-602c22e44cfa",
+    "symbol": "NESTINDILT49",
+    "companyName": "Nestle India Ltd 179",
+    "currentPrice": 3711.4,
+    "exchange": "BSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "5be3466d-1f50-4bb8-a008-a08bf8e92b8c",
+    "symbol": "KOTAMAHIBA5",
+    "companyName": "Kotak Mahindra Bank Ltd 77",
+    "currentPrice": 4381.41,
+    "exchange": "NSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "324a3118-8d76-4ecf-b114-9faf3e343bb7",
+    "symbol": "POWEGRIDCO50",
+    "companyName": "Power Grid Corporation of India Ltd 143",
+    "currentPrice": 3389.2,
+    "exchange": "NSE",
+    "sector": "IT Services",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "e5f4f352-b278-45db-b56e-2fa49fc1ad03",
+    "symbol": "WIPRLTD81",
+    "companyName": "Wipro Ltd 55",
+    "currentPrice": 4483.26,
+    "exchange": "NSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "53a8073a-1056-45c7-ae22-954a71617a40",
+    "symbol": "HDFCBANKLT65",
+    "companyName": "HDFC Bank Ltd 39",
+    "currentPrice": 4150.35,
+    "exchange": "BSE",
+    "sector": "Real Estate",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "51e3aebd-621e-41fe-af2c-dfe68967f49b",
+    "symbol": "TATACONSSE29",
+    "companyName": "Tata Consultancy Services Ltd 101",
+    "currentPrice": 2594.35,
+    "exchange": "NSE",
+    "sector": "Pharmaceuticals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "2c8b34e8-e246-4a6b-b57c-0da615d0297e",
+    "symbol": "POWEGRIDCO32",
+    "companyName": "Power Grid Corporation of India Ltd 6",
+    "currentPrice": 4854.03,
+    "exchange": "NSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "525c5bfb-f8ff-496e-b04d-70644f4be4e2",
+    "symbol": "ADANENTELT65",
+    "companyName": "Adani Enterprises Ltd 65",
+    "currentPrice": 4126.55,
+    "exchange": "NSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "e855332f-17ae-4981-92d1-c1d8bd930953",
+    "symbol": "ULTRCEMELT46",
+    "companyName": "UltraTech Cement Ltd 159",
+    "currentPrice": 3933.14,
+    "exchange": "NSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "f320b3f3-38ca-4b4a-bf8d-fe51bd889e96",
+    "symbol": "BAJAFINALT33",
+    "companyName": "Bajaj Finance Ltd 198",
+    "currentPrice": 963.33,
+    "exchange": "BSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "24bf5668-f944-4b89-8727-cfd908f6e007",
+    "symbol": "ITCLTD82",
+    "companyName": "ITC Ltd 103",
+    "currentPrice": 2213.38,
+    "exchange": "BSE",
+    "sector": "Telecom",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "4d60619a-b00b-4a52-a1e9-3840380ba60e",
+    "symbol": "HCLTECHLTD71",
+    "companyName": "HCL Technologies Ltd 154",
+    "currentPrice": 2087.4,
+    "exchange": "BSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "11961b9f-f575-4695-b696-629209eefe22",
+    "symbol": "NTPCLTD50",
+    "companyName": "NTPC Ltd 41",
+    "currentPrice": 4987.88,
+    "exchange": "NSE",
+    "sector": "Media",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "e976292f-66d6-4bd9-9388-1ce8c61cfa26",
+    "symbol": "SUNPHARIND41",
+    "companyName": "Sun Pharmaceutical Industries Ltd 125",
+    "currentPrice": 1004.23,
+    "exchange": "NSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "891ce396-cc77-488b-a6d9-c9c8c40bac1e",
+    "symbol": "STATBANKOF36",
+    "companyName": "State Bank of India 171",
+    "currentPrice": 4862.78,
+    "exchange": "NSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "e7c4a2b9-e807-4731-b0e4-66521102fc0f",
+    "symbol": "BAJAFINALT40",
+    "companyName": "Bajaj Finance Ltd 91",
+    "currentPrice": 2505.19,
+    "exchange": "NSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "d701b700-1474-46fe-91b2-61ddb102b0f2",
+    "symbol": "TATASTEELT41",
+    "companyName": "Tata Steel Ltd 102",
+    "currentPrice": 4486.1,
+    "exchange": "BSE",
+    "sector": "IT Services",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "b12a76d8-1fe4-4513-919b-3135684d2fad",
+    "symbol": "ADANENTELT54",
+    "companyName": "Adani Enterprises Ltd 98",
+    "currentPrice": 1073.74,
+    "exchange": "BSE",
+    "sector": "Energy",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "680d7318-a823-41dc-81a7-b33c43b53719",
+    "symbol": "BAJAFINALT85",
+    "companyName": "Bajaj Finance Ltd 44",
+    "currentPrice": 4603.96,
+    "exchange": "NSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "dd0261aa-5583-4736-a20e-052f63af6859",
+    "symbol": "TECHMAHILT22",
+    "companyName": "Tech Mahindra Ltd 107",
+    "currentPrice": 4758.95,
+    "exchange": "BSE",
+    "sector": "Real Estate",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "da1dfd4a-ed6f-422c-8d2c-8eeeee93b3d8",
+    "symbol": "HDFCBANKLT77",
+    "companyName": "HDFC Bank Ltd 26",
+    "currentPrice": 606.04,
+    "exchange": "NSE",
+    "sector": "Media",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "3965dc49-8b79-45b9-ba14-2564197fbda9",
+    "symbol": "MARUSUZUIN22",
+    "companyName": "Maruti Suzuki India Ltd 94",
+    "currentPrice": 4267.66,
+    "exchange": "NSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "b8ecd069-6b7a-4e4f-93c5-0912fc7c2ec5",
+    "symbol": "MARUSUZUIN76",
+    "companyName": "Maruti Suzuki India Ltd 79",
+    "currentPrice": 3970.0,
+    "exchange": "BSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "7bd7ee68-15f4-4dae-8a24-77169e7bf236",
+    "symbol": "KOTAMAHIBA46",
+    "companyName": "Kotak Mahindra Bank Ltd 103",
+    "currentPrice": 4479.23,
+    "exchange": "BSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "a01b88d5-031e-466a-a60b-9ddbd5b96010",
+    "symbol": "NESTINDILT93",
+    "companyName": "Nestle India Ltd 7",
+    "currentPrice": 2443.17,
+    "exchange": "BSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "c4dbf094-c340-495f-afa6-db87c30a5445",
+    "symbol": "TECHMAHILT7",
+    "companyName": "Tech Mahindra Ltd 2",
+    "currentPrice": 964.56,
+    "exchange": "NSE",
+    "sector": "IT Services",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "cb5c4f40-5351-4e46-84f6-018fbf7b1bbb",
+    "symbol": "WIPRLTD34",
+    "companyName": "Wipro Ltd 128",
+    "currentPrice": 1932.12,
+    "exchange": "NSE",
+    "sector": "IT Services",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "acaf6174-74a9-492f-9adc-2db1ed6db27b",
+    "symbol": "HINDUNILLT56",
+    "companyName": "Hindustan Unilever Ltd 167",
+    "currentPrice": 991.66,
+    "exchange": "BSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "7385be48-657b-451d-bb5d-96fd39019b08",
+    "symbol": "RELIINDULT15",
+    "companyName": "Reliance Industries Ltd 165",
+    "currentPrice": 1404.82,
+    "exchange": "BSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "f17fcbfc-49e1-4cc1-b1a2-35c92aeb0205",
+    "symbol": "NESTINDILT54",
+    "companyName": "Nestle India Ltd 188",
+    "currentPrice": 1588.33,
+    "exchange": "BSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "c4b85fc9-3bca-4169-8d0c-271fc2917347",
+    "symbol": "WIPRLTD30",
+    "companyName": "Wipro Ltd 135",
+    "currentPrice": 3815.48,
+    "exchange": "BSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "43a52d5d-8b29-4801-9dfe-199bbd137760",
+    "symbol": "WIPRLTD35",
+    "companyName": "Wipro Ltd 185",
+    "currentPrice": 2706.5,
+    "exchange": "NSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "66d248e3-a199-4594-858c-6c9ce3d07934",
+    "symbol": "DRREDDLABO56",
+    "companyName": "Dr Reddy's Laboratories Ltd 180",
+    "currentPrice": 2070.7,
+    "exchange": "BSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "1a475d31-9bb7-411f-9c81-be63b61fb265",
+    "symbol": "WIPRLTD47",
+    "companyName": "Wipro Ltd 15",
+    "currentPrice": 630.26,
+    "exchange": "BSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "51035baf-2993-4ce2-94bc-2d8483487f10",
+    "symbol": "STATBANKOF21",
+    "companyName": "State Bank of India 107",
+    "currentPrice": 3996.16,
+    "exchange": "BSE",
+    "sector": "Real Estate",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "488882bc-7c74-420f-a188-11cf82c3152d",
+    "symbol": "CIPLLTD11",
+    "companyName": "Cipla Ltd 28",
+    "currentPrice": 4098.59,
+    "exchange": "NSE",
+    "sector": "Pharmaceuticals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "861c16ea-28a1-4645-bf91-13a06c1815b9",
+    "symbol": "ADANENTELT15",
+    "companyName": "Adani Enterprises Ltd 18",
+    "currentPrice": 4541.45,
+    "exchange": "BSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "d458fcdd-96c8-4891-9c3a-af5af3929387",
+    "symbol": "TATACONSSE30",
+    "companyName": "Tata Consultancy Services Ltd 131",
+    "currentPrice": 106.4,
+    "exchange": "NSE",
+    "sector": "Real Estate",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "3fd6841e-316a-4bf1-bc86-a2d5a238d941",
+    "symbol": "BAJAFINALT15",
+    "companyName": "Bajaj Finance Ltd 155",
+    "currentPrice": 1570.7,
+    "exchange": "BSE",
+    "sector": "IT Services",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "8adc0f8b-6928-448f-a5d7-78f83e970863",
+    "symbol": "ULTRCEMELT38",
+    "companyName": "UltraTech Cement Ltd 19",
+    "currentPrice": 3633.63,
+    "exchange": "NSE",
+    "sector": "Pharmaceuticals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "56f2141f-d3dd-4572-a61f-66405db940b1",
+    "symbol": "ASIAPAINLT81",
+    "companyName": "Asian Paints Ltd 98",
+    "currentPrice": 250.86,
+    "exchange": "BSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "b7a6bac7-9c46-430e-8344-1e885abcaa77",
+    "symbol": "INFOLTD4",
+    "companyName": "Infosys Ltd 61",
+    "currentPrice": 4254.73,
+    "exchange": "NSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "0ffa7973-5481-4b1d-bac5-551199c2916d",
+    "symbol": "ASIAPAINLT22",
+    "companyName": "Asian Paints Ltd 174",
+    "currentPrice": 2169.06,
+    "exchange": "NSE",
+    "sector": "Telecom",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "e00b3d93-fad1-4f48-8185-23717dec6abe",
+    "symbol": "NTPCLTD42",
+    "companyName": "NTPC Ltd 57",
+    "currentPrice": 2657.39,
+    "exchange": "NSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "4037298a-39b1-4be2-98e1-b19d08720252",
+    "symbol": "ADANENTELT10",
+    "companyName": "Adani Enterprises Ltd 57",
+    "currentPrice": 519.1,
+    "exchange": "NSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "482f07c4-9ddf-41ed-b57f-ae28206fe474",
+    "symbol": "ADANENTELT24",
+    "companyName": "Adani Enterprises Ltd 158",
+    "currentPrice": 664.71,
+    "exchange": "BSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "5dd393b5-4623-4813-a69c-e007b6bebddf",
+    "symbol": "BAJAFINALT43",
+    "companyName": "Bajaj Finance Ltd 82",
+    "currentPrice": 66.55,
+    "exchange": "NSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "b8c2c2da-45d0-44da-b702-e6af0446baad",
+    "symbol": "KOTAMAHIBA77",
+    "companyName": "Kotak Mahindra Bank Ltd 16",
+    "currentPrice": 4272.85,
+    "exchange": "NSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "de122c7b-f588-4db6-a231-4eecbec77b72",
+    "symbol": "TECHMAHILT89",
+    "companyName": "Tech Mahindra Ltd 51",
+    "currentPrice": 4639.52,
+    "exchange": "BSE",
+    "sector": "Chemicals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "eff821b9-f85b-4901-8072-45b4fcc78a8c",
+    "symbol": "LARSTOUBLT51",
+    "companyName": "Larsen & Toubro Ltd 47",
+    "currentPrice": 1127.35,
+    "exchange": "BSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "bb9d8b8f-e302-4840-bf70-d6e5db75a4e4",
+    "symbol": "HINDUNILLT32",
+    "companyName": "Hindustan Unilever Ltd 158",
+    "currentPrice": 754.51,
+    "exchange": "NSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "40b79c65-8c40-4326-984d-8ae2d813ef23",
+    "symbol": "HCLTECHLTD36",
+    "companyName": "HCL Technologies Ltd 175",
+    "currentPrice": 1969.53,
+    "exchange": "BSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "d6c20f4c-ca84-41f0-a651-6064f4513920",
+    "symbol": "JSWSTEELTD58",
+    "companyName": "JSW Steel Ltd 159",
+    "currentPrice": 854.74,
+    "exchange": "NSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "211a53bd-fa01-4f8f-88ab-c8d86f1ab926",
+    "symbol": "STATBANKOF27",
+    "companyName": "State Bank of India 181",
+    "currentPrice": 3734.85,
+    "exchange": "NSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "d13d9b2d-0449-4a39-ba61-b94b413c0bd0",
+    "symbol": "ITCLTD89",
+    "companyName": "ITC Ltd 162",
+    "currentPrice": 4022.45,
+    "exchange": "BSE",
+    "sector": "Pharmaceuticals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "99ac304c-1020-4e42-aa84-b69c8a153844",
+    "symbol": "OILNATUGAS81",
+    "companyName": "Oil & Natural Gas Corporation Ltd 187",
+    "currentPrice": 3295.2,
+    "exchange": "BSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "ba585f8a-ae62-4fee-ae8d-e24562436d5e",
+    "symbol": "ITCLTD72",
+    "companyName": "ITC Ltd 61",
+    "currentPrice": 152.86,
+    "exchange": "BSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "4bc77b5f-83c9-469d-a8f7-a14df46d5281",
+    "symbol": "BHARAIRTLT34",
+    "companyName": "Bharti Airtel Ltd 182",
+    "currentPrice": 2213.04,
+    "exchange": "NSE",
+    "sector": "IT Services",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "709a73d5-c86b-4f90-97b2-59c5d94c0563",
+    "symbol": "SUNPHARIND9",
+    "companyName": "Sun Pharmaceutical Industries Ltd 200",
+    "currentPrice": 1945.14,
+    "exchange": "NSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "3700308c-7e69-495a-aaa7-61eefc1970e1",
+    "symbol": "OILNATUGAS61",
+    "companyName": "Oil & Natural Gas Corporation Ltd 139",
+    "currentPrice": 1950.7,
+    "exchange": "BSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "0722d661-e2a8-49cd-9005-69ae28ca64cc",
+    "symbol": "TATASTEELT91",
+    "companyName": "Tata Steel Ltd 32",
+    "currentPrice": 285.16,
+    "exchange": "BSE",
+    "sector": "Chemicals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "1ac4c124-e066-4e58-a030-d0ac2d925ecc",
+    "symbol": "POWEGRIDCO20",
+    "companyName": "Power Grid Corporation of India Ltd 139",
+    "currentPrice": 3149.65,
+    "exchange": "NSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "d617dbf1-7786-48cf-a8e2-4763565bc910",
+    "symbol": "HCLTECHLTD97",
+    "companyName": "HCL Technologies Ltd 142",
+    "currentPrice": 1798.23,
+    "exchange": "NSE",
+    "sector": "IT Services",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "be127ce2-3b7e-48fd-8d0a-e85e0dc9eadb",
+    "symbol": "ICICBANKLT25",
+    "companyName": "ICICI Bank Ltd 10",
+    "currentPrice": 2922.71,
+    "exchange": "BSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "0ae877a4-ea0a-434f-9681-545458cfb600",
+    "symbol": "NESTINDILT70",
+    "companyName": "Nestle India Ltd 181",
+    "currentPrice": 1665.63,
+    "exchange": "NSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "efc555aa-bb55-42af-b514-36f6ab80233a",
+    "symbol": "MARUSUZUIN15",
+    "companyName": "Maruti Suzuki India Ltd 41",
+    "currentPrice": 3984.03,
+    "exchange": "BSE",
+    "sector": "Energy",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "2cc19483-8ee9-4bcc-b22a-7ca3a627c5be",
+    "symbol": "LARSTOUBLT19",
+    "companyName": "Larsen & Toubro Ltd 179",
+    "currentPrice": 1329.57,
+    "exchange": "NSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "cd0e664a-a296-4b38-afd5-3a89a5e307a8",
+    "symbol": "ITCLTD15",
+    "companyName": "ITC Ltd 167",
+    "currentPrice": 4659.38,
+    "exchange": "NSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "94802c80-c6fe-4d73-9b81-4f173c747af9",
+    "symbol": "STATBANKOF31",
+    "companyName": "State Bank of India 163",
+    "currentPrice": 2181.95,
+    "exchange": "NSE",
+    "sector": "Chemicals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "b70910c0-a799-4796-81e0-d47b1abcbfde",
+    "symbol": "DRREDDLABO55",
+    "companyName": "Dr Reddy's Laboratories Ltd 97",
+    "currentPrice": 2998.09,
+    "exchange": "NSE",
+    "sector": "Real Estate",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "7e0581b0-9580-448d-9ea9-c28749d4ab3e",
+    "symbol": "MARUSUZUIN75",
+    "companyName": "Maruti Suzuki India Ltd 113",
+    "currentPrice": 1215.02,
+    "exchange": "NSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "c7c6a699-6920-42a5-aa5d-01a240500829",
+    "symbol": "STATBANKOF21",
+    "companyName": "State Bank of India 116",
+    "currentPrice": 3037.26,
+    "exchange": "NSE",
+    "sector": "Pharmaceuticals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "17fe68f0-cb9c-46f6-b3f0-35d30228d015",
+    "symbol": "STATBANKOF67",
+    "companyName": "State Bank of India 168",
+    "currentPrice": 1153.41,
+    "exchange": "NSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "05fb4a9d-e430-4f76-acff-6a5ac7b16f08",
+    "symbol": "TATACONSSE53",
+    "companyName": "Tata Consultancy Services Ltd 67",
+    "currentPrice": 1504.84,
+    "exchange": "NSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "1b797c0d-1f2a-429b-8927-94da281a4dfc",
+    "symbol": "MAHIMAHILT87",
+    "companyName": "Mahindra & Mahindra Ltd 51",
+    "currentPrice": 629.85,
+    "exchange": "BSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "d83da2ed-9fac-4f12-94fd-6f3bc988c987",
+    "symbol": "ASIAPAINLT22",
+    "companyName": "Asian Paints Ltd 72",
+    "currentPrice": 915.14,
+    "exchange": "BSE",
+    "sector": "Chemicals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "bd7da592-8616-411e-9910-129188420d87",
+    "symbol": "STATBANKOF60",
+    "companyName": "State Bank of India 100",
+    "currentPrice": 2135.54,
+    "exchange": "BSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "417750a4-1bc0-48d2-8ca7-97830719b02d",
+    "symbol": "ULTRCEMELT84",
+    "companyName": "UltraTech Cement Ltd 99",
+    "currentPrice": 2319.19,
+    "exchange": "BSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "f9c0df2c-a2c7-422a-b2bb-782cf59f8e4d",
+    "symbol": "TECHMAHILT43",
+    "companyName": "Tech Mahindra Ltd 181",
+    "currentPrice": 389.76,
+    "exchange": "NSE",
+    "sector": "Real Estate",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "1d5e3573-3032-40d6-81ff-23bbc7435c80",
+    "symbol": "ICICBANKLT92",
+    "companyName": "ICICI Bank Ltd 86",
+    "currentPrice": 3928.6,
+    "exchange": "BSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "d3a411b8-0385-466e-be7f-b1891fb73900",
+    "symbol": "ADANENTELT24",
+    "companyName": "Adani Enterprises Ltd 187",
+    "currentPrice": 1613.01,
+    "exchange": "BSE",
+    "sector": "Pharmaceuticals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "2bf6a913-2b8d-41b8-af4c-9bd3cd052302",
+    "symbol": "CIPLLTD78",
+    "companyName": "Cipla Ltd 99",
+    "currentPrice": 758.42,
+    "exchange": "NSE",
+    "sector": "IT Services",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "945f8a58-2171-4ea1-8687-b73a2e613d64",
+    "symbol": "MARUSUZUIN61",
+    "companyName": "Maruti Suzuki India Ltd 117",
+    "currentPrice": 4129.99,
+    "exchange": "BSE",
+    "sector": "Energy",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "c1d53b64-b662-4371-b9d1-2ebecc5f1279",
+    "symbol": "GRASINDULT68",
+    "companyName": "Grasim Industries Ltd 33",
+    "currentPrice": 4832.97,
+    "exchange": "BSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "7f57b581-793f-4427-be70-00c621c8b676",
+    "symbol": "ASIAPAINLT15",
+    "companyName": "Asian Paints Ltd 66",
+    "currentPrice": 1190.79,
+    "exchange": "NSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "3f4567df-0132-4543-a002-a6a14b420246",
+    "symbol": "ADANENTELT69",
+    "companyName": "Adani Enterprises Ltd 81",
+    "currentPrice": 3522.55,
+    "exchange": "NSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "823f8085-e3b6-491d-b0c5-2091b016d135",
+    "symbol": "BHARAIRTLT94",
+    "companyName": "Bharti Airtel Ltd 81",
+    "currentPrice": 3846.18,
+    "exchange": "NSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "da6a6f93-d537-41b0-b48b-bcf91292bbe9",
+    "symbol": "INFOLTD13",
+    "companyName": "Infosys Ltd 129",
+    "currentPrice": 4251.73,
+    "exchange": "BSE",
+    "sector": "Pharmaceuticals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "9d12a3ef-413c-465d-93f5-256e0fb8d3a3",
+    "symbol": "JSWSTEELTD52",
+    "companyName": "JSW Steel Ltd 138",
+    "currentPrice": 4369.99,
+    "exchange": "NSE",
+    "sector": "Energy",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "524dc98a-4f0d-48e6-b657-f77c5a2d8960",
+    "symbol": "HCLTECHLTD63",
+    "companyName": "HCL Technologies Ltd 27",
+    "currentPrice": 1983.66,
+    "exchange": "BSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "eff73f96-e9cd-45f0-8db3-aa9734187bed",
+    "symbol": "OILNATUGAS51",
+    "companyName": "Oil & Natural Gas Corporation Ltd 179",
+    "currentPrice": 4189.81,
+    "exchange": "NSE",
+    "sector": "IT Services",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "38c6a403-16aa-47a7-bc64-7fa902c5acfe",
+    "symbol": "TATASTEELT74",
+    "companyName": "Tata Steel Ltd 172",
+    "currentPrice": 3419.44,
+    "exchange": "BSE",
+    "sector": "Chemicals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "30291bd6-76dd-4c1f-ac59-83306695f07e",
+    "symbol": "RELIINDULT7",
+    "companyName": "Reliance Industries Ltd 16",
+    "currentPrice": 4870.34,
+    "exchange": "BSE",
+    "sector": "Telecom",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "efe06736-3cc5-4add-87be-39087ed8654c",
+    "symbol": "ITCLTD23",
+    "companyName": "ITC Ltd 148",
+    "currentPrice": 3703.69,
+    "exchange": "BSE",
+    "sector": "Energy",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "65bccc6a-9807-4d93-a116-b76947c886f8",
+    "symbol": "BHARAIRTLT32",
+    "companyName": "Bharti Airtel Ltd 114",
+    "currentPrice": 4103.9,
+    "exchange": "NSE",
+    "sector": "Media",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "369ca57e-f8d6-4ceb-9269-a3bedf7245d6",
+    "symbol": "CIPLLTD21",
+    "companyName": "Cipla Ltd 139",
+    "currentPrice": 3386.72,
+    "exchange": "NSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "73135afe-ccb4-419f-a58a-cacb870fae18",
+    "symbol": "TATASTEELT31",
+    "companyName": "Tata Steel Ltd 56",
+    "currentPrice": 4640.59,
+    "exchange": "BSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "140c4b42-b1c9-4f70-96f2-c0c8d50bf50f",
+    "symbol": "HCLTECHLTD25",
+    "companyName": "HCL Technologies Ltd 107",
+    "currentPrice": 4986.42,
+    "exchange": "BSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "00e9974d-e6b5-4152-afa8-00c8f630e3e1",
+    "symbol": "ULTRCEMELT40",
+    "companyName": "UltraTech Cement Ltd 23",
+    "currentPrice": 984.17,
+    "exchange": "NSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "6317681a-ff83-4855-8938-4ddabed2caa9",
+    "symbol": "MAHIMAHILT62",
+    "companyName": "Mahindra & Mahindra Ltd 12",
+    "currentPrice": 3658.45,
+    "exchange": "NSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "6f466a76-d80e-404a-87fd-a765ea943ef2",
+    "symbol": "STATBANKOF7",
+    "companyName": "State Bank of India 118",
+    "currentPrice": 3480.04,
+    "exchange": "NSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "219125f9-9da8-4955-ad80-dbe958091b6d",
+    "symbol": "TATASTEELT73",
+    "companyName": "Tata Steel Ltd 59",
+    "currentPrice": 137.81,
+    "exchange": "BSE",
+    "sector": "Energy",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "8ec746ac-efb1-4b7c-ba7d-b4c8d7ecf314",
+    "symbol": "NESTINDILT98",
+    "companyName": "Nestle India Ltd 9",
+    "currentPrice": 1504.39,
+    "exchange": "BSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "25d6b975-fc7a-44e1-9cc7-e12eaefa5083",
+    "symbol": "RELIINDULT82",
+    "companyName": "Reliance Industries Ltd 169",
+    "currentPrice": 828.68,
+    "exchange": "NSE",
+    "sector": "Real Estate",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "eae63603-2b28-4287-b6f2-21d7e419f28d",
+    "symbol": "LARSTOUBLT59",
+    "companyName": "Larsen & Toubro Ltd 38",
+    "currentPrice": 823.89,
+    "exchange": "NSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "6f5164ee-771b-4f29-8054-03f1c344c857",
+    "symbol": "BHARAIRTLT78",
+    "companyName": "Bharti Airtel Ltd 163",
+    "currentPrice": 1600.54,
+    "exchange": "BSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "ed6c77e0-c4e9-4fdd-b95e-6da1c99c9291",
+    "symbol": "NESTINDILT15",
+    "companyName": "Nestle India Ltd 136",
+    "currentPrice": 4425.33,
+    "exchange": "NSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "6d494202-763f-4c9c-b545-4ae9d0b78861",
+    "symbol": "MARUSUZUIN17",
+    "companyName": "Maruti Suzuki India Ltd 124",
+    "currentPrice": 469.54,
+    "exchange": "BSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "4dc64025-e352-445e-a8e8-051852ca5665",
+    "symbol": "MAHIMAHILT63",
+    "companyName": "Mahindra & Mahindra Ltd 185",
+    "currentPrice": 2238.57,
+    "exchange": "BSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "23b6d8f9-f31f-444f-be34-c0d0ebc6d8bf",
+    "symbol": "RELIINDULT60",
+    "companyName": "Reliance Industries Ltd 142",
+    "currentPrice": 4634.64,
+    "exchange": "NSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "bbe7871a-d299-4009-802d-edf3b1f86088",
+    "symbol": "HDFCBANKLT80",
+    "companyName": "HDFC Bank Ltd 126",
+    "currentPrice": 2940.07,
+    "exchange": "BSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "a4a17cc3-7d4b-4bb1-bd0b-03c3d2305b37",
+    "symbol": "MARUSUZUIN21",
+    "companyName": "Maruti Suzuki India Ltd 61",
+    "currentPrice": 1153.43,
+    "exchange": "BSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "c17b3cad-3db8-46ca-9e1a-65246e74a37f",
+    "symbol": "DRREDDLABO74",
+    "companyName": "Dr Reddy's Laboratories Ltd 179",
+    "currentPrice": 4194.84,
+    "exchange": "NSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "7d1d236c-d568-46fb-be64-e94db27f20bc",
+    "symbol": "POWEGRIDCO22",
+    "companyName": "Power Grid Corporation of India Ltd 159",
+    "currentPrice": 1067.29,
+    "exchange": "BSE",
+    "sector": "Chemicals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "8aeec4a6-b9ef-44ab-94c7-09ea80c50fbd",
+    "symbol": "TECHMAHILT78",
+    "companyName": "Tech Mahindra Ltd 143",
+    "currentPrice": 4135.67,
+    "exchange": "BSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "eadc675f-3e62-4c2b-8ee7-e203b96e707e",
+    "symbol": "LARSTOUBLT72",
+    "companyName": "Larsen & Toubro Ltd 121",
+    "currentPrice": 3546.9,
+    "exchange": "BSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "df5d9660-1ee1-4fd9-a159-80d43b3cde0c",
+    "symbol": "MAHIMAHILT96",
+    "companyName": "Mahindra & Mahindra Ltd 195",
+    "currentPrice": 3903.1,
+    "exchange": "NSE",
+    "sector": "Media",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "4dd58a3f-e409-4627-ab99-08006cf06c4e",
+    "symbol": "BHARAIRTLT73",
+    "companyName": "Bharti Airtel Ltd 88",
+    "currentPrice": 3071.22,
+    "exchange": "NSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "d86334cc-d017-4f54-85e2-74f538fec42f",
+    "symbol": "ITCLTD68",
+    "companyName": "ITC Ltd 162",
+    "currentPrice": 1774.87,
+    "exchange": "NSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "12cb638a-959a-4d51-a97a-611ade6c825e",
+    "symbol": "RELIINDULT22",
+    "companyName": "Reliance Industries Ltd 116",
+    "currentPrice": 1134.64,
+    "exchange": "BSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "eba3e72a-8747-4ece-8652-6a3d527548f9",
+    "symbol": "MAHIMAHILT70",
+    "companyName": "Mahindra & Mahindra Ltd 53",
+    "currentPrice": 3982.15,
+    "exchange": "BSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "0864f648-0dcc-4b2d-a391-b84c6e22b1b2",
+    "symbol": "OILNATUGAS24",
+    "companyName": "Oil & Natural Gas Corporation Ltd 153",
+    "currentPrice": 1699.82,
+    "exchange": "BSE",
+    "sector": "IT Services",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "08a681b4-c7c4-4d68-b751-f3787e1e063e",
+    "symbol": "TATACONSSE60",
+    "companyName": "Tata Consultancy Services Ltd 108",
+    "currentPrice": 641.43,
+    "exchange": "NSE",
+    "sector": "Energy",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "ae3618c2-3319-4a0d-b561-773be51d2adf",
+    "symbol": "TATASTEELT78",
+    "companyName": "Tata Steel Ltd 25",
+    "currentPrice": 1377.36,
+    "exchange": "BSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "3c4c7f2b-fa17-4b02-8201-e0f4d50ec1c4",
+    "symbol": "RELIINDULT84",
+    "companyName": "Reliance Industries Ltd 147",
+    "currentPrice": 681.39,
+    "exchange": "BSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "d3593c70-6e2a-4f15-8547-9b2c5d93ad0d",
+    "symbol": "SUNPHARIND85",
+    "companyName": "Sun Pharmaceutical Industries Ltd 154",
+    "currentPrice": 2362.5,
+    "exchange": "NSE",
+    "sector": "Chemicals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "73debcb6-4d7b-417d-8a31-6ac9309af384",
+    "symbol": "INFOLTD95",
+    "companyName": "Infosys Ltd 160",
+    "currentPrice": 4941.65,
+    "exchange": "BSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "12005b15-5b2e-46b9-aa51-e5423f87fd72",
+    "symbol": "INFOLTD74",
+    "companyName": "Infosys Ltd 30",
+    "currentPrice": 4997.82,
+    "exchange": "BSE",
+    "sector": "Real Estate",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "a1583336-1c01-4587-b10e-ef249995597d",
+    "symbol": "MAHIMAHILT10",
+    "companyName": "Mahindra & Mahindra Ltd 155",
+    "currentPrice": 4458.92,
+    "exchange": "BSE",
+    "sector": "Energy",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "fc06f094-3662-46fb-9f80-4a3def25a82c",
+    "symbol": "ULTRCEMELT12",
+    "companyName": "UltraTech Cement Ltd 107",
+    "currentPrice": 4508.15,
+    "exchange": "NSE",
+    "sector": "Telecom",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "3ce26cab-08d9-41eb-9918-fa13088be2d8",
+    "symbol": "BAJAFINALT9",
+    "companyName": "Bajaj Finance Ltd 50",
+    "currentPrice": 2169.73,
+    "exchange": "BSE",
+    "sector": "Energy",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "4779d3f3-72ea-4533-93be-d2e3aed6a7b4",
+    "symbol": "SUNPHARIND8",
+    "companyName": "Sun Pharmaceutical Industries Ltd 88",
+    "currentPrice": 1065.27,
+    "exchange": "NSE",
+    "sector": "Energy",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "07bde251-466c-4a01-a688-26850aafd8d8",
+    "symbol": "INFOLTD18",
+    "companyName": "Infosys Ltd 26",
+    "currentPrice": 2803.67,
+    "exchange": "BSE",
+    "sector": "Telecom",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "822d96ff-2f0d-4a69-9862-8619b4d482a1",
+    "symbol": "STATBANKOF24",
+    "companyName": "State Bank of India 135",
+    "currentPrice": 2015.19,
+    "exchange": "BSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "f1041bfc-6d8d-436e-af55-b8b1a3aeefdf",
+    "symbol": "RELIINDULT1",
+    "companyName": "Reliance Industries Ltd 194",
+    "currentPrice": 2285.51,
+    "exchange": "NSE",
+    "sector": "Chemicals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "b8027d73-5e91-4201-bd8a-58358cffa6bd",
+    "symbol": "SUNPHARIND20",
+    "companyName": "Sun Pharmaceutical Industries Ltd 112",
+    "currentPrice": 2817.48,
+    "exchange": "NSE",
+    "sector": "Pharmaceuticals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "ce366934-726d-4a9b-b8fb-d7661201305d",
+    "symbol": "HINDUNILLT47",
+    "companyName": "Hindustan Unilever Ltd 87",
+    "currentPrice": 4687.26,
+    "exchange": "NSE",
+    "sector": "IT Services",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "aad084ab-7926-4601-a97f-762373941849",
+    "symbol": "DRREDDLABO79",
+    "companyName": "Dr Reddy's Laboratories Ltd 154",
+    "currentPrice": 1735.4,
+    "exchange": "BSE",
+    "sector": "Pharmaceuticals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "d763e217-1c46-4c30-9be0-5617c5455335",
+    "symbol": "ITCLTD38",
+    "companyName": "ITC Ltd 97",
+    "currentPrice": 2321.68,
+    "exchange": "NSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "55b6c7b4-aa07-4ce0-b478-c79255959f48",
+    "symbol": "INFOLTD9",
+    "companyName": "Infosys Ltd 128",
+    "currentPrice": 4458.85,
+    "exchange": "BSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "c778e6bc-1beb-4884-8538-95aedbefa406",
+    "symbol": "HDFCBANKLT95",
+    "companyName": "HDFC Bank Ltd 66",
+    "currentPrice": 4069.61,
+    "exchange": "NSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "8305537d-89cd-4d93-aa1d-cb17ecaeffac",
+    "symbol": "CIPLLTD52",
+    "companyName": "Cipla Ltd 158",
+    "currentPrice": 4584.32,
+    "exchange": "BSE",
+    "sector": "Energy",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "25d2b605-4b1a-46e6-a228-5f5dd87728dd",
+    "symbol": "LARSTOUBLT12",
+    "companyName": "Larsen & Toubro Ltd 8",
+    "currentPrice": 423.81,
+    "exchange": "NSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "4788d317-22b2-49f5-ad42-0f8e1d7e9f9f",
+    "symbol": "TATACONSSE59",
+    "companyName": "Tata Consultancy Services Ltd 45",
+    "currentPrice": 4920.85,
+    "exchange": "BSE",
+    "sector": "Chemicals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "854b30b7-ac71-4226-b3f3-45dc351cd621",
+    "symbol": "STATBANKOF53",
+    "companyName": "State Bank of India 16",
+    "currentPrice": 2667.6,
+    "exchange": "BSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "b0c64d8b-1909-46c7-9aa6-0c7b4b946923",
+    "symbol": "HCLTECHLTD82",
+    "companyName": "HCL Technologies Ltd 187",
+    "currentPrice": 298.51,
+    "exchange": "NSE",
+    "sector": "Energy",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "27781270-0ca3-4872-bf89-fd09d7806fc8",
+    "symbol": "TATASTEELT44",
+    "companyName": "Tata Steel Ltd 118",
+    "currentPrice": 4963.35,
+    "exchange": "NSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "7c64325e-5371-4ed3-8ec2-32b891700154",
+    "symbol": "POWEGRIDCO94",
+    "companyName": "Power Grid Corporation of India Ltd 161",
+    "currentPrice": 3639.75,
+    "exchange": "NSE",
+    "sector": "Pharmaceuticals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "4d2b26c6-6a2e-4805-a098-0fdc097569cf",
+    "symbol": "CIPLLTD70",
+    "companyName": "Cipla Ltd 105",
+    "currentPrice": 328.66,
+    "exchange": "NSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "809f5c62-b8b6-411c-a11d-90b3f41bdc1e",
+    "symbol": "MARUSUZUIN21",
+    "companyName": "Maruti Suzuki India Ltd 158",
+    "currentPrice": 1014.01,
+    "exchange": "BSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "64444b4a-75d7-4409-b0ec-4ebe9a4d1811",
+    "symbol": "INFOLTD48",
+    "companyName": "Infosys Ltd 105",
+    "currentPrice": 992.61,
+    "exchange": "BSE",
+    "sector": "Chemicals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "02bb8e03-be0c-49d0-8ab2-afbca98a69a8",
+    "symbol": "INFOLTD92",
+    "companyName": "Infosys Ltd 44",
+    "currentPrice": 4617.47,
+    "exchange": "NSE",
+    "sector": "Media",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "f598da9b-dfe0-450a-aed1-aa1a746d3ebb",
+    "symbol": "ICICBANKLT34",
+    "companyName": "ICICI Bank Ltd 198",
+    "currentPrice": 4286.79,
+    "exchange": "NSE",
+    "sector": "Chemicals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "f5ae401f-33b5-4e0e-97d0-99e42fcab0e3",
+    "symbol": "HINDUNILLT48",
+    "companyName": "Hindustan Unilever Ltd 128",
+    "currentPrice": 3943.73,
+    "exchange": "BSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "15ad5948-80b9-41b2-9b8a-e3382c96019e",
+    "symbol": "GRASINDULT29",
+    "companyName": "Grasim Industries Ltd 176",
+    "currentPrice": 763.33,
+    "exchange": "NSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "75592aeb-6eef-4260-bc47-361f3a89686d",
+    "symbol": "NESTINDILT36",
+    "companyName": "Nestle India Ltd 105",
+    "currentPrice": 4823.26,
+    "exchange": "BSE",
+    "sector": "Pharmaceuticals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "29b5fe0c-c770-4d5b-8cc0-67ebdba972b6",
+    "symbol": "MARUSUZUIN29",
+    "companyName": "Maruti Suzuki India Ltd 66",
+    "currentPrice": 689.0,
+    "exchange": "BSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "e517a432-ea8a-42da-9f55-c452bd8ee0f8",
+    "symbol": "JSWSTEELTD42",
+    "companyName": "JSW Steel Ltd 20",
+    "currentPrice": 1618.99,
+    "exchange": "NSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "8f9bbbd9-4d38-45fe-8f80-9cbf8accb65b",
+    "symbol": "NESTINDILT36",
+    "companyName": "Nestle India Ltd 54",
+    "currentPrice": 1634.48,
+    "exchange": "NSE",
+    "sector": "Media",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "f2648800-745b-430a-9162-e60f82538ec1",
+    "symbol": "ICICBANKLT39",
+    "companyName": "ICICI Bank Ltd 137",
+    "currentPrice": 4805.06,
+    "exchange": "NSE",
+    "sector": "Media",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "a8215153-94e2-4b89-843d-4fc412d281a8",
+    "symbol": "TATASTEELT16",
+    "companyName": "Tata Steel Ltd 130",
+    "currentPrice": 1687.4,
+    "exchange": "BSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "0aeee87c-7544-43a5-af53-0d498480c0e9",
+    "symbol": "WIPRLTD52",
+    "companyName": "Wipro Ltd 175",
+    "currentPrice": 2845.12,
+    "exchange": "BSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "84af6d1b-2999-4b62-a826-2b988ad214b0",
+    "symbol": "SUNPHARIND2",
+    "companyName": "Sun Pharmaceutical Industries Ltd 195",
+    "currentPrice": 3654.76,
+    "exchange": "NSE",
+    "sector": "Telecom",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "f371db5b-5d1c-4dd1-baac-cac1105d14ba",
+    "symbol": "ITCLTD62",
+    "companyName": "ITC Ltd 160",
+    "currentPrice": 4008.98,
+    "exchange": "NSE",
+    "sector": "Chemicals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "02ee91f9-2e7c-4299-b1cc-561702de7512",
+    "symbol": "NESTINDILT36",
+    "companyName": "Nestle India Ltd 50",
+    "currentPrice": 1735.75,
+    "exchange": "BSE",
+    "sector": "Pharmaceuticals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "f8335137-dd8b-45a9-bf06-696f99a002d7",
+    "symbol": "INFOLTD33",
+    "companyName": "Infosys Ltd 190",
+    "currentPrice": 4779.75,
+    "exchange": "NSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "8a634091-d7b0-44c3-b89d-1cafd5a4c3b8",
+    "symbol": "WIPRLTD23",
+    "companyName": "Wipro Ltd 30",
+    "currentPrice": 650.1,
+    "exchange": "NSE",
+    "sector": "Real Estate",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "bbade1b0-4e0d-4853-892b-37b53520321f",
+    "symbol": "SUNPHARIND63",
+    "companyName": "Sun Pharmaceutical Industries Ltd 9",
+    "currentPrice": 4837.09,
+    "exchange": "NSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "af531df3-f18c-49c2-bc13-81f70c1d1e5c",
+    "symbol": "JSWSTEELTD36",
+    "companyName": "JSW Steel Ltd 82",
+    "currentPrice": 4189.14,
+    "exchange": "NSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "f7005fbe-362f-496e-a614-d2dde93fcec4",
+    "symbol": "INFOLTD4",
+    "companyName": "Infosys Ltd 11",
+    "currentPrice": 3911.89,
+    "exchange": "BSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "6882bb74-6f45-46b1-9940-1e00b83a7658",
+    "symbol": "RELIINDULT51",
+    "companyName": "Reliance Industries Ltd 29",
+    "currentPrice": 709.22,
+    "exchange": "BSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "031840f5-01f5-43d1-853a-28c54d0d2592",
+    "symbol": "JSWSTEELTD55",
+    "companyName": "JSW Steel Ltd 10",
+    "currentPrice": 3219.88,
+    "exchange": "NSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "6cf3eb90-ba1f-4f5c-b192-6e1cddc146f3",
+    "symbol": "SUNPHARIND45",
+    "companyName": "Sun Pharmaceutical Industries Ltd 125",
+    "currentPrice": 3403.6,
+    "exchange": "BSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "fd23c2a6-21be-40d7-ae66-950b1f512cb6",
+    "symbol": "ADANENTELT47",
+    "companyName": "Adani Enterprises Ltd 142",
+    "currentPrice": 2796.5,
+    "exchange": "NSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "d3e5d935-cc44-4fc0-a55b-3b80644762ec",
+    "symbol": "MAHIMAHILT27",
+    "companyName": "Mahindra & Mahindra Ltd 62",
+    "currentPrice": 1645.54,
+    "exchange": "BSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "12117cc3-f984-4f79-ae33-bc0bb2f4af8b",
+    "symbol": "RELIINDULT57",
+    "companyName": "Reliance Industries Ltd 160",
+    "currentPrice": 4646.52,
+    "exchange": "BSE",
+    "sector": "Chemicals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "5c5c3a66-97eb-40ff-b623-bc554645c2e5",
+    "symbol": "KOTAMAHIBA67",
+    "companyName": "Kotak Mahindra Bank Ltd 15",
+    "currentPrice": 4399.66,
+    "exchange": "NSE",
+    "sector": "Telecom",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "43b5bb00-79be-4e7c-9854-596106f7bea7",
+    "symbol": "BHARAIRTLT74",
+    "companyName": "Bharti Airtel Ltd 66",
+    "currentPrice": 605.29,
+    "exchange": "NSE",
+    "sector": "Telecom",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "665b5601-9989-46c7-95ca-66523d165916",
+    "symbol": "ITCLTD64",
+    "companyName": "ITC Ltd 29",
+    "currentPrice": 2023.7,
+    "exchange": "NSE",
+    "sector": "Media",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "02a18bff-c0d3-4844-8ad2-9eec12c06f7c",
+    "symbol": "ITCLTD30",
+    "companyName": "ITC Ltd 61",
+    "currentPrice": 2096.68,
+    "exchange": "NSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "3e367cf9-2bd6-476c-bba5-2f80589ed6b7",
+    "symbol": "TATACONSSE37",
+    "companyName": "Tata Consultancy Services Ltd 69",
+    "currentPrice": 2149.04,
+    "exchange": "NSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "c129f258-49ba-423a-8145-e5ee3d1fc6dc",
+    "symbol": "HINDUNILLT10",
+    "companyName": "Hindustan Unilever Ltd 195",
+    "currentPrice": 2835.51,
+    "exchange": "NSE",
+    "sector": "Pharmaceuticals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "4454c898-aaee-4a6a-8cf6-4da4e5357228",
+    "symbol": "HINDUNILLT14",
+    "companyName": "Hindustan Unilever Ltd 72",
+    "currentPrice": 993.84,
+    "exchange": "BSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "3a595978-1565-4ca8-9b3e-13590223ae80",
+    "symbol": "GRASINDULT62",
+    "companyName": "Grasim Industries Ltd 47",
+    "currentPrice": 4450.49,
+    "exchange": "BSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "85bac083-db76-4f10-9641-6e781fae1966",
+    "symbol": "KOTAMAHIBA2",
+    "companyName": "Kotak Mahindra Bank Ltd 156",
+    "currentPrice": 2930.98,
+    "exchange": "BSE",
+    "sector": "Chemicals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "8ae0951d-a635-40b4-9d6d-a05a65e2df1a",
+    "symbol": "ULTRCEMELT87",
+    "companyName": "UltraTech Cement Ltd 62",
+    "currentPrice": 263.8,
+    "exchange": "NSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "b9e99cf3-d4a8-41eb-bb48-513e9ee3a0a0",
+    "symbol": "DRREDDLABO77",
+    "companyName": "Dr Reddy's Laboratories Ltd 10",
+    "currentPrice": 1850.27,
+    "exchange": "BSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "90a4cd50-1248-4803-95c0-8f48e74bca58",
+    "symbol": "KOTAMAHIBA56",
+    "companyName": "Kotak Mahindra Bank Ltd 19",
+    "currentPrice": 1069.1,
+    "exchange": "BSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "dae62027-5fe4-4176-ad13-4fd37ac8444d",
+    "symbol": "HINDUNILLT30",
+    "companyName": "Hindustan Unilever Ltd 57",
+    "currentPrice": 3663.21,
+    "exchange": "BSE",
+    "sector": "Chemicals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "c43ddc51-27b5-4222-aa2e-bcdef8eca36d",
+    "symbol": "NTPCLTD63",
+    "companyName": "NTPC Ltd 147",
+    "currentPrice": 2057.68,
+    "exchange": "NSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "6514df6d-772b-4a8f-91b9-fbd4fbf0e4ce",
+    "symbol": "INFOLTD84",
+    "companyName": "Infosys Ltd 89",
+    "currentPrice": 3480.02,
+    "exchange": "BSE",
+    "sector": "Logistics",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "b9cf3f31-9577-4b55-a362-1e7ca0291e2a",
+    "symbol": "NTPCLTD10",
+    "companyName": "NTPC Ltd 53",
+    "currentPrice": 4072.58,
+    "exchange": "BSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "d4ac54bf-5be9-47ff-a8da-a3cbe8f25435",
+    "symbol": "TATASTEELT91",
+    "companyName": "Tata Steel Ltd 189",
+    "currentPrice": 959.91,
+    "exchange": "BSE",
+    "sector": "Banking",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "aaf39831-8b0b-4ddf-a25c-99c0446d4876",
+    "symbol": "BHARAIRTLT47",
+    "companyName": "Bharti Airtel Ltd 75",
+    "currentPrice": 2291.15,
+    "exchange": "BSE",
+    "sector": "Energy",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "14e3124a-ff09-4f66-bdcf-5c725f205c4f",
+    "symbol": "NTPCLTD46",
+    "companyName": "NTPC Ltd 3",
+    "currentPrice": 574.67,
+    "exchange": "BSE",
+    "sector": "Metals",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "40f142a7-c005-4b17-b9a2-559c1b9a6169",
+    "symbol": "ADANENTELT61",
+    "companyName": "Adani Enterprises Ltd 112",
+    "currentPrice": 69.34,
+    "exchange": "BSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "dc6bf5e8-41f2-474c-811c-d988135f4fb5",
+    "symbol": "HDFCBANKLT47",
+    "companyName": "HDFC Bank Ltd 52",
+    "currentPrice": 1766.74,
+    "exchange": "BSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "9c8d4dfb-7cb1-4ff6-8b1b-d9886fe13577",
+    "symbol": "ASIAPAINLT90",
+    "companyName": "Asian Paints Ltd 181",
+    "currentPrice": 2639.11,
+    "exchange": "BSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "76cc50fa-2876-4da2-917c-a9d72444962e",
+    "symbol": "NTPCLTD27",
+    "companyName": "NTPC Ltd 165",
+    "currentPrice": 259.99,
+    "exchange": "BSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "2c6960ce-bdf7-43ad-9c86-3a3d5250f769",
+    "symbol": "OILNATUGAS1",
+    "companyName": "Oil & Natural Gas Corporation Ltd 177",
+    "currentPrice": 2265.56,
+    "exchange": "NSE",
+    "sector": "FMCG",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "67f86caf-cd17-48d0-8424-7fb0cd9291a3",
+    "symbol": "DRREDDLABO74",
+    "companyName": "Dr Reddy's Laboratories Ltd 190",
+    "currentPrice": 4506.67,
+    "exchange": "NSE",
+    "sector": "Textiles",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "9f913a7a-517d-4c4c-88e1-9b59752fadcb",
+    "symbol": "NESTINDILT19",
+    "companyName": "Nestle India Ltd 25",
+    "currentPrice": 2976.75,
+    "exchange": "BSE",
+    "sector": "IT Services",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "85e6740e-323c-4e26-b38a-f6cf37d0be95",
+    "symbol": "ICICBANKLT1",
+    "companyName": "ICICI Bank Ltd 82",
+    "currentPrice": 1100.28,
+    "exchange": "BSE",
+    "sector": "Automobile",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "9e718f2f-457f-40e6-af56-73a065cd9732",
+    "symbol": "NESTINDILT54",
+    "companyName": "Nestle India Ltd 187",
+    "currentPrice": 4713.72,
+    "exchange": "NSE",
+    "sector": "Telecom",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "60ff93f3-0a97-4659-93c2-6c60844a0904",
+    "symbol": "TATASTEELT18",
+    "companyName": "Tata Steel Ltd 15",
+    "currentPrice": 313.39,
+    "exchange": "NSE",
+    "sector": "Retail",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "00eeceb0-9e5c-4885-bdf4-78b3302bc4cd",
+    "symbol": "NTPCLTD23",
+    "companyName": "NTPC Ltd 33",
+    "currentPrice": 4326.98,
+    "exchange": "NSE",
+    "sector": "Real Estate",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  },
+  {
+    "id": "affbd643-627b-4065-a671-832a0f14d40d",
+    "symbol": "BAJAFINALT67",
+    "companyName": "Bajaj Finance Ltd 96",
+    "currentPrice": 4725.43,
+    "exchange": "NSE",
+    "sector": "Infrastructure",
+    "createdAt": "2025-08-08T15:51:56.031762Z",
+    "updatedAt": "2025-08-08T15:51:56.031762Z"
+  }
+]

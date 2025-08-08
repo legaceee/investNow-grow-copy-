@@ -5,6 +5,11 @@ services:
     build: ./backend
     ports:
       - "4000:4000"
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    working_dir: /app
+    command: npm run dev
     environment:
       - DATABASE_URL=postgresql://postgres:postgres@db:5432/stockdb
     depends_on:

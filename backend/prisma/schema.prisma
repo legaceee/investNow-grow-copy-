@@ -6,10 +6,84 @@
 
 generator client {
   provider = "prisma-client-js"
+  binaryTargets = ["native", "debian-openssl-3.0.x"]
   output   = "../generated/prisma"
 }
 
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
+}
+
+model User {
+  id             String       @id @default(uuid())
+  email          String       @unique
+  password       String
+  name           String
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+  portfolios     Portfolio[]
+  transactions   Transaction[]
+  watchlistItems Watchlist[]
+}
+
+model Stock {
+  id            String       @id @default(uuid())
+  symbol        String       @unique
+  companyName   String
+  currentPrice  Float
+  exchange      String
+  sector        String
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
+  transactions  Transaction[]
+  portfolioItems PortfolioItem[]
+  watchlistedBy Watchlist[]
+}
+
+model Portfolio {
+  id         String         @id @default(uuid())
+  user       User           @relation(fields: [userId], references: [id])
+  userId     String
+  createdAt  DateTime       @default(now())
+  updatedAt  DateTime       @updatedAt
+  items      PortfolioItem[]
+}
+
+model PortfolioItem {
+  id          String     @id @default(uuid())
+  stock       Stock      @relation(fields: [stockId], references: [id])
+  stockId     String
+  portfolio   Portfolio  @relation(fields: [portfolioId], references: [id])
+  portfolioId String
+  quantity    Int
+  avgBuyPrice Float
+}
+
+model Transaction {
+  id          String     @id @default(uuid())
+  user        User       @relation(fields: [userId], references: [id])
+  userId      String
+  stock       Stock      @relation(fields: [stockId], references: [id])
+  stockId     String
+  type        TransactionType
+  quantity    Int
+  price       Float
+  timestamp   DateTime   @default(now())
+}
+
+model Watchlist {
+  id        String   @id @default(uuid())
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  stock     Stock    @relation(fields: [stockId], references: [id])
+  stockId   String
+  createdAt DateTime @default(now())
+
+  @@unique([userId, stockId])
+}
+
+enum TransactionType {
+  BUY
+  SELL
 }
