@@ -4,7 +4,7 @@ import { CatchAsync } from "../utils/catchAsync.js";
 
 export const getAllUsers = CatchAsync(async (req, res) => {
   const users = await prisma.user.findMany({
-    select: { id: true, name: true, email: true, createdAt: true },
+    select: { id: true, username: true, email: true, createdAt: true },
   });
 
   res.status(200).json({

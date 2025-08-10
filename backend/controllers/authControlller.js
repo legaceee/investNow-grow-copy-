@@ -83,7 +83,10 @@ export const login = CatchAsync(async (req, res, next) => {
   }
 
   // 2️ Find user in DB
-  const user = await User.findOne({ email }).select("+password"); // explicitly select password
+  const user = await prisma.user.findUnique({
+    where: { email },
+  });
+
   if (!user) {
     return res.status(401).json({ message: "Invalid email or password" });
   }
