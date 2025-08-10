@@ -1,13 +1,13 @@
 import bcrypt from "bcryptjs";
 
 import prisma from "../config/prismaClient.js"; // Prisma DB client
-import catchAsync from "../utils/catchAsync.js";
+import { CatchAsync } from "../utils/catchAsync.js";
 import AppError from "../utils/appError.js"; // custom error handler
 import { signToken } from "../utils/signToken.js";
 
 const SECRET_KEY = process.env.JWT_SECRET || "super_secret_key";
 
-export const signup = catchAsync(async (req, res, next) => {
+export const signup = CatchAsync(async (req, res, next) => {
   const { username, email, password, confirmPassword } = req.body;
 
   // 1️ Validate required fields
@@ -65,6 +65,41 @@ export const signup = catchAsync(async (req, res, next) => {
   res.status(201).json({
     status: "success",
     message: "User registered successfully",
+    token,
+    user: {
+      id: user.id,
+      username: user.username,
+      email: user.email,
+    },
+  });
+});
+
+export const login = CatchAsync(async (req, res, next) => {
+  const { email, password } = req.body;
+
+  // 1️ Validate input
+  if (!email || !password) {
+    return res.status(400).json({ message: "Email and password are required" });
+  }
+
+  // 2️ Find user in DB
+  const user = await User.findOne({ email }).select("+password"); // explicitly select password
+  if (!user) {
+    return res.status(401).json({ message: "Invalid email or password" });
+  }
+
+  // 3️ Compare password
+  const isMatch = await bcrypt.compare(password, user.password);
+  if (!isMatch) {
+    return res.status(401).json({ message: "Invalid email or password" });
+  }
+
+  // 4️ Sign JWT token
+  const token = signToken(user.id, user.username);
+
+  // 5️ Send response
+  res.status(200).json({
+    status: "success",
     token,
     user: {
       id: user.id,

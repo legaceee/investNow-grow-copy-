@@ -1,23 +1,25 @@
-import { CatchAsync } from "../utils/catchAsync.js"; // fixed typo in filename
-import pool from "../config/db.js"; // PostgreSQL pool instance
+import { CatchAsync } from "../utils/catchAsync.js";
+import prisma from "../config/prismaClient.js"; // Prisma client instance
 
+// Get all stocks
 export const getAllStocks = CatchAsync(async (req, res, next) => {
-  // Query all stocks from DB
-  const result = await pool.query('SELECT * FROM "Stock" ORDER BY id ASC');
+  const stocks = await prisma.stock.findMany({
+    orderBy: { id: "asc" },
+  });
 
   res.status(200).json({
     status: "success",
-    results: result.rows.length,
+    results: stocks.length,
     data: {
-      stocks: result.rows,
+      stocks,
     },
   });
 });
 
+// Get a stock by symbol
 export const getStockBySymbol = CatchAsync(async (req, res, next) => {
   const { symbol } = req.params;
 
-  // Ensure symbol is provided
   if (!symbol) {
     return res.status(400).json({
       status: "fail",
@@ -25,20 +27,21 @@ export const getStockBySymbol = CatchAsync(async (req, res, next) => {
     });
   }
 
-  // Query the Stock table
-  const result = await pool.query(`SELECT * FROM "Stock" WHERE "symbol" = $1`, [
-    symbol.toUpperCase(),
-  ]);
+  const stock = await prisma.stock.findUnique({
+    where: { symbol: symbol.toUpperCase() },
+  });
 
-  if (result.rows.length === 0) {
+  if (!stock) {
     return res.status(404).json({
       status: "fail",
-      message: `No stock found with symbol: ${symbol}`,
+      message: `Stock with symbol '${symbol}' not found`,
     });
   }
 
   res.status(200).json({
     status: "success",
-    data: result.rows[0],
+    data: {
+      stock,
+    },
   });
 });

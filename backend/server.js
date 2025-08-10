@@ -1,11 +1,11 @@
 // server.js
+// server.js
 import app from "./app.js";
 import dotenv from "dotenv";
-import { PrismaClient } from "@prisma/client";
+import prisma from "./config/prismaClient.js"; // ✅ Use centralized Prisma instance
 
 dotenv.config();
 
-const prisma = new PrismaClient();
 const PORT = process.env.PORT || 4000;
 
 async function startServer() {

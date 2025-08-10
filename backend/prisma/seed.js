@@ -1,16 +1,24 @@
-import { PrismaClient } from "../generated/prisma/index.js";
 import fs from "fs";
+import path from "path";
+import prisma from "../config/prismaClient.js";
+import { fileURLToPath } from "url";
+import dotenv from "dotenv";
 
-const prisma = new PrismaClient();
+// Load .env from backend root
+dotenv.config({ path: path.resolve(process.cwd(), "../.env") });
 
 async function main() {
-  console.log("Seeding stocks...");
+  console.log("🌱 Seeding stocks...");
 
-  // Read JSON file
-  const stocksData = JSON.parse(fs.readFileSync("./stocks.json", "utf-8"));
+  // Read JSON file safely
+  const __filename = fileURLToPath(import.meta.url);
+  const __dirname = path.dirname(__filename);
+  const stocksData = JSON.parse(
+    fs.readFileSync(path.join(__dirname, "../stocks.json"), "utf-8")
+  );
 
   // Bulk insert
-  await prisma.stock.createMany({
+  await prisma.Stock.createMany({
     data: stocksData.map((stock) => ({
       id: stock.id,
       symbol: stock.symbol,
@@ -18,10 +26,9 @@ async function main() {
       currentPrice: stock.currentPrice,
       exchange: stock.exchange,
       sector: stock.sector,
-      createdAt: new Date(stock.createdAt),
-      updatedAt: new Date(stock.updatedAt),
+      // Let Prisma handle createdAt/updatedAt automatically
     })),
-    skipDuplicates: true, // Avoid duplicate errors
+    skipDuplicates: true,
   });
 
   console.log("✅ Stock seeding completed!");
