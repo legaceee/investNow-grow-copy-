@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "public"."Stock" ADD COLUMN     "marketCap" DOUBLE PRECISION NOT NULL DEFAULT 0,
+ADD COLUMN     "totalQuantity" BIGINT NOT NULL DEFAULT 0;

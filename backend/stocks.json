@@ -8,7 +8,9 @@
     "sector": "Energy",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 93469,
+    "marketCap": 142337397.27
   },
   {
     "id": "9aec5052-375b-47a4-a676-0072aaee2754",
@@ -19,7 +21,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 77018,
+    "marketCap": 135125770.46
   },
   {
     "id": "6ca5e111-2f3c-4d46-806e-d5604eae438d",
@@ -30,7 +34,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 76802,
+    "marketCap": 214412751.52
   },
   {
     "id": "7634d0b8-b6d3-488c-84cc-2227a83964a9",
@@ -41,7 +47,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 96963,
+    "marketCap": 254223411.18
   },
   {
     "id": "4fe70277-2941-407e-9cbc-3b2b657fc209",
@@ -52,7 +60,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 29276,
+    "marketCap": 130932811.36
   },
   {
     "id": "dd6bfee0-d310-4251-b6e6-f66666e63035",
@@ -63,7 +73,9 @@
     "sector": "Real Estate",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 46257,
+    "marketCap": 157312655.88
   },
   {
     "id": "b2a3c1a1-2f3e-4e52-a4d5-777d47a23b81",
@@ -74,7 +86,9 @@
     "sector": "Chemicals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 36490,
+    "marketCap": 139979289
   },
   {
     "id": "b00ebbea-a2b4-4832-978b-4c3df3e0cb76",
@@ -85,7 +99,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 51133,
+    "marketCap": 254829486.78
   },
   {
     "id": "e2409845-c9bc-4da6-8ad0-2b21b5c70204",
@@ -96,7 +112,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 55155,
+    "marketCap": 56154408.6
   },
   {
     "id": "0bcfdec1-78f0-423f-b6d6-6840148c7e21",
@@ -107,7 +125,9 @@
     "sector": "Energy",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 80489,
+    "marketCap": 118259268.14
   },
   {
     "id": "de8dbcfc-1248-48f4-b951-7b3ca77fbdd8",
@@ -118,7 +138,9 @@
     "sector": "IT Services",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 36378,
+    "marketCap": 108885174.48
   },
   {
     "id": "e9643b36-ee0f-44e2-8ae5-933bb222b4b4",
@@ -129,7 +151,9 @@
     "sector": "Pharmaceuticals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 1610,
+    "marketCap": 5448658.6
   },
   {
     "id": "946be47d-1290-466b-9d05-bb559bb8344b",
@@ -140,7 +164,9 @@
     "sector": "Real Estate",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 49312,
+    "marketCap": 111858847.68
   },
   {
     "id": "5c6b7caa-909c-4abd-a5f7-d016a5d58d3b",
@@ -151,7 +177,9 @@
     "sector": "Media",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 15800,
+    "marketCap": 7073976
   },
   {
     "id": "5237f0e7-db3f-4de7-a14d-ee5505ec49df",
@@ -162,7 +190,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 35480,
+    "marketCap": 52603002.8
   },
   {
     "id": "36df130f-5ebe-4e61-9fd5-f630a8869182",
@@ -173,7 +203,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 55208,
+    "marketCap": 129410312.4
   },
   {
     "id": "38e4d2fa-c0ec-4d2f-a192-d2dccdcc7428",
@@ -184,7 +216,9 @@
     "sector": "Real Estate",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 98957,
+    "marketCap": 321329212.12
   },
   {
     "id": "b8c4c0f6-7fe6-453f-ab9a-295450355041",
@@ -195,7 +229,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 1357,
+    "marketCap": 1574907.06
   },
   {
     "id": "53e19d71-9856-4b50-bb34-3b5015359da6",
@@ -206,7 +242,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 79051,
+    "marketCap": 172873469.86
   },
   {
     "id": "34b3591a-41af-429c-a034-9f53c095adea",
@@ -217,7 +255,9 @@
     "sector": "Telecom",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 66040,
+    "marketCap": 22147834.8
   },
   {
     "id": "a99052f8-96c8-4475-8775-1ee60572a54e",
@@ -228,7 +268,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 6444,
+    "marketCap": 16529311.08
   },
   {
     "id": "5d0aaad2-dbd0-4b61-ad20-61feb59c1c45",
@@ -239,7 +281,9 @@
     "sector": "Media",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 8645,
+    "marketCap": 31679170.25
   },
   {
     "id": "e0a86dec-5318-465b-a082-9a0184d357b9",
@@ -250,7 +294,9 @@
     "sector": "Media",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 6883,
+    "marketCap": 28467606.19
   },
   {
     "id": "79460c1e-77c4-492c-a101-95c09eb9ad39",
@@ -261,7 +307,9 @@
     "sector": "Real Estate",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 68964,
+    "marketCap": 316574414.52
   },
   {
     "id": "61df5c24-bd8e-4770-b374-7c2c9c46b9f9",
@@ -272,7 +320,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 51639,
+    "marketCap": 58163071.26
   },
   {
     "id": "2dd63cea-0d21-4884-9640-dfcb9c6b458b",
@@ -283,7 +333,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 81313,
+    "marketCap": 108543097.44
   },
   {
     "id": "9d0a2280-38f6-4e58-a47d-bf516f4b39af",
@@ -294,7 +346,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 5279,
+    "marketCap": 7678358.29
   },
   {
     "id": "6637b7b7-7951-4165-b7a0-85d18a21f8ce",
@@ -305,7 +359,9 @@
     "sector": "Media",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 84048,
+    "marketCap": 300705253.44
   },
   {
     "id": "9fe3a570-ed7a-4173-917f-ab9389e6fcd6",
@@ -316,7 +372,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 86263,
+    "marketCap": 413574151.42
   },
   {
     "id": "0e426ead-1fed-4454-bab7-cab817922b7b",
@@ -327,7 +385,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 88450,
+    "marketCap": 101902360.5
   },
   {
     "id": "64890b94-6961-46c7-b79a-57cc7dac4df6",
@@ -338,7 +398,9 @@
     "sector": "Media",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 96768,
+    "marketCap": 402718417.92
   },
   {
     "id": "67eae327-4fc3-466e-b4b9-6ca25110b542",
@@ -349,7 +411,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 42251,
+    "marketCap": 18017938.95
   },
   {
     "id": "2de482b2-8044-4e84-a2b1-323954360bb1",
@@ -360,7 +424,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 36706,
+    "marketCap": 23938184.96
   },
   {
     "id": "eca6d10a-8a7c-4189-9543-3dec17b57659",
@@ -371,7 +437,9 @@
     "sector": "Telecom",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 33278,
+    "marketCap": 138251787.1
   },
   {
     "id": "de536c5e-c003-422f-bde3-058b9504e631",
@@ -382,7 +450,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 89149,
+    "marketCap": 23145754.87
   },
   {
     "id": "3b37d1a9-4a25-40a1-81b7-0fa0ee4fec7f",
@@ -393,7 +463,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 75787,
+    "marketCap": 300489392.04
   },
   {
     "id": "9903c1ae-0dc3-4312-bc30-636fec17c222",
@@ -404,7 +476,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 58093,
+    "marketCap": 40804523.2
   },
   {
     "id": "3e0422ec-66f2-45e8-8bd5-490787353a14",
@@ -415,7 +489,9 @@
     "sector": "Telecom",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 67509,
+    "marketCap": 31757583.78
   },
   {
     "id": "48004b75-0df8-4f5e-a983-8d0a10e2ac42",
@@ -426,7 +502,9 @@
     "sector": "Telecom",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 38138,
+    "marketCap": 185106215.42
   },
   {
     "id": "d4be3625-8992-4c97-af5a-ec0ef10789eb",
@@ -437,7 +515,9 @@
     "sector": "Chemicals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 35366,
+    "marketCap": 7544982.44
   },
   {
     "id": "fa4ba476-36d8-49c1-82f4-3029c0803d40",
@@ -448,7 +528,9 @@
     "sector": "Media",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 30248,
+    "marketCap": 63805131.2
   },
   {
     "id": "22e99777-e2a6-4924-82e7-88244411c024",
@@ -459,7 +541,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 1776,
+    "marketCap": 6705163.68
   },
   {
     "id": "70702a84-9e54-41b8-b3fe-5ca03b232e1c",
@@ -470,7 +554,9 @@
     "sector": "Telecom",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 68239,
+    "marketCap": 131991968.14
   },
   {
     "id": "a463b4b1-bb83-4e27-9dae-2f462299b2f3",
@@ -481,7 +567,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 19296,
+    "marketCap": 44170280.64
   },
   {
     "id": "81cc014a-96a1-477f-afc3-e35428a1bf71",
@@ -492,7 +580,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 62365,
+    "marketCap": 77227826.8
   },
   {
     "id": "3c0c08df-b31e-44d2-b254-0edb6f354ab8",
@@ -503,7 +593,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 18002,
+    "marketCap": 30098443.9
   },
   {
     "id": "3d7de134-571c-47a9-9adf-20b5667085d4",
@@ -514,7 +606,9 @@
     "sector": "Pharmaceuticals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 1941,
+    "marketCap": 9264528.87
   },
   {
     "id": "cfd136da-0256-460b-9c42-c20b12674b20",
@@ -525,7 +619,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 11838,
+    "marketCap": 42276457.5
   },
   {
     "id": "b4b2af4d-db00-45ad-8d4c-db7d9fab4284",
@@ -536,7 +632,9 @@
     "sector": "Pharmaceuticals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 30236,
+    "marketCap": 93727366.96
   },
   {
     "id": "08cec846-f9ed-48e0-b6e7-f6d94602c7e4",
@@ -547,7 +645,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 80037,
+    "marketCap": 154259311.95
   },
   {
     "id": "72cc1554-01a4-447e-8d9f-e653e8f790fa",
@@ -558,7 +658,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 72031,
+    "marketCap": 72533776.38
   },
   {
     "id": "a23e464d-43e2-4b10-9643-4155c63b3c58",
@@ -569,7 +671,9 @@
     "sector": "Telecom",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 29927,
+    "marketCap": 30609934.14
   },
   {
     "id": "832fdf04-0362-4fd7-ad03-1cb76f9d35e4",
@@ -580,7 +684,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 57841,
+    "marketCap": 166440947.96
   },
   {
     "id": "779e94a6-da89-4d0f-973e-90c4d0222547",
@@ -591,7 +697,9 @@
     "sector": "Telecom",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 76314,
+    "marketCap": 368698880.76
   },
   {
     "id": "9280a3ad-4870-442a-ab4f-9e72bc1ad139",
@@ -602,7 +710,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 67202,
+    "marketCap": 200407788.34
   },
   {
     "id": "a3796e42-167e-46ba-a6d7-0d4cfec1b48c",
@@ -613,7 +723,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 62238,
+    "marketCap": 32427242.76
   },
   {
     "id": "1f70f4dd-e89b-476b-919f-0183982b8195",
@@ -624,7 +736,9 @@
     "sector": "Telecom",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 71490,
+    "marketCap": 117556726.2
   },
   {
     "id": "f20c24e2-8c7f-4019-bcbe-2cc3fa8f65b9",
@@ -635,7 +749,9 @@
     "sector": "Chemicals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 98549,
+    "marketCap": 174063156.74
   },
   {
     "id": "15c93561-c74f-4566-a490-a09f365e82a7",
@@ -646,7 +762,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 6783,
+    "marketCap": 22319529.33
   },
   {
     "id": "b13c3f15-4a50-40df-87c4-c47364055762",
@@ -657,7 +775,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 71617,
+    "marketCap": 258449997.26
   },
   {
     "id": "9d4400ca-b065-41aa-963d-f3ba45784196",
@@ -668,7 +788,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 15863,
+    "marketCap": 20254830.18
   },
   {
     "id": "57c1d18b-e9f6-444e-8ed7-6107f5395638",
@@ -679,7 +801,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 43713,
+    "marketCap": 126414498.96
   },
   {
     "id": "13c0ecc4-5774-4071-b20c-1aca1f587b7d",
@@ -690,7 +814,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 1940,
+    "marketCap": 2857911
   },
   {
     "id": "ccf801c5-f761-484a-a517-613f92b074b1",
@@ -701,7 +827,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 46443,
+    "marketCap": 104302618.26
   },
   {
     "id": "bb13701d-ab50-4719-9f74-5a20d3a6f902",
@@ -712,7 +840,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 33734,
+    "marketCap": 4251158.68
   },
   {
     "id": "5cb75e3b-af58-47ed-9e4f-780037ab1200",
@@ -723,7 +853,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 97530,
+    "marketCap": 77652410.7
   },
   {
     "id": "0995ea3b-d39c-4f97-9717-bcb68f18b589",
@@ -734,7 +866,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 18084,
+    "marketCap": 8179574.04
   },
   {
     "id": "5022c3d1-06d7-4bfc-ae45-c2a03637d371",
@@ -745,7 +879,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 26539,
+    "marketCap": 73852729.2
   },
   {
     "id": "a24c1ad5-8a31-4c22-9b67-c8ef9390d60b",
@@ -756,7 +892,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 56999,
+    "marketCap": 244378652.58
   },
   {
     "id": "f0ca8323-561e-47b7-b3af-2a1c4fdab152",
@@ -767,7 +905,9 @@
     "sector": "IT Services",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 49571,
+    "marketCap": 180078554.54
   },
   {
     "id": "12840553-c24a-4a89-bdba-abc7b89ef01c",
@@ -778,7 +918,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 16950,
+    "marketCap": 54658665
   },
   {
     "id": "4fe225a5-509b-4eec-8660-96dc44f91aff",
@@ -789,7 +931,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 85579,
+    "marketCap": 110630540.67
   },
   {
     "id": "315cbac1-2ef5-4bab-a30a-d1fb5664dc43",
@@ -800,7 +944,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 28571,
+    "marketCap": 90920636.17
   },
   {
     "id": "aaf4237f-e149-498e-8ce1-05413b3594ad",
@@ -811,7 +957,9 @@
     "sector": "Media",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 17520,
+    "marketCap": 18589420.8
   },
   {
     "id": "d220746d-0549-4f93-a8e5-acd0e0efae49",
@@ -822,7 +970,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 93296,
+    "marketCap": 25165663.04
   },
   {
     "id": "a9f87615-1891-4d63-b9ec-58f340495866",
@@ -833,7 +983,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 81424,
+    "marketCap": 13119849.12
   },
   {
     "id": "eb86d98e-9bdb-4fb8-a5a3-cb4c31823471",
@@ -844,7 +996,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 37357,
+    "marketCap": 27407710.19
   },
   {
     "id": "4e329272-0840-4d7f-9368-7a27be72a358",
@@ -855,7 +1009,9 @@
     "sector": "Energy",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 27632,
+    "marketCap": 36797810.72
   },
   {
     "id": "4de6ad77-d78b-4c0f-a031-2971d9c7c7b1",
@@ -866,7 +1022,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 79059,
+    "marketCap": 312247473.45
   },
   {
     "id": "72ddaf01-b44e-4821-bdef-9f1ad4ffc660",
@@ -877,7 +1035,9 @@
     "sector": "Pharmaceuticals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 12919,
+    "marketCap": 48008683.47
   },
   {
     "id": "256fefed-61d7-4faf-81b1-655b43e667e2",
@@ -888,7 +1048,9 @@
     "sector": "IT Services",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 96871,
+    "marketCap": 409612242.53
   },
   {
     "id": "7460b1b3-c062-4b0f-822c-36ff3ea445b9",
@@ -899,7 +1061,9 @@
     "sector": "Real Estate",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 60606,
+    "marketCap": 271049425.92
   },
   {
     "id": "2b5c7107-ace5-4fc7-aeb2-f7e29cf5654e",
@@ -910,7 +1074,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 47710,
+    "marketCap": 132924831
   },
   {
     "id": "b0723bf3-503a-42da-9331-38b11267ef55",
@@ -921,7 +1087,9 @@
     "sector": "Real Estate",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 69891,
+    "marketCap": 8204504.49
   },
   {
     "id": "a31584f6-cca0-468f-9979-43a931776acf",
@@ -932,7 +1100,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 80251,
+    "marketCap": 317936004.27
   },
   {
     "id": "7c421a72-c10f-453b-b59a-58ef954a87bc",
@@ -943,7 +1113,9 @@
     "sector": "Telecom",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 9312,
+    "marketCap": 45388364.16
   },
   {
     "id": "8eaa7b5a-0a24-4d9b-bcf3-fffd5678231e",
@@ -954,7 +1126,9 @@
     "sector": "Media",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 31211,
+    "marketCap": 44071492.55
   },
   {
     "id": "107d0654-3f09-4b83-b651-4257580d58c8",
@@ -965,7 +1139,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 78655,
+    "marketCap": 146919674.5
   },
   {
     "id": "0fcbff2f-5bf3-46cd-afa6-cf555c732a37",
@@ -976,7 +1152,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 50047,
+    "marketCap": 95431621.48
   },
   {
     "id": "7a150d66-034b-451e-9bb5-75df0f049827",
@@ -987,7 +1165,9 @@
     "sector": "IT Services",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 65017,
+    "marketCap": 105612314.46
   },
   {
     "id": "b24c0bac-0ef2-4d8a-916e-a9d944b2c9ed",
@@ -998,7 +1178,9 @@
     "sector": "Telecom",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 52827,
+    "marketCap": 49259064.42
   },
   {
     "id": "0ba0eb37-57f9-4b10-83e2-d988979af8f3",
@@ -1009,7 +1191,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 66600,
+    "marketCap": 137997864
   },
   {
     "id": "db3b9a6a-cdbe-46fc-b196-2c06af6ef862",
@@ -1020,7 +1204,9 @@
     "sector": "IT Services",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 10259,
+    "marketCap": 29140484.32
   },
   {
     "id": "ffde01cc-7f7d-4131-8db3-6c662cefc3af",
@@ -1031,7 +1217,9 @@
     "sector": "Real Estate",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 98630,
+    "marketCap": 285986561.7
   },
   {
     "id": "af38c67e-fbaa-4d0b-b57b-da7fe5929e38",
@@ -1042,7 +1230,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 7241,
+    "marketCap": 27583792.99
   },
   {
     "id": "5687c2d3-de45-4be7-82fa-672cdd3c9b93",
@@ -1053,7 +1243,9 @@
     "sector": "Chemicals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 19913,
+    "marketCap": 80708384.65
   },
   {
     "id": "396a8e16-4214-4596-9363-1fcfab402c3a",
@@ -1064,7 +1256,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 11585,
+    "marketCap": 8130932.25
   },
   {
     "id": "211b3144-cc74-4d3d-89cc-0275d7a0fffd",
@@ -1075,7 +1269,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 22445,
+    "marketCap": 45057215.25
   },
   {
     "id": "09845d64-d4c7-4a27-9c8c-f2125e96bbc7",
@@ -1086,7 +1282,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 28599,
+    "marketCap": 4609014.84
   },
   {
     "id": "8fb3941f-f0e0-4ca2-85cc-867e2b6afdd1",
@@ -1097,7 +1295,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 74953,
+    "marketCap": 305821731.54
   },
   {
     "id": "5dd78539-fc0f-4ab7-893a-335d7674e883",
@@ -1108,7 +1308,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 53437,
+    "marketCap": 7722180.87
   },
   {
     "id": "b4f767ae-ad7d-41c5-acb2-1a1b5f18f606",
@@ -1119,7 +1321,9 @@
     "sector": "Telecom",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 99915,
+    "marketCap": 258381189.15
   },
   {
     "id": "201d993d-eec8-4ddf-abb4-9047aeee8f12",
@@ -1130,7 +1334,9 @@
     "sector": "Chemicals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 40141,
+    "marketCap": 129232745.27
   },
   {
     "id": "c68cd873-9e29-4ec4-8aea-b4068678057e",
@@ -1141,7 +1347,9 @@
     "sector": "Energy",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 3822,
+    "marketCap": 15982992.48
   },
   {
     "id": "972106c4-7dde-4df2-8849-49362191b6ae",
@@ -1152,7 +1360,9 @@
     "sector": "IT Services",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 97789,
+    "marketCap": 109510967.43
   },
   {
     "id": "260f8d0a-cb08-4ac2-86df-facb963719e0",
@@ -1163,7 +1373,9 @@
     "sector": "Pharmaceuticals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 65235,
+    "marketCap": 285769745.7
   },
   {
     "id": "3f2e2fd8-b56d-466b-bcca-70e616ce36aa",
@@ -1174,7 +1386,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 16647,
+    "marketCap": 63769995.84
   },
   {
     "id": "2911346b-9325-4e42-83c4-bb5c2ab0b89a",
@@ -1185,7 +1399,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 97371,
+    "marketCap": 431673880.59
   },
   {
     "id": "4b938a5a-e759-4117-aa2d-fd0cae630519",
@@ -1196,7 +1412,9 @@
     "sector": "Energy",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 6015,
+    "marketCap": 8703945.6
   },
   {
     "id": "fa02a9ca-7b6b-4a1f-8deb-55fcf6c5cbb6",
@@ -1207,7 +1425,9 @@
     "sector": "Chemicals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 80859,
+    "marketCap": 82115548.86
   },
   {
     "id": "259eb476-e43b-4d59-8165-8be02e428ddd",
@@ -1218,7 +1438,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 71815,
+    "marketCap": 113049018.55
   },
   {
     "id": "93c68fb1-d481-4294-8e58-2d049939063d",
@@ -1229,7 +1451,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 40282,
+    "marketCap": 173629115.88
   },
   {
     "id": "062f6aaa-36ba-4028-abb4-acddb0fc2341",
@@ -1240,7 +1464,9 @@
     "sector": "Pharmaceuticals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 5174,
+    "marketCap": 4758424.32
   },
   {
     "id": "e7ac0ae2-3d68-455c-b5b8-957a9b05f12c",
@@ -1251,7 +1477,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 95665,
+    "marketCap": 49094321.35
   },
   {
     "id": "41db567d-7b4a-44df-8af0-3393b6b3be43",
@@ -1262,7 +1490,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 2580,
+    "marketCap": 6810271.2
   },
   {
     "id": "2cff9cc7-093f-4e77-8d6e-29438ff1fd39",
@@ -1273,7 +1503,9 @@
     "sector": "Telecom",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 6503,
+    "marketCap": 6802983.39
   },
   {
     "id": "ee82500a-e698-42a2-ac0e-a9ee01e75346",
@@ -1284,7 +1516,9 @@
     "sector": "Telecom",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 58027,
+    "marketCap": 60269743.55
   },
   {
     "id": "9ef0e0c4-0f1c-4d3b-b2b7-acd3037d4e9e",
@@ -1295,7 +1529,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 61515,
+    "marketCap": 119526105.6
   },
   {
     "id": "8ee33905-de4c-47ee-86d7-83e9533ce9de",
@@ -1306,7 +1542,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 37676,
+    "marketCap": 44611398.08
   },
   {
     "id": "596a5def-379b-4e21-a83b-8ae97fb58843",
@@ -1317,7 +1555,9 @@
     "sector": "Energy",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 99299,
+    "marketCap": 330118532.51
   },
   {
     "id": "d956a30d-3389-4edb-97df-ad717ef6ef5b",
@@ -1328,7 +1568,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 66879,
+    "marketCap": 206342447.49
   },
   {
     "id": "8cf35234-43a5-402c-a73e-2917c80e9bd2",
@@ -1339,7 +1581,9 @@
     "sector": "IT Services",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 90571,
+    "marketCap": 147006695.81
   },
   {
     "id": "2418d81c-f08a-4df3-bd0d-643dac1329b1",
@@ -1350,7 +1594,9 @@
     "sector": "IT Services",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 6364,
+    "marketCap": 10326226.4
   },
   {
     "id": "df22f4b6-17c3-40b3-a84e-07f6882fb689",
@@ -1361,7 +1607,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 23723,
+    "marketCap": 17546479.72
   },
   {
     "id": "5076b482-8be5-475d-ae1c-a6289b684d54",
@@ -1372,7 +1620,9 @@
     "sector": "Energy",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 83223,
+    "marketCap": 103380442.83
   },
   {
     "id": "1cffaeda-8dcc-4f91-b618-8e03d03d7283",
@@ -1383,7 +1633,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 37958,
+    "marketCap": 66130427.6
   },
   {
     "id": "d72f5149-b670-44cf-950d-ab46bef87306",
@@ -1394,7 +1646,9 @@
     "sector": "IT Services",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 75054,
+    "marketCap": 112757376.9
   },
   {
     "id": "251ce3ba-4f81-4d84-ba13-b9f94bded19b",
@@ -1405,7 +1659,9 @@
     "sector": "Energy",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 54358,
+    "marketCap": 252588036.5
   },
   {
     "id": "f115a5c9-fb1b-48ab-8bd7-6c29a3269ae5",
@@ -1416,7 +1672,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 1989,
+    "marketCap": 967946.85
   },
   {
     "id": "4996852e-85a7-4ff8-a063-e29f30c0c72c",
@@ -1427,7 +1685,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 20729,
+    "marketCap": 91883779.98
   },
   {
     "id": "d6c9a967-3455-4d01-a791-eaf71830945b",
@@ -1438,7 +1698,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 4396,
+    "marketCap": 8028546.68
   },
   {
     "id": "cbb0cad1-782b-4152-a566-c21f0788ef7b",
@@ -1449,7 +1711,9 @@
     "sector": "Energy",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 31212,
+    "marketCap": 36777099.6
   },
   {
     "id": "fceb9ce2-24bf-4442-b1e4-25771d9df63f",
@@ -1460,7 +1724,9 @@
     "sector": "Pharmaceuticals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 20511,
+    "marketCap": 37113834.06
   },
   {
     "id": "29dc56bb-1e0f-4008-87fb-078864cda636",
@@ -1471,7 +1737,9 @@
     "sector": "Energy",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 76614,
+    "marketCap": 204926361.06
   },
   {
     "id": "04d2a304-4e90-4b71-88ea-f671e47378b1",
@@ -1482,7 +1750,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 67349,
+    "marketCap": 232836942.33
   },
   {
     "id": "12342022-cde9-400a-a711-aa3263707d4f",
@@ -1493,7 +1763,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 4610,
+    "marketCap": 10672150
   },
   {
     "id": "9dd41416-aeca-49ee-81da-33022146f23f",
@@ -1504,7 +1776,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 97022,
+    "marketCap": 460584778.84
   },
   {
     "id": "8c20a70a-ab4a-4f0f-b735-8cf09aefa13d",
@@ -1515,7 +1789,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 5823,
+    "marketCap": 11687517.99
   },
   {
     "id": "0f5c550e-4021-43b2-94fc-0fcda531ecc0",
@@ -1526,7 +1802,9 @@
     "sector": "Media",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 75632,
+    "marketCap": 375351027.52
   },
   {
     "id": "ed24702c-2dc9-4c3f-be76-719ad59af4e1",
@@ -1537,7 +1815,9 @@
     "sector": "Chemicals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 6857,
+    "marketCap": 3326879.26
   },
   {
     "id": "0bf81542-2c17-46de-8555-5bc5220bcf66",
@@ -1548,7 +1828,9 @@
     "sector": "Media",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 68748,
+    "marketCap": 199415261.16
   },
   {
     "id": "d3b24823-f997-4813-89e3-6c5d77fe759c",
@@ -1559,7 +1841,9 @@
     "sector": "Real Estate",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 88772,
+    "marketCap": 356666366.16
   },
   {
     "id": "420867b9-4bc3-4aae-8268-9ba4cab8c5c6",
@@ -1570,7 +1854,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 60774,
+    "marketCap": 254410295.58
   },
   {
     "id": "a3957c0c-9ecd-4ef6-b185-2d02a0accd71",
@@ -1581,7 +1867,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 18405,
+    "marketCap": 40613209.2
   },
   {
     "id": "625aac60-9494-4ebe-b5fa-3a0ad45afa1c",
@@ -1592,7 +1880,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 24872,
+    "marketCap": 114595501.52
   },
   {
     "id": "8e23ad20-625c-4300-96f3-c62ec5d5fda3",
@@ -1603,7 +1893,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 39680,
+    "marketCap": 27379200
   },
   {
     "id": "2a2736a6-6290-4a21-a7cc-ce002faf44d0",
@@ -1614,7 +1906,9 @@
     "sector": "Chemicals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 91945,
+    "marketCap": 18731954.85
   },
   {
     "id": "4929672a-5044-4ef7-ba3e-a7919400013c",
@@ -1625,7 +1919,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 83457,
+    "marketCap": 312361190.46
   },
   {
     "id": "5ce2d2d1-1ca0-407b-8a09-b547ac2b276f",
@@ -1636,7 +1932,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 8261,
+    "marketCap": 18514801.03
   },
   {
     "id": "2fa727d0-85e3-4c7b-b847-928aa584c6eb",
@@ -1647,7 +1945,9 @@
     "sector": "Media",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 33502,
+    "marketCap": 98853346.34
   },
   {
     "id": "b29418d2-3e35-41d1-8214-5009e6374458",
@@ -1658,7 +1958,9 @@
     "sector": "Real Estate",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 54019,
+    "marketCap": 217995835.26
   },
   {
     "id": "457d3864-c733-465d-8c6d-bfa37055cb9a",
@@ -1669,7 +1971,9 @@
     "sector": "Media",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 69502,
+    "marketCap": 246490233.04
   },
   {
     "id": "3f482e2e-463b-4bb1-b36a-7f09c5b532d2",
@@ -1680,7 +1984,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 56056,
+    "marketCap": 95724588.96
   },
   {
     "id": "4ac801c2-11cd-425f-b1c0-aecfae7e6493",
@@ -1691,7 +1997,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 26067,
+    "marketCap": 58008719.79
   },
   {
     "id": "e392e9eb-e790-4702-9bb3-c6aa66fccc4f",
@@ -1702,7 +2010,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 95849,
+    "marketCap": 448411335.19
   },
   {
     "id": "0b9af557-61cb-4f02-8984-1b7df22ea5e4",
@@ -1713,7 +2023,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 22067,
+    "marketCap": 1758077.89
   },
   {
     "id": "608af7bd-ad18-4b07-8e9e-01ccbf122096",
@@ -1724,7 +2036,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 23078,
+    "marketCap": 82636317.72
   },
   {
     "id": "1d54967e-8df5-40b3-ab41-a9c1d787556d",
@@ -1735,7 +2049,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 56160,
+    "marketCap": 57387657.6
   },
   {
     "id": "ef63e28d-8a77-4398-8fd2-f37ece99b905",
@@ -1746,7 +2062,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 98508,
+    "marketCap": 481763224.8
   },
   {
     "id": "b5d408b2-7443-4a9c-bdbe-f6f1238be455",
@@ -1757,7 +2075,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 73276,
+    "marketCap": 321943968.08
   },
   {
     "id": "70cb1011-046d-4f32-a306-dce1d51f90f0",
@@ -1768,7 +2088,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 91473,
+    "marketCap": 278116338.66
   },
   {
     "id": "edbe8f8d-782f-4665-868a-58c024f12162",
@@ -1779,7 +2101,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 92168,
+    "marketCap": 309478023.68
   },
   {
     "id": "b52a8fd2-2fb9-4b55-8606-3461521c7144",
@@ -1790,7 +2114,9 @@
     "sector": "IT Services",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 52886,
+    "marketCap": 149593339.6
   },
   {
     "id": "d975c39b-e6a4-4a1c-ab5b-912fd82133b3",
@@ -1801,7 +2127,9 @@
     "sector": "Pharmaceuticals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 46828,
+    "marketCap": 211317905.92
   },
   {
     "id": "a1a13845-3921-4d32-a988-444a3e6677b6",
@@ -1812,7 +2140,9 @@
     "sector": "Chemicals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 54458,
+    "marketCap": 181096266.94
   },
   {
     "id": "bc5d1319-5747-4df3-b7d6-f83cd84c63d8",
@@ -1823,7 +2153,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 74557,
+    "marketCap": 137238561.04
   },
   {
     "id": "62d66bd7-e19f-4657-846f-2489ca60f0f4",
@@ -1834,7 +2166,9 @@
     "sector": "Real Estate",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 55026,
+    "marketCap": 267961762.98
   },
   {
     "id": "d159e1dc-f63d-44d9-a5b5-70f123c5a02c",
@@ -1845,7 +2179,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 86687,
+    "marketCap": 268229516.01
   },
   {
     "id": "f23bdbb6-fd76-46f8-a6d0-0f42650cbfaa",
@@ -1856,7 +2192,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 43021,
+    "marketCap": 69146362.67
   },
   {
     "id": "cb0d975d-50bb-4ff4-8c75-2545becec6cf",
@@ -1867,7 +2205,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 47703,
+    "marketCap": 3036295.95
   },
   {
     "id": "106d7c72-979a-417d-81bc-8c23c4c80581",
@@ -1878,7 +2218,9 @@
     "sector": "Telecom",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 7920,
+    "marketCap": 36974282.4
   },
   {
     "id": "ebaaba39-cc4d-42c8-8a75-b81ff0b15537",
@@ -1889,7 +2231,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 13690,
+    "marketCap": 68230960
   },
   {
     "id": "e47f11aa-d094-4a65-ab1a-c99661fef48d",
@@ -1900,7 +2244,9 @@
     "sector": "Energy",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 43138,
+    "marketCap": 169824384.26
   },
   {
     "id": "3317434b-235e-4125-87df-0d6259c9a1a8",
@@ -1911,7 +2257,9 @@
     "sector": "Pharmaceuticals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 54595,
+    "marketCap": 239201987.05
   },
   {
     "id": "db92ea40-03bc-4975-973e-cfd6cb34a3de",
@@ -1922,7 +2270,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 33601,
+    "marketCap": 25695356.72
   },
   {
     "id": "66168eee-9d64-40cb-b516-017355821fa7",
@@ -1933,7 +2283,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 69575,
+    "marketCap": 257215296.25
   },
   {
     "id": "e28e3dde-8931-4f4f-812c-c81b686caff5",
@@ -1944,7 +2296,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 52929,
+    "marketCap": 261601053.21
   },
   {
     "id": "25dea66e-2d4b-4e59-a098-175e1d5b05cf",
@@ -1955,7 +2309,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 40372,
+    "marketCap": 37043732.32
   },
   {
     "id": "e8c156fa-467f-4738-856e-7f6b4bf3cb13",
@@ -1966,7 +2322,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 85409,
+    "marketCap": 242433446.5
   },
   {
     "id": "06a93d2c-81cd-4307-8cc0-a000f60c58cd",
@@ -1977,7 +2335,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 40001,
+    "marketCap": 6326158.15
   },
   {
     "id": "5e7e3dd4-71a9-48a7-9010-eab3a1e2363c",
@@ -1988,7 +2348,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 91258,
+    "marketCap": 387689536.24
   },
   {
     "id": "de7b901f-34bc-462d-afd7-2f3aaf66e077",
@@ -1999,7 +2361,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 51126,
+    "marketCap": 183951859.26
   },
   {
     "id": "7c4b1c4d-d982-4293-8f6b-6f4d57dcfbbb",
@@ -2010,7 +2374,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 51079,
+    "marketCap": 236139749.37
   },
   {
     "id": "f457f486-44cb-47e7-9831-8efa8a4bb201",
@@ -2021,7 +2387,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 18284,
+    "marketCap": 68435366.44
   },
   {
     "id": "0c8deae6-df96-4446-805f-192ca8e128e5",
@@ -2032,7 +2400,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 13079,
+    "marketCap": 11826947.33
   },
   {
     "id": "d6ea671c-0163-42f3-ba64-e82799e9bbeb",
@@ -2043,7 +2413,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 96454,
+    "marketCap": 452711671.7
   },
   {
     "id": "7b8c488d-2968-40af-bcae-20884a62d80c",
@@ -2054,7 +2426,9 @@
     "sector": "Real Estate",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 13378,
+    "marketCap": 878800.82
   },
   {
     "id": "2280d303-9b47-4e9a-9d08-bc9848c5f603",
@@ -2065,7 +2439,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 2835,
+    "marketCap": 895774.95
   },
   {
     "id": "b7ebf32b-fdf9-461c-ae25-6ccbdb2fa9da",
@@ -2076,7 +2452,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 91275,
+    "marketCap": 50304390.75
   },
   {
     "id": "bdfa8faa-bc40-4ddc-98b1-9c078b858450",
@@ -2087,7 +2465,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 10351,
+    "marketCap": 45345453.78
   },
   {
     "id": "767b3ef8-968e-4942-87f1-fe8537d749a3",
@@ -2098,7 +2478,9 @@
     "sector": "Real Estate",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 23139,
+    "marketCap": 19187321.58
   },
   {
     "id": "3c374ca2-c4b0-4fae-83ff-0c43836cfd9c",
@@ -2109,7 +2491,9 @@
     "sector": "Pharmaceuticals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 36983,
+    "marketCap": 133107734.28
   },
   {
     "id": "77c41449-fb89-4c05-b772-f516e357ab96",
@@ -2120,7 +2504,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 99021,
+    "marketCap": 334973189.85
   },
   {
     "id": "1efe6d9a-86fe-49fb-bd2b-602c22e44cfa",
@@ -2131,7 +2517,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 48753,
+    "marketCap": 180941884.2
   },
   {
     "id": "5be3466d-1f50-4bb8-a008-a08bf8e92b8c",
@@ -2142,7 +2530,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 97540,
+    "marketCap": 427362731.4
   },
   {
     "id": "324a3118-8d76-4ecf-b114-9faf3e343bb7",
@@ -2153,7 +2543,9 @@
     "sector": "IT Services",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 31399,
+    "marketCap": 106417490.8
   },
   {
     "id": "e5f4f352-b278-45db-b56e-2fa49fc1ad03",
@@ -2164,7 +2556,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 5444,
+    "marketCap": 24406867.44
   },
   {
     "id": "53a8073a-1056-45c7-ae22-954a71617a40",
@@ -2175,7 +2569,9 @@
     "sector": "Real Estate",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 97479,
+    "marketCap": 404571967.65
   },
   {
     "id": "51e3aebd-621e-41fe-af2c-dfe68967f49b",
@@ -2186,7 +2582,9 @@
     "sector": "Pharmaceuticals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 6404,
+    "marketCap": 16614217.4
   },
   {
     "id": "2c8b34e8-e246-4a6b-b57c-0da615d0297e",
@@ -2197,7 +2595,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 40109,
+    "marketCap": 194690289.27
   },
   {
     "id": "525c5bfb-f8ff-496e-b04d-70644f4be4e2",
@@ -2208,7 +2608,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 41771,
+    "marketCap": 172370120.05
   },
   {
     "id": "e855332f-17ae-4981-92d1-c1d8bd930953",
@@ -2219,7 +2621,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 6092,
+    "marketCap": 23960688.88
   },
   {
     "id": "f320b3f3-38ca-4b4a-bf8d-fe51bd889e96",
@@ -2230,7 +2634,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 91383,
+    "marketCap": 88031985.39
   },
   {
     "id": "24bf5668-f944-4b89-8727-cfd908f6e007",
@@ -2241,7 +2647,9 @@
     "sector": "Telecom",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 55067,
+    "marketCap": 121884196.46
   },
   {
     "id": "4d60619a-b00b-4a52-a1e9-3840380ba60e",
@@ -2252,7 +2660,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 23098,
+    "marketCap": 48214765.2
   },
   {
     "id": "11961b9f-f575-4695-b696-629209eefe22",
@@ -2263,7 +2673,9 @@
     "sector": "Media",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 5201,
+    "marketCap": 25941963.88
   },
   {
     "id": "e976292f-66d6-4bd9-9388-1ce8c61cfa26",
@@ -2274,7 +2686,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 93565,
+    "marketCap": 93960779.95
   },
   {
     "id": "891ce396-cc77-488b-a6d9-c9c8c40bac1e",
@@ -2285,7 +2699,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 89564,
+    "marketCap": 435530027.92
   },
   {
     "id": "e7c4a2b9-e807-4731-b0e4-66521102fc0f",
@@ -2296,7 +2712,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 67402,
+    "marketCap": 168854816.38
   },
   {
     "id": "d701b700-1474-46fe-91b2-61ddb102b0f2",
@@ -2307,7 +2725,9 @@
     "sector": "IT Services",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 57864,
+    "marketCap": 259583690.4
   },
   {
     "id": "b12a76d8-1fe4-4513-919b-3135684d2fad",
@@ -2318,7 +2738,9 @@
     "sector": "Energy",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 61925,
+    "marketCap": 66491349.5
   },
   {
     "id": "680d7318-a823-41dc-81a7-b33c43b53719",
@@ -2329,7 +2751,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 28592,
+    "marketCap": 131636424.32
   },
   {
     "id": "dd0261aa-5583-4736-a20e-052f63af6859",
@@ -2340,7 +2764,9 @@
     "sector": "Real Estate",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 43861,
+    "marketCap": 208732305.95
   },
   {
     "id": "da1dfd4a-ed6f-422c-8d2c-8eeeee93b3d8",
@@ -2351,7 +2777,9 @@
     "sector": "Media",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 35793,
+    "marketCap": 21691989.72
   },
   {
     "id": "3965dc49-8b79-45b9-ba14-2564197fbda9",
@@ -2362,7 +2790,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 68187,
+    "marketCap": 290998932.42
   },
   {
     "id": "b8ecd069-6b7a-4e4f-93c5-0912fc7c2ec5",
@@ -2373,7 +2803,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 55640,
+    "marketCap": 220890800
   },
   {
     "id": "7bd7ee68-15f4-4dae-8a24-77169e7bf236",
@@ -2384,7 +2816,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 2278,
+    "marketCap": 10203685.94
   },
   {
     "id": "a01b88d5-031e-466a-a60b-9ddbd5b96010",
@@ -2395,7 +2829,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 34210,
+    "marketCap": 83580845.7
   },
   {
     "id": "c4dbf094-c340-495f-afa6-db87c30a5445",
@@ -2406,7 +2842,9 @@
     "sector": "IT Services",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 43306,
+    "marketCap": 41771235.36
   },
   {
     "id": "cb5c4f40-5351-4e46-84f6-018fbf7b1bbb",
@@ -2417,7 +2855,9 @@
     "sector": "IT Services",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 88439,
+    "marketCap": 170874760.68
   },
   {
     "id": "acaf6174-74a9-492f-9adc-2db1ed6db27b",
@@ -2428,7 +2868,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 19822,
+    "marketCap": 19656684.52
   },
   {
     "id": "7385be48-657b-451d-bb5d-96fd39019b08",
@@ -2439,7 +2881,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 6831,
+    "marketCap": 9596325.42
   },
   {
     "id": "f17fcbfc-49e1-4cc1-b1a2-35c92aeb0205",
@@ -2450,7 +2894,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 60590,
+    "marketCap": 96236914.7
   },
   {
     "id": "c4b85fc9-3bca-4169-8d0c-271fc2917347",
@@ -2461,7 +2907,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 45312,
+    "marketCap": 172887029.76
   },
   {
     "id": "43a52d5d-8b29-4801-9dfe-199bbd137760",
@@ -2472,7 +2920,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 80477,
+    "marketCap": 217811000.5
   },
   {
     "id": "66d248e3-a199-4594-858c-6c9ce3d07934",
@@ -2483,7 +2933,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 78752,
+    "marketCap": 163071766.4
   },
   {
     "id": "1a475d31-9bb7-411f-9c81-be63b61fb265",
@@ -2494,7 +2946,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 8434,
+    "marketCap": 5315612.84
   },
   {
     "id": "51035baf-2993-4ce2-94bc-2d8483487f10",
@@ -2505,7 +2959,9 @@
     "sector": "Real Estate",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 1418,
+    "marketCap": 5666554.88
   },
   {
     "id": "488882bc-7c74-420f-a188-11cf82c3152d",
@@ -2516,7 +2972,9 @@
     "sector": "Pharmaceuticals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 53777,
+    "marketCap": 220409874.43
   },
   {
     "id": "861c16ea-28a1-4645-bf91-13a06c1815b9",
@@ -2527,7 +2985,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 51872,
+    "marketCap": 235574094.4
   },
   {
     "id": "d458fcdd-96c8-4891-9c3a-af5af3929387",
@@ -2538,7 +2998,9 @@
     "sector": "Real Estate",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 42658,
+    "marketCap": 4538811.2
   },
   {
     "id": "3fd6841e-316a-4bf1-bc86-a2d5a238d941",
@@ -2549,7 +3011,9 @@
     "sector": "IT Services",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 41801,
+    "marketCap": 65656830.7
   },
   {
     "id": "8adc0f8b-6928-448f-a5d7-78f83e970863",
@@ -2560,7 +3024,9 @@
     "sector": "Pharmaceuticals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 6908,
+    "marketCap": 25101116.04
   },
   {
     "id": "56f2141f-d3dd-4572-a61f-66405db940b1",
@@ -2571,7 +3037,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 7671,
+    "marketCap": 1924347.06
   },
   {
     "id": "b7a6bac7-9c46-430e-8344-1e885abcaa77",
@@ -2582,7 +3050,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 68307,
+    "marketCap": 290627842.11
   },
   {
     "id": "0ffa7973-5481-4b1d-bac5-551199c2916d",
@@ -2593,7 +3063,9 @@
     "sector": "Telecom",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 89391,
+    "marketCap": 193894442.46
   },
   {
     "id": "e00b3d93-fad1-4f48-8185-23717dec6abe",
@@ -2604,7 +3076,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 52313,
+    "marketCap": 139016043.07
   },
   {
     "id": "4037298a-39b1-4be2-98e1-b19d08720252",
@@ -2615,7 +3089,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 74768,
+    "marketCap": 38812068.8
   },
   {
     "id": "482f07c4-9ddf-41ed-b57f-ae28206fe474",
@@ -2626,7 +3102,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 51425,
+    "marketCap": 34182711.75
   },
   {
     "id": "5dd393b5-4623-4813-a69c-e007b6bebddf",
@@ -2637,7 +3115,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 6185,
+    "marketCap": 411611.75
   },
   {
     "id": "b8c2c2da-45d0-44da-b702-e6af0446baad",
@@ -2648,7 +3128,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 71792,
+    "marketCap": 306756447.2
   },
   {
     "id": "de122c7b-f588-4db6-a231-4eecbec77b72",
@@ -2659,7 +3141,9 @@
     "sector": "Chemicals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 45055,
+    "marketCap": 209033573.6
   },
   {
     "id": "eff821b9-f85b-4901-8072-45b4fcc78a8c",
@@ -2670,7 +3154,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 79175,
+    "marketCap": 89257936.25
   },
   {
     "id": "bb9d8b8f-e302-4840-bf70-d6e5db75a4e4",
@@ -2681,7 +3167,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 76480,
+    "marketCap": 57704924.8
   },
   {
     "id": "40b79c65-8c40-4326-984d-8ae2d813ef23",
@@ -2692,7 +3180,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 15109,
+    "marketCap": 29757628.77
   },
   {
     "id": "d6c20f4c-ca84-41f0-a651-6064f4513920",
@@ -2703,7 +3193,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 9585,
+    "marketCap": 8192682.9
   },
   {
     "id": "211a53bd-fa01-4f8f-88ab-c8d86f1ab926",
@@ -2714,7 +3206,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 69952,
+    "marketCap": 261260227.2
   },
   {
     "id": "d13d9b2d-0449-4a39-ba61-b94b413c0bd0",
@@ -2725,7 +3219,9 @@
     "sector": "Pharmaceuticals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 1773,
+    "marketCap": 7131803.85
   },
   {
     "id": "99ac304c-1020-4e42-aa84-b69c8a153844",
@@ -2736,7 +3232,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 40558,
+    "marketCap": 133646721.6
   },
   {
     "id": "ba585f8a-ae62-4fee-ae8d-e24562436d5e",
@@ -2747,7 +3245,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 43255,
+    "marketCap": 6611959.3
   },
   {
     "id": "4bc77b5f-83c9-469d-a8f7-a14df46d5281",
@@ -2758,7 +3258,9 @@
     "sector": "IT Services",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 65027,
+    "marketCap": 143907352.08
   },
   {
     "id": "709a73d5-c86b-4f90-97b2-59c5d94c0563",
@@ -2769,7 +3271,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 46800,
+    "marketCap": 91032552
   },
   {
     "id": "3700308c-7e69-495a-aaa7-61eefc1970e1",
@@ -2780,7 +3284,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 84027,
+    "marketCap": 163911468.9
   },
   {
     "id": "0722d661-e2a8-49cd-9005-69ae28ca64cc",
@@ -2791,7 +3297,9 @@
     "sector": "Chemicals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 56688,
+    "marketCap": 16165150.08
   },
   {
     "id": "1ac4c124-e066-4e58-a030-d0ac2d925ecc",
@@ -2802,7 +3310,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 34159,
+    "marketCap": 107588894.35
   },
   {
     "id": "d617dbf1-7786-48cf-a8e2-4763565bc910",
@@ -2813,7 +3323,9 @@
     "sector": "IT Services",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 5341,
+    "marketCap": 9604346.43
   },
   {
     "id": "be127ce2-3b7e-48fd-8d0a-e85e0dc9eadb",
@@ -2824,7 +3336,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 39834,
+    "marketCap": 116423230.14
   },
   {
     "id": "0ae877a4-ea0a-434f-9681-545458cfb600",
@@ -2835,7 +3349,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 48918,
+    "marketCap": 81479288.34
   },
   {
     "id": "efc555aa-bb55-42af-b514-36f6ab80233a",
@@ -2846,7 +3362,9 @@
     "sector": "Energy",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 37267,
+    "marketCap": 148472846.01
   },
   {
     "id": "2cc19483-8ee9-4bcc-b22a-7ca3a627c5be",
@@ -2857,7 +3375,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 21162,
+    "marketCap": 28136360.34
   },
   {
     "id": "cd0e664a-a296-4b38-afd5-3a89a5e307a8",
@@ -2868,7 +3388,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 57180,
+    "marketCap": 266423348.4
   },
   {
     "id": "94802c80-c6fe-4d73-9b81-4f173c747af9",
@@ -2879,7 +3401,9 @@
     "sector": "Chemicals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 28414,
+    "marketCap": 61997927.3
   },
   {
     "id": "b70910c0-a799-4796-81e0-d47b1abcbfde",
@@ -2890,7 +3414,9 @@
     "sector": "Real Estate",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 23514,
+    "marketCap": 70497088.26
   },
   {
     "id": "7e0581b0-9580-448d-9ea9-c28749d4ab3e",
@@ -2901,7 +3427,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 14429,
+    "marketCap": 17531523.58
   },
   {
     "id": "c7c6a699-6920-42a5-aa5d-01a240500829",
@@ -2912,7 +3440,9 @@
     "sector": "Pharmaceuticals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 85930,
+    "marketCap": 260991751.8
   },
   {
     "id": "17fe68f0-cb9c-46f6-b3f0-35d30228d015",
@@ -2923,7 +3453,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 51821,
+    "marketCap": 59770859.61
   },
   {
     "id": "05fb4a9d-e430-4f76-acff-6a5ac7b16f08",
@@ -2934,7 +3466,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 73019,
+    "marketCap": 109881911.96
   },
   {
     "id": "1b797c0d-1f2a-429b-8927-94da281a4dfc",
@@ -2945,7 +3479,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 41785,
+    "marketCap": 26318282.25
   },
   {
     "id": "d83da2ed-9fac-4f12-94fd-6f3bc988c987",
@@ -2956,7 +3492,9 @@
     "sector": "Chemicals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 76292,
+    "marketCap": 69817860.88
   },
   {
     "id": "bd7da592-8616-411e-9910-129188420d87",
@@ -2967,7 +3505,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 59260,
+    "marketCap": 126552100.4
   },
   {
     "id": "417750a4-1bc0-48d2-8ca7-97830719b02d",
@@ -2978,7 +3518,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 55623,
+    "marketCap": 129000305.37
   },
   {
     "id": "f9c0df2c-a2c7-422a-b2bb-782cf59f8e4d",
@@ -2989,7 +3531,9 @@
     "sector": "Real Estate",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 89328,
+    "marketCap": 34816481.28
   },
   {
     "id": "1d5e3573-3032-40d6-81ff-23bbc7435c80",
@@ -3000,7 +3544,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 61755,
+    "marketCap": 242610693
   },
   {
     "id": "d3a411b8-0385-466e-be7f-b1891fb73900",
@@ -3011,7 +3557,9 @@
     "sector": "Pharmaceuticals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 22198,
+    "marketCap": 35805595.98
   },
   {
     "id": "2bf6a913-2b8d-41b8-af4c-9bd3cd052302",
@@ -3022,7 +3570,9 @@
     "sector": "IT Services",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 70986,
+    "marketCap": 53837202.12
   },
   {
     "id": "945f8a58-2171-4ea1-8687-b73a2e613d64",
@@ -3033,7 +3583,9 @@
     "sector": "Energy",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 43530,
+    "marketCap": 179778464.7
   },
   {
     "id": "c1d53b64-b662-4371-b9d1-2ebecc5f1279",
@@ -3044,7 +3596,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 57779,
+    "marketCap": 279244173.63
   },
   {
     "id": "7f57b581-793f-4427-be70-00c621c8b676",
@@ -3055,7 +3609,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 50478,
+    "marketCap": 60108697.62
   },
   {
     "id": "3f4567df-0132-4543-a002-a6a14b420246",
@@ -3066,7 +3622,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 84343,
+    "marketCap": 297102434.65
   },
   {
     "id": "823f8085-e3b6-491d-b0c5-2091b016d135",
@@ -3077,7 +3635,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 32518,
+    "marketCap": 125070081.24
   },
   {
     "id": "da6a6f93-d537-41b0-b48b-bcf91292bbe9",
@@ -3088,7 +3648,9 @@
     "sector": "Pharmaceuticals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 67383,
+    "marketCap": 286494322.59
   },
   {
     "id": "9d12a3ef-413c-465d-93f5-256e0fb8d3a3",
@@ -3099,7 +3661,9 @@
     "sector": "Energy",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 24621,
+    "marketCap": 107593523.79
   },
   {
     "id": "524dc98a-4f0d-48e6-b657-f77c5a2d8960",
@@ -3110,7 +3674,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 65889,
+    "marketCap": 130701373.74
   },
   {
     "id": "eff73f96-e9cd-45f0-8db3-aa9734187bed",
@@ -3121,7 +3687,9 @@
     "sector": "IT Services",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 74235,
+    "marketCap": 311030545.35
   },
   {
     "id": "38c6a403-16aa-47a7-bc64-7fa902c5acfe",
@@ -3132,7 +3700,9 @@
     "sector": "Chemicals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 85600,
+    "marketCap": 292704064
   },
   {
     "id": "30291bd6-76dd-4c1f-ac59-83306695f07e",
@@ -3143,7 +3713,9 @@
     "sector": "Telecom",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 90369,
+    "marketCap": 440127755.46
   },
   {
     "id": "efe06736-3cc5-4add-87be-39087ed8654c",
@@ -3154,7 +3726,9 @@
     "sector": "Energy",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 24919,
+    "marketCap": 92292251.11
   },
   {
     "id": "65bccc6a-9807-4d93-a116-b76947c886f8",
@@ -3165,7 +3739,9 @@
     "sector": "Media",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 71638,
+    "marketCap": 293995188.2
   },
   {
     "id": "369ca57e-f8d6-4ceb-9269-a3bedf7245d6",
@@ -3176,7 +3752,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 93055,
+    "marketCap": 315151229.6
   },
   {
     "id": "73135afe-ccb4-419f-a58a-cacb870fae18",
@@ -3187,7 +3765,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 91416,
+    "marketCap": 424224175.44
   },
   {
     "id": "140c4b42-b1c9-4f70-96f2-c0c8d50bf50f",
@@ -3198,7 +3778,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 42314,
+    "marketCap": 210995375.88
   },
   {
     "id": "00e9974d-e6b5-4152-afa8-00c8f630e3e1",
@@ -3209,7 +3791,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 90245,
+    "marketCap": 88816421.65
   },
   {
     "id": "6317681a-ff83-4855-8938-4ddabed2caa9",
@@ -3220,7 +3804,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 72263,
+    "marketCap": 264370572.35
   },
   {
     "id": "6f466a76-d80e-404a-87fd-a765ea943ef2",
@@ -3231,7 +3817,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 33806,
+    "marketCap": 117646232.24
   },
   {
     "id": "219125f9-9da8-4955-ad80-dbe958091b6d",
@@ -3242,7 +3830,9 @@
     "sector": "Energy",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 90290,
+    "marketCap": 12442864.9
   },
   {
     "id": "8ec746ac-efb1-4b7c-ba7d-b4c8d7ecf314",
@@ -3253,7 +3843,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 51235,
+    "marketCap": 77077421.65
   },
   {
     "id": "25d6b975-fc7a-44e1-9cc7-e12eaefa5083",
@@ -3264,7 +3856,9 @@
     "sector": "Real Estate",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 63467,
+    "marketCap": 52593833.56
   },
   {
     "id": "eae63603-2b28-4287-b6f2-21d7e419f28d",
@@ -3275,7 +3869,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 78598,
+    "marketCap": 64756106.22
   },
   {
     "id": "6f5164ee-771b-4f29-8054-03f1c344c857",
@@ -3286,7 +3882,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 4309,
+    "marketCap": 6896726.86
   },
   {
     "id": "ed6c77e0-c4e9-4fdd-b95e-6da1c99c9291",
@@ -3297,7 +3895,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 5791,
+    "marketCap": 25627086.03
   },
   {
     "id": "6d494202-763f-4c9c-b545-4ae9d0b78861",
@@ -3308,7 +3908,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 20744,
+    "marketCap": 9740137.76
   },
   {
     "id": "4dc64025-e352-445e-a8e8-051852ca5665",
@@ -3319,7 +3921,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 86393,
+    "marketCap": 193396778.01
   },
   {
     "id": "23b6d8f9-f31f-444f-be34-c0d0ebc6d8bf",
@@ -3330,7 +3934,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 11939,
+    "marketCap": 55332966.96
   },
   {
     "id": "bbe7871a-d299-4009-802d-edf3b1f86088",
@@ -3341,7 +3947,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 71285,
+    "marketCap": 209582889.95
   },
   {
     "id": "a4a17cc3-7d4b-4bb1-bd0b-03c3d2305b37",
@@ -3352,7 +3960,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 81222,
+    "marketCap": 93683891.46
   },
   {
     "id": "c17b3cad-3db8-46ca-9e1a-65246e74a37f",
@@ -3363,7 +3973,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 6817,
+    "marketCap": 28596224.28
   },
   {
     "id": "7d1d236c-d568-46fb-be64-e94db27f20bc",
@@ -3374,7 +3986,9 @@
     "sector": "Chemicals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 93876,
+    "marketCap": 100192916.04
   },
   {
     "id": "8aeec4a6-b9ef-44ab-94c7-09ea80c50fbd",
@@ -3385,7 +3999,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 46682,
+    "marketCap": 193061346.94
   },
   {
     "id": "eadc675f-3e62-4c2b-8ee7-e203b96e707e",
@@ -3396,7 +4012,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 22293,
+    "marketCap": 79071041.7
   },
   {
     "id": "df5d9660-1ee1-4fd9-a159-80d43b3cde0c",
@@ -3407,7 +4025,9 @@
     "sector": "Media",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 96647,
+    "marketCap": 377222905.7
   },
   {
     "id": "4dd58a3f-e409-4627-ab99-08006cf06c4e",
@@ -3418,7 +4038,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 84699,
+    "marketCap": 260129262.78
   },
   {
     "id": "d86334cc-d017-4f54-85e2-74f538fec42f",
@@ -3429,7 +4051,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 99735,
+    "marketCap": 177016659.45
   },
   {
     "id": "12cb638a-959a-4d51-a97a-611ade6c825e",
@@ -3440,7 +4064,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 14123,
+    "marketCap": 16024520.72
   },
   {
     "id": "eba3e72a-8747-4ece-8652-6a3d527548f9",
@@ -3451,7 +4077,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 56021,
+    "marketCap": 223084025.15
   },
   {
     "id": "0864f648-0dcc-4b2d-a391-b84c6e22b1b2",
@@ -3462,7 +4090,9 @@
     "sector": "IT Services",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 8585,
+    "marketCap": 14592954.7
   },
   {
     "id": "08a681b4-c7c4-4d68-b751-f3787e1e063e",
@@ -3473,7 +4103,9 @@
     "sector": "Energy",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 23826,
+    "marketCap": 15282711.18
   },
   {
     "id": "ae3618c2-3319-4a0d-b561-773be51d2adf",
@@ -3484,7 +4116,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 61882,
+    "marketCap": 85233791.52
   },
   {
     "id": "3c4c7f2b-fa17-4b02-8201-e0f4d50ec1c4",
@@ -3495,7 +4129,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 13121,
+    "marketCap": 8940518.19
   },
   {
     "id": "d3593c70-6e2a-4f15-8547-9b2c5d93ad0d",
@@ -3506,7 +4142,9 @@
     "sector": "Chemicals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 72044,
+    "marketCap": 170203950
   },
   {
     "id": "73debcb6-4d7b-417d-8a31-6ac9309af384",
@@ -3517,7 +4155,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 10486,
+    "marketCap": 51818141.9
   },
   {
     "id": "12005b15-5b2e-46b9-aa51-e5423f87fd72",
@@ -3528,7 +4168,9 @@
     "sector": "Real Estate",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 18444,
+    "marketCap": 92179792.08
   },
   {
     "id": "a1583336-1c01-4587-b10e-ef249995597d",
@@ -3539,7 +4181,9 @@
     "sector": "Energy",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 1747,
+    "marketCap": 7789733.24
   },
   {
     "id": "fc06f094-3662-46fb-9f80-4a3def25a82c",
@@ -3550,7 +4194,9 @@
     "sector": "Telecom",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 96211,
+    "marketCap": 433733619.65
   },
   {
     "id": "3ce26cab-08d9-41eb-9918-fa13088be2d8",
@@ -3561,7 +4207,9 @@
     "sector": "Energy",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 76161,
+    "marketCap": 165248806.53
   },
   {
     "id": "4779d3f3-72ea-4533-93be-d2e3aed6a7b4",
@@ -3572,7 +4220,9 @@
     "sector": "Energy",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 86374,
+    "marketCap": 92011630.98
   },
   {
     "id": "07bde251-466c-4a01-a688-26850aafd8d8",
@@ -3583,7 +4233,9 @@
     "sector": "Telecom",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 69520,
+    "marketCap": 194911138.4
   },
   {
     "id": "822d96ff-2f0d-4a69-9862-8619b4d482a1",
@@ -3594,7 +4246,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 3222,
+    "marketCap": 6492942.18
   },
   {
     "id": "f1041bfc-6d8d-436e-af55-b8b1a3aeefdf",
@@ -3605,7 +4259,9 @@
     "sector": "Chemicals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 62271,
+    "marketCap": 142320993.21
   },
   {
     "id": "b8027d73-5e91-4201-bd8a-58358cffa6bd",
@@ -3616,7 +4272,9 @@
     "sector": "Pharmaceuticals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 60339,
+    "marketCap": 170003925.72
   },
   {
     "id": "ce366934-726d-4a9b-b8fb-d7661201305d",
@@ -3627,7 +4285,9 @@
     "sector": "IT Services",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 64639,
+    "marketCap": 302979799.14
   },
   {
     "id": "aad084ab-7926-4601-a97f-762373941849",
@@ -3638,7 +4298,9 @@
     "sector": "Pharmaceuticals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 42608,
+    "marketCap": 73941923.2
   },
   {
     "id": "d763e217-1c46-4c30-9be0-5617c5455335",
@@ -3649,7 +4311,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 45745,
+    "marketCap": 106205251.6
   },
   {
     "id": "55b6c7b4-aa07-4ce0-b478-c79255959f48",
@@ -3660,7 +4324,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 91267,
+    "marketCap": 406945862.95
   },
   {
     "id": "c778e6bc-1beb-4884-8538-95aedbefa406",
@@ -3671,7 +4337,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 18550,
+    "marketCap": 75491265.5
   },
   {
     "id": "8305537d-89cd-4d93-aa1d-cb17ecaeffac",
@@ -3682,7 +4350,9 @@
     "sector": "Energy",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 82392,
+    "marketCap": 377711293.44
   },
   {
     "id": "25d2b605-4b1a-46e6-a228-5f5dd87728dd",
@@ -3693,7 +4363,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 53079,
+    "marketCap": 22495410.99
   },
   {
     "id": "4788d317-22b2-49f5-ad42-0f8e1d7e9f9f",
@@ -3704,7 +4376,9 @@
     "sector": "Chemicals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 31384,
+    "marketCap": 154435956.4
   },
   {
     "id": "854b30b7-ac71-4226-b3f3-45dc351cd621",
@@ -3715,7 +4389,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 73512,
+    "marketCap": 196100611.2
   },
   {
     "id": "b0c64d8b-1909-46c7-9aa6-0c7b4b946923",
@@ -3726,7 +4402,9 @@
     "sector": "Energy",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 30613,
+    "marketCap": 9138286.63
   },
   {
     "id": "27781270-0ca3-4872-bf89-fd09d7806fc8",
@@ -3737,7 +4415,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 19887,
+    "marketCap": 98706141.45
   },
   {
     "id": "7c64325e-5371-4ed3-8ec2-32b891700154",
@@ -3748,7 +4428,9 @@
     "sector": "Pharmaceuticals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 19369,
+    "marketCap": 70498317.75
   },
   {
     "id": "4d2b26c6-6a2e-4805-a098-0fdc097569cf",
@@ -3759,7 +4441,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 50943,
+    "marketCap": 16742926.38
   },
   {
     "id": "809f5c62-b8b6-411c-a11d-90b3f41bdc1e",
@@ -3770,7 +4454,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 48557,
+    "marketCap": 49237283.57
   },
   {
     "id": "64444b4a-75d7-4409-b0ec-4ebe9a4d1811",
@@ -3781,7 +4467,9 @@
     "sector": "Chemicals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 15141,
+    "marketCap": 15029108.01
   },
   {
     "id": "02bb8e03-be0c-49d0-8ab2-afbca98a69a8",
@@ -3792,7 +4480,9 @@
     "sector": "Media",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 20049,
+    "marketCap": 92575656.03
   },
   {
     "id": "f598da9b-dfe0-450a-aed1-aa1a746d3ebb",
@@ -3803,7 +4493,9 @@
     "sector": "Chemicals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 68959,
+    "marketCap": 295612751.61
   },
   {
     "id": "f5ae401f-33b5-4e0e-97d0-99e42fcab0e3",
@@ -3814,7 +4506,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 31005,
+    "marketCap": 122275348.65
   },
   {
     "id": "15ad5948-80b9-41b2-9b8a-e3382c96019e",
@@ -3825,7 +4519,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 34788,
+    "marketCap": 26554724.04
   },
   {
     "id": "75592aeb-6eef-4260-bc47-361f3a89686d",
@@ -3836,7 +4532,9 @@
     "sector": "Pharmaceuticals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 86663,
+    "marketCap": 417998181.38
   },
   {
     "id": "29b5fe0c-c770-4d5b-8cc0-67ebdba972b6",
@@ -3847,7 +4545,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 94812,
+    "marketCap": 65325468
   },
   {
     "id": "e517a432-ea8a-42da-9f55-c452bd8ee0f8",
@@ -3858,7 +4558,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 16978,
+    "marketCap": 27487212.22
   },
   {
     "id": "8f9bbbd9-4d38-45fe-8f80-9cbf8accb65b",
@@ -3869,7 +4571,9 @@
     "sector": "Media",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 35464,
+    "marketCap": 57965198.72
   },
   {
     "id": "f2648800-745b-430a-9162-e60f82538ec1",
@@ -3880,7 +4584,9 @@
     "sector": "Media",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 27941,
+    "marketCap": 134258181.46
   },
   {
     "id": "a8215153-94e2-4b89-843d-4fc412d281a8",
@@ -3891,7 +4597,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 42625,
+    "marketCap": 71925425
   },
   {
     "id": "0aeee87c-7544-43a5-af53-0d498480c0e9",
@@ -3902,7 +4610,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 96930,
+    "marketCap": 275777481.6
   },
   {
     "id": "84af6d1b-2999-4b62-a826-2b988ad214b0",
@@ -3913,7 +4623,9 @@
     "sector": "Telecom",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 67282,
+    "marketCap": 245899562.32
   },
   {
     "id": "f371db5b-5d1c-4dd1-baac-cac1105d14ba",
@@ -3924,7 +4636,9 @@
     "sector": "Chemicals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 13977,
+    "marketCap": 56033513.46
   },
   {
     "id": "02ee91f9-2e7c-4299-b1cc-561702de7512",
@@ -3935,7 +4649,9 @@
     "sector": "Pharmaceuticals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 5645,
+    "marketCap": 9798308.75
   },
   {
     "id": "f8335137-dd8b-45a9-bf06-696f99a002d7",
@@ -3946,7 +4662,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 56210,
+    "marketCap": 268669747.5
   },
   {
     "id": "8a634091-d7b0-44c3-b89d-1cafd5a4c3b8",
@@ -3957,7 +4675,9 @@
     "sector": "Real Estate",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 15016,
+    "marketCap": 9761901.6
   },
   {
     "id": "bbade1b0-4e0d-4853-892b-37b53520321f",
@@ -3968,7 +4688,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 80959,
+    "marketCap": 391605969.31
   },
   {
     "id": "af531df3-f18c-49c2-bc13-81f70c1d1e5c",
@@ -3979,7 +4701,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 1968,
+    "marketCap": 8244227.52
   },
   {
     "id": "f7005fbe-362f-496e-a614-d2dde93fcec4",
@@ -3990,7 +4714,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 49512,
+    "marketCap": 193685497.68
   },
   {
     "id": "6882bb74-6f45-46b1-9940-1e00b83a7658",
@@ -4001,7 +4727,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 33396,
+    "marketCap": 23685111.12
   },
   {
     "id": "031840f5-01f5-43d1-853a-28c54d0d2592",
@@ -4012,7 +4740,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 90610,
+    "marketCap": 291753326.8
   },
   {
     "id": "6cf3eb90-ba1f-4f5c-b192-6e1cddc146f3",
@@ -4023,7 +4753,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 55551,
+    "marketCap": 189073383.6
   },
   {
     "id": "fd23c2a6-21be-40d7-ae66-950b1f512cb6",
@@ -4034,7 +4766,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 99737,
+    "marketCap": 278914520.5
   },
   {
     "id": "d3e5d935-cc44-4fc0-a55b-3b80644762ec",
@@ -4045,7 +4779,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 74018,
+    "marketCap": 121799579.72
   },
   {
     "id": "12117cc3-f984-4f79-ae33-bc0bb2f4af8b",
@@ -4056,7 +4792,9 @@
     "sector": "Chemicals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 39560,
+    "marketCap": 183816331.2
   },
   {
     "id": "5c5c3a66-97eb-40ff-b623-bc554645c2e5",
@@ -4067,7 +4805,9 @@
     "sector": "Telecom",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 81765,
+    "marketCap": 359738199.9
   },
   {
     "id": "43b5bb00-79be-4e7c-9854-596106f7bea7",
@@ -4078,7 +4818,9 @@
     "sector": "Telecom",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 18884,
+    "marketCap": 11430296.36
   },
   {
     "id": "665b5601-9989-46c7-95ca-66523d165916",
@@ -4089,7 +4831,9 @@
     "sector": "Media",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 45021,
+    "marketCap": 91108997.7
   },
   {
     "id": "02a18bff-c0d3-4844-8ad2-9eec12c06f7c",
@@ -4100,7 +4844,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 92923,
+    "marketCap": 194829795.64
   },
   {
     "id": "3e367cf9-2bd6-476c-bba5-2f80589ed6b7",
@@ -4111,7 +4857,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 4347,
+    "marketCap": 9341876.88
   },
   {
     "id": "c129f258-49ba-423a-8145-e5ee3d1fc6dc",
@@ -4122,7 +4870,9 @@
     "sector": "Pharmaceuticals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 64764,
+    "marketCap": 183638969.64
   },
   {
     "id": "4454c898-aaee-4a6a-8cf6-4da4e5357228",
@@ -4133,7 +4883,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 8508,
+    "marketCap": 8455590.72
   },
   {
     "id": "3a595978-1565-4ca8-9b3e-13590223ae80",
@@ -4144,7 +4896,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 34996,
+    "marketCap": 155749348.04
   },
   {
     "id": "85bac083-db76-4f10-9641-6e781fae1966",
@@ -4155,7 +4909,9 @@
     "sector": "Chemicals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 91883,
+    "marketCap": 269307235.34
   },
   {
     "id": "8ae0951d-a635-40b4-9d6d-a05a65e2df1a",
@@ -4166,7 +4922,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 22795,
+    "marketCap": 6013321
   },
   {
     "id": "b9e99cf3-d4a8-41eb-bb48-513e9ee3a0a0",
@@ -4177,7 +4935,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 92013,
+    "marketCap": 170248893.51
   },
   {
     "id": "90a4cd50-1248-4803-95c0-8f48e74bca58",
@@ -4188,7 +4948,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 42871,
+    "marketCap": 45833386.1
   },
   {
     "id": "dae62027-5fe4-4176-ad13-4fd37ac8444d",
@@ -4199,7 +4961,9 @@
     "sector": "Chemicals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 19487,
+    "marketCap": 71384973.27
   },
   {
     "id": "c43ddc51-27b5-4222-aa2e-bcdef8eca36d",
@@ -4210,7 +4974,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 72387,
+    "marketCap": 148949282.16
   },
   {
     "id": "6514df6d-772b-4a8f-91b9-fbd4fbf0e4ce",
@@ -4221,7 +4987,9 @@
     "sector": "Logistics",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 78549,
+    "marketCap": 273352090.98
   },
   {
     "id": "b9cf3f31-9577-4b55-a362-1e7ca0291e2a",
@@ -4232,7 +5000,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 61888,
+    "marketCap": 252043831.04
   },
   {
     "id": "d4ac54bf-5be9-47ff-a8da-a3cbe8f25435",
@@ -4243,7 +5013,9 @@
     "sector": "Banking",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 19553,
+    "marketCap": 18769120.23
   },
   {
     "id": "aaf39831-8b0b-4ddf-a25c-99c0446d4876",
@@ -4254,7 +5026,9 @@
     "sector": "Energy",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 34380,
+    "marketCap": 78769737
   },
   {
     "id": "14e3124a-ff09-4f66-bdcf-5c725f205c4f",
@@ -4265,7 +5039,9 @@
     "sector": "Metals",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 34411,
+    "marketCap": 19774969.37
   },
   {
     "id": "40f142a7-c005-4b17-b9a2-559c1b9a6169",
@@ -4276,7 +5052,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 34931,
+    "marketCap": 2422115.54
   },
   {
     "id": "dc6bf5e8-41f2-474c-811c-d988135f4fb5",
@@ -4287,7 +5065,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 82798,
+    "marketCap": 146282538.52
   },
   {
     "id": "9c8d4dfb-7cb1-4ff6-8b1b-d9886fe13577",
@@ -4298,7 +5078,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 61252,
+    "marketCap": 161650765.72
   },
   {
     "id": "76cc50fa-2876-4da2-917c-a9d72444962e",
@@ -4309,7 +5091,9 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 35764,
+    "marketCap": 9298282.36
   },
   {
     "id": "2c6960ce-bdf7-43ad-9c86-3a3d5250f769",
@@ -4320,7 +5104,9 @@
     "sector": "FMCG",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 8773,
+    "marketCap": 19875757.88
   },
   {
     "id": "67f86caf-cd17-48d0-8424-7fb0cd9291a3",
@@ -4331,7 +5117,9 @@
     "sector": "Textiles",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 75398,
+    "marketCap": 339793904.66
   },
   {
     "id": "9f913a7a-517d-4c4c-88e1-9b59752fadcb",
@@ -4342,7 +5130,9 @@
     "sector": "IT Services",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 3180,
+    "marketCap": 9466065
   },
   {
     "id": "85e6740e-323c-4e26-b38a-f6cf37d0be95",
@@ -4353,7 +5143,9 @@
     "sector": "Automobile",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 35984,
+    "marketCap": 39592475.52
   },
   {
     "id": "9e718f2f-457f-40e6-af56-73a065cd9732",
@@ -4364,7 +5156,9 @@
     "sector": "Telecom",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 67942,
+    "marketCap": 320259564.24
   },
   {
     "id": "60ff93f3-0a97-4659-93c2-6c60844a0904",
@@ -4375,7 +5169,9 @@
     "sector": "Retail",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 74766,
+    "marketCap": 23430916.74
   },
   {
     "id": "00eeceb0-9e5c-4885-bdf4-78b3302bc4cd",
@@ -4386,7 +5182,9 @@
     "sector": "Real Estate",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 70223,
+    "marketCap": 303853516.54
   },
   {
     "id": "affbd643-627b-4065-a671-832a0f14d40d",
@@ -4397,6 +5195,8 @@
     "sector": "Infrastructure",
     "createdAt": "2025-08-08T15:51:56.031762Z",
     "updatedAt": "2025-08-08T15:51:56.031762Z",
-    "price": null
+    "price": null,
+    "totalQuantity": 95664,
+    "marketCap": 452053535.52
   }
 ]

@@ -4,37 +4,44 @@ import prisma from "../config/prismaClient.js";
 import { fileURLToPath } from "url";
 import dotenv from "dotenv";
 
-// Load .env from backend root
 dotenv.config({ path: path.resolve(process.cwd(), "../.env") });
 
 async function main() {
-  console.log("🌱 Seeding stocks...");
+  console.log("🌱 Seeding stocks (upsert)...");
 
-  // Read JSON file safely
   const __filename = fileURLToPath(import.meta.url);
   const __dirname = path.dirname(__filename);
   const stocksData = JSON.parse(
     fs.readFileSync(path.join(__dirname, "../stocks.json"), "utf-8")
   );
 
-  // Bulk insert
-  await prisma.Stock.createMany({
-    data: stocksData.map((stock) => ({
-      id: stock.id,
-      symbol: stock.symbol,
-      companyName: stock.companyName,
-      currentPrice: stock.currentPrice,
-      exchange: stock.exchange,
-      sector: stock.sector,
-      // Let Prisma handle createdAt/updatedAt automatically
-    })),
-    skipDuplicates: true,
-  });
+  for (const stock of stocksData) {
+    await prisma.stock.upsert({
+      where: { symbol: stock.symbol }, // ✅ match by unique symbol
+      update: {
+        companyName: stock.companyName,
+        currentPrice: stock.currentPrice,
+        exchange: stock.exchange,
+        sector: stock.sector,
+        totalQuantity: BigInt(stock.totalQuantity),
+        marketCap: stock.marketCap,
+      },
+      create: {
+        id: stock.id, // still insert the ID when creating
+        symbol: stock.symbol,
+        companyName: stock.companyName,
+        currentPrice: stock.currentPrice,
+        exchange: stock.exchange,
+        sector: stock.sector,
+        totalQuantity: BigInt(stock.totalQuantity),
+        marketCap: stock.marketCap,
+      },
+    });
+  }
 
-  console.log("✅ Stock seeding completed!");
+  console.log("✅ Stock upsert completed!");
 }
 
-// Run seed
 main()
   .catch((e) => {
     console.error("❌ Error seeding stocks:", e);

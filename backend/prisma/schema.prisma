@@ -39,6 +39,8 @@ model Stock {
   transactions  Transaction[]
   portfolioItems PortfolioItem[]
   watchlistedBy Watchlist[]
+  totalQuantity          BigInt  @default(0)
+  marketCap              Float   @default(0)
 }
 
 model Portfolio {
