@@ -18,8 +18,11 @@ datasource db {
 model User {
   id             String       @id @default(uuid())
   email          String       @unique
-  username       String       @unique  // ← Added
-  password       String
+  username       String       @unique
+  password       String?    
+  googleId       String?    @unique //stores unique google id
+  avatarUrl  String?  
+  cashBalance    Float        @default(0) // 💰 User's available funds
   createdAt      DateTime     @default(now())
   updatedAt      DateTime     @updatedAt
   portfolios     Portfolio[]
@@ -28,29 +31,31 @@ model User {
 }
 
 model Stock {
-  id            String       @id @default(uuid())
-  symbol        String       @unique
+  id            String     @id @default(uuid())
+  symbol        String     @unique
   companyName   String
   currentPrice  Float
   exchange      String
   sector        String
-  createdAt     DateTime     @default(now())
-  updatedAt     DateTime     @updatedAt
-  transactions  Transaction[]
+  totalQuantity BigInt
+  marketCap     Float
+  createdAt     DateTime   @default(now())
+  updatedAt     DateTime   @updatedAt
   portfolioItems PortfolioItem[]
+  transactions  Transaction[]
   watchlistedBy Watchlist[]
-  totalQuantity          BigInt  @default(0)
-  marketCap              Float   @default(0)
+
 }
 
 model Portfolio {
-  id         String         @id @default(uuid())
-  user       User           @relation(fields: [userId], references: [id])
-  userId     String
-  createdAt  DateTime       @default(now())
-  updatedAt  DateTime       @updatedAt
-  items      PortfolioItem[]
+  id             String         @id @default(uuid())
+  name           String         @default("Default Portfolio")
+  user           User           @relation(fields: [userId], references: [id])
+  userId         String
+  portfolioItems PortfolioItem[]
+  createdAt      DateTime       @default(now())
 }
+
 
 model PortfolioItem {
   id          String     @id @default(uuid())
@@ -62,16 +67,18 @@ model PortfolioItem {
   avgBuyPrice Float
 }
 
+
 model Transaction {
-  id          String     @id @default(uuid())
-  user        User       @relation(fields: [userId], references: [id])
+  id          String            @id @default(uuid())
+  user        User              @relation(fields: [userId], references: [id])
   userId      String
-  stock       Stock      @relation(fields: [stockId], references: [id])
-  stockId     String
+  stock       Stock?            @relation(fields: [stockId], references: [id])
+  stockId     String?
   type        TransactionType
-  quantity    Int
-  price       Float
-  timestamp   DateTime   @default(now())
+  quantity    Int?
+  price       Float?
+  totalValue  Float?
+  createdAt   DateTime          @default(now())
 }
 
 model Watchlist {
@@ -88,4 +95,6 @@ model Watchlist {
 enum TransactionType {
   BUY
   SELL
+  DEPOSIT
+  WITHDRAW
 }
