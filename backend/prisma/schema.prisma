@@ -24,6 +24,8 @@ model User {
   avatarUrl  String?  
   cashBalance    Float        @default(0) // 💰 User's available funds
   createdAt      DateTime     @default(now())
+  kycStatus     String   @default("PENDING") // PENDING, APPROVED, REJECTED
+  kycDocument   String?  // file path or URL to uploaded document
   updatedAt      DateTime     @updatedAt
   portfolios     Portfolio[]
   transactions   Transaction[]
