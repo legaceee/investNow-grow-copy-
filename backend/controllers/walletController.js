@@ -1,9 +1,11 @@
-import prisma from "../prisma/client.js";
+import prisma from "../config/prismaClient.js";
 
 export const addCash = async (req, res) => {
   try {
     const { amount } = req.body;
     const userId = req.user.id;
+    console.log("JWT_SECRET:", process.env.JWT_SECRET);
+
     if (!amount || amount <= 0)
       return res.status(400).json({ message: "Invalid amount" });
 
@@ -13,6 +15,7 @@ export const addCash = async (req, res) => {
         data: { cashBalance: { increment: amount } },
         select: { id: true, cashBalance: true },
       });
+      console.log("User after cash update:", user);
 
       await tx.transaction.create({
         data: { userId, type: "DEPOSIT", amount },

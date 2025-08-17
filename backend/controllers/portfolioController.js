@@ -67,3 +67,12 @@ export const buyStock = async (req, res) => {
     res.status(400).json({ error: error.message });
   }
 };
+
+export const sellStock = async (req, res) => {
+  try {
+    console.log("Sell stock endpoint hit");
+  } catch (error) {
+    console.error("Error in sellStock:", error);
+    res.status(500).json({ error: "Internal server error" });
+  }
+};

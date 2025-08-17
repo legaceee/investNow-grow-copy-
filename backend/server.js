@@ -1,15 +1,15 @@
 // server.js
 // server.js
-import app from "./app.js";
-import dotenv from "dotenv";
-import prisma from "./config/prismaClient.js"; // Use centralized Prisma instance
 
+import dotenv from "dotenv";
+dotenv.config();
+import app from "./app.js";
+
+import prisma from "./config/prismaClient.js"; // Use centralized Prisma instance
 //  Add this to serialize BigInt in all JSON responses
 BigInt.prototype.toJSON = function () {
   return this.toString();
 };
-
-dotenv.config();
 
 const PORT = process.env.PORT || 4000;
 

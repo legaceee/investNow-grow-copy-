@@ -26,6 +26,8 @@ model User {
   createdAt      DateTime     @default(now())
   kycStatus     String   @default("PENDING") // PENDING, APPROVED, REJECTED
   kycDocument   String?  // file path or URL to uploaded document
+  role           Role         @default(USER) 
+
   updatedAt      DateTime     @updatedAt
   portfolios     Portfolio[]
   transactions   Transaction[]
@@ -76,6 +78,7 @@ model Transaction {
   userId      String
   stock       Stock?            @relation(fields: [stockId], references: [id])
   stockId     String?
+   amount      Float? 
   type        TransactionType
   quantity    Int?
   price       Float?
@@ -99,4 +102,9 @@ enum TransactionType {
   SELL
   DEPOSIT
   WITHDRAW
+}
+enum Role{
+  USER
+  ADMIN
+
 }

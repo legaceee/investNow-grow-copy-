@@ -1,35 +1,57 @@
 import bcrypt from "bcryptjs";
-
+import jwt from "jsonwebtoken";
 import prisma from "../config/prismaClient.js"; // Prisma DB client
 import { CatchAsync } from "../utils/catchAsync.js";
 import AppError from "../utils/appError.js"; // custom error handler
 import { signToken } from "../utils/signToken.js";
 
-const SECRET_KEY = process.env.JWT_SECRET || "super_secret_key";
-
-export const protect = (req, res, next) => {
-  let token;
-
-  // Check for token in Authorization header
-  if (
-    req.headers.authorization &&
-    req.headers.authorization.startsWith("Bearer")
-  ) {
-    token = req.headers.authorization.split(" ")[1];
-  }
-
+//require authentication for protected routes
+export const requireAuth = CatchAsync(async (req, res, next) => {
+  const token = req.headers.authorization?.split(" ")[1];
   if (!token) {
-    return res.status(401).json({ message: "Not authorized" });
+    return res.status(401).json({ message: "No token, unauthorized" });
+  }
+  console.log(token);
+  console.log("JWT_SECRET in requireAuth:", process.env.JWT_SECRET);
+
+  const decoded = jwt.verify(token, process.env.JWT_SECRET);
+  if (!decoded || !decoded.id) {
+    console.log("Invalid token:", decoded);
+  }
+  console.log("Decoded token:", decoded);
+  const user = await prisma.user.findUnique({ where: { id: decoded.id } });
+  console.log("User from DB:", user);
+  if (!user) {
+    return res.status(401).json({ message: "User not found" });
   }
 
-  try {
-    const decoded = jwt.verify(token, process.env.JWT_SECRET);
-    req.user = decoded; // Attach decoded user info to request
-    next();
-  } catch (error) {
-    res.status(401).json({ message: "Invalid token" });
-  }
-};
+  req.user = user; //  attach user object to request
+  next();
+});
+
+// export const protect = (req, res, next) => {
+//   let token;
+
+//   // Check for token in Authorization header
+//   if (
+//     req.headers.authorization &&
+//     req.headers.authorization.startsWith("Bearer")
+//   ) {
+//     token = req.headers.authorization.split(" ")[1];
+//   }
+
+//   if (!token) {
+//     return res.status(401).json({ message: "Not authorized" });
+//   }
+
+//   try {
+//     const decoded = jwt.verify(token, process.env.JWT_SECRET);
+//     req.user = decoded; // Attach decoded user info to request
+//     next();
+//   } catch (error) {
+//     res.status(401).json({ message: "Invalid token" });
+//   }
+// };
 
 export const signup = CatchAsync(async (req, res, next) => {
   const { username, email, password, confirmPassword } = req.body;
@@ -79,7 +101,7 @@ export const signup = CatchAsync(async (req, res, next) => {
 
   // 7️ Create user
   const user = await prisma.user.create({
-    data: { username, email, password: hashedPassword },
+    data: { username, email, password: hashedPassword, role: "USER" },
   });
 
   // 8️ Generate JWT
@@ -123,6 +145,10 @@ export const login = CatchAsync(async (req, res, next) => {
 
   // 4️ Sign JWT token
   const token = signToken(user.id, user.username);
+  console.log("User from DB:", user);
+  console.log("User.id used in token:", user.id);
+
+  console.log("JWT_SECRET:", process.env.JWT_SECRET);
 
   // 5️ Send response
   res.status(200).json({

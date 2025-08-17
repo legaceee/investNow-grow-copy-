@@ -13,3 +13,15 @@ export const getAllUsers = CatchAsync(async (req, res) => {
     data: { users },
   });
 });
+
+export const updateProfile = CatchAsync(async (req, res) => {
+  const updatedUser = await prisma.user.update({
+    where: { id: req.user.id },
+    data: {
+      username: req.body.username,
+      avatarUrl: req.body.avatarUrl,
+    },
+  });
+
+  res.json({ message: "Profile updated", user: updatedUser });
+});

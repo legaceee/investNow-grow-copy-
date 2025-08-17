@@ -5,6 +5,7 @@ import morgan from "morgan";
 
 import userRoute from "./routes/userRouter.js";
 import orderRoute from "./routes/orderRoutes.js";
+import portfolioRoute from "./routes/portFolioRoutes.js";
 import AppError from "./utils/appError.js";
 import globalErrorHandler from "./utils/gobalErrorHandler.js";
 
@@ -19,6 +20,7 @@ app.use(morgan("dev")); // logs incoming requests
 
 app.use("/api/v1/users", userRoute);
 app.use("/api/v1/stocks", orderRoute);
+app.use("/api/v1/portfolio", portfolioRoute);
 //fix this ye error derha h
 // app.all("/.*/", (req, res, next) => {
 //   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
