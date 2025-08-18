@@ -17,6 +17,7 @@ export const buyStock = async (req, res) => {
 
     const result = await prisma.$transaction(async (tx) => {
       const user = await tx.user.findUnique({ where: { id: userId } });
+      console.log("User from DB:", user);
       if (!user || user.cashBalance < totalCost) {
         throw new Error("Insufficient funds");
       }
@@ -28,11 +29,23 @@ export const buyStock = async (req, res) => {
       });
 
       // Update portfolio (upsert)
-      const portfolio = await tx.portfolio.findFirst({ where: { id: userId } });
+      let portfolio = await tx.portfolio.findFirst({
+        where: { userId },
+      });
+
+      // If no portfolio exists, create one
+      if (!portfolio) {
+        portfolio = await tx.portfolio.create({
+          data: {
+            userId,
+            name: "Default Portfolio", // or allow custom naming
+          },
+        });
+      }
       let portfolioItem = await tx.portfolioItem.findFirst({
         where: { portfolioId: portfolio.id, stockId },
       });
-
+      console.log("Portfolio Item:", portfolioItem);
       if (portfolioItem) {
         const newQuantity = portfolioItem.quantity + quantity;
         const newAvgPrice =
@@ -65,7 +78,10 @@ export const buyStock = async (req, res) => {
           totalValue: totalCost,
         },
       });
-
+      const transaction = await tx.transaction.findFirst({
+        where: { userId, stockId, type: "BUY" },
+      });
+      console.log("transaction created", transaction);
       return { portfolioItem };
     });
 
