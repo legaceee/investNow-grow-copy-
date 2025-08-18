@@ -5,5 +5,5 @@ import { buyStock, sellStock } from "../controllers/portfolioController.js";
 
 const router = express.Router();
 router.post("/buy", buyStock);
-router.post("/sell", requireAuth, sellStock);
+router.post("/sell/:symbol", requireAuth, sellStock);
 export default router;

@@ -1,12 +1,11 @@
 import prisma from "../config/prismaClient.js";
-//fix this code in transaction id property error
+
 // Buy stock
 export const buyStock = async (req, res) => {
   try {
     const { stockId, buyQuantity, currentPrice } = req.body;
     const userId = req.user.id;
     console.log(userId);
-
     const quantity = Number(buyQuantity);
     const price = Number(currentPrice);
     if (isNaN(quantity) || isNaN(price) || quantity <= 0 || price <= 0) {
@@ -147,6 +146,31 @@ export const sellStock = async (req, res) => {
     });
 
     res.json({ message: "Stock sold", data: result });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+
+export const getPortfolio = async (req, res) => {
+  try {
+    const userId = req.user.id;
+    console.log("User ID:", userId);
+    const portfolio = await prisma.portfolio.findFirst({
+      where: { userId },
+      include: {
+        portfolioItems: {
+          include: {
+            stock: true,
+          },
+        },
+      },
+    });
+
+    if (!portfolio) {
+      return res.status(404).json({ error: "Portfolio not found" });
+    }
+
+    res.json({ portfolio });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
