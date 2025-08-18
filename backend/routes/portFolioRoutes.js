@@ -1,9 +1,13 @@
 // routes/portfolioRoutes.js
 import express from "express";
 import { requireAuth } from "../controllers/authControlller.js";
-import { buyStock, sellStock } from "../controllers/portfolioController.js";
+import {
+  buyStock,
+  getPortfolio,
+  sellStock,
+} from "../controllers/portfolioController.js";
 
 const router = express.Router();
-router.post("/buy", buyStock);
-router.post("/sell/:symbol", requireAuth, sellStock);
+
+router.get("/portfolio", requireAuth, getPortfolio);
 export default router;
