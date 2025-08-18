@@ -7,6 +7,7 @@ import userRoute from "./routes/userRouter.js";
 import orderRoute from "./routes/orderRoutes.js";
 import portfolioRoute from "./routes/portFolioRoutes.js";
 import walletRoute from "./routes/walletRoute.js";
+import transactionRoute from "./routes/transactionRoutes.js";
 import AppError from "./utils/appError.js";
 import globalErrorHandler from "./utils/gobalErrorHandler.js";
 
@@ -23,6 +24,7 @@ app.use("/api/v1/users", userRoute);
 app.use("/api/v1/stocks", orderRoute);
 app.use("/api/v1/portfolio", portfolioRoute);
 app.use("/api/v1/wallet", walletRoute);
+app.use("/api/v1/transactions", transactionRoute);
 //fix this ye error derha h
 // app.all("/.*/", (req, res, next) => {
 //   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
