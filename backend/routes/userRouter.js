@@ -13,6 +13,5 @@ router.post("/login", login);
 router.get("/", getAllUsers);
 router.post("/deposit", requireAuth, addCash);
 router.post("/withdraw", requireAuth, withdrawCash);
-router.get("/portfolio", requireAuth, getPortfolio);
 
 export default router;
