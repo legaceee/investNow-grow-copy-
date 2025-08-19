@@ -1,24 +1,55 @@
 import fs from "fs";
-
 import prisma from "./config/prismaClient.js";
+
+function getVolatility(price) {
+  if (price < 200) return 0.05; // 5% for low-priced stocks
+  if (price < 1000) return 0.02; // 2% for mid-cap
+  return 0.01; // 1% for high-priced
+}
+
+function getNewPrice(currentPrice) {
+  const volatility = getVolatility(currentPrice);
+  const percentChange = (Math.random() - 0.5) * (2 * volatility);
+  const change = currentPrice * percentChange;
+  return +(currentPrice + change).toFixed(2);
+}
 
 let stocks = JSON.parse(fs.readFileSync("stocks.json"));
 
-async function updateMockPricesDB() {
-  for (let stock of stocks) {
-    const change = (Math.random() - 0.5) * 2;
-    stock.currentPrice = +(stock.currentPrice + change).toFixed(2);
+let stockMap = {}; // symbol -> id
 
-    try {
-      await prisma.stock.update({
-        where: { symbol: stock.symbol },
-        data: { currentPrice: stock.currentPrice },
-      });
-    } catch (err) {
-      console.error(`Error updating ${stock.symbol}:`, err.message);
-    }
-  }
-  console.log("Prices updated in DB at", new Date().toLocaleTimeString());
+async function loadStocks() {
+  const dbStocks = await prisma.stock.findMany({
+    select: { id: true, symbol: true },
+  });
+  stockMap = Object.fromEntries(dbStocks.map((s) => [s.symbol, s.id]));
 }
 
-setInterval(updateMockPricesDB, 3000); // every 3 sec
+async function updateMockPricesDB() {
+  const priceUpdates = [];
+
+  for (let stock of stocks) {
+    stock.currentPrice = getNewPrice(stock.currentPrice);
+
+    const stockId = stockMap[stock.symbol];
+    if (!stockId) {
+      console.error(`Stock ${stock.symbol} not found in DB`);
+      continue;
+    }
+
+    priceUpdates.push({
+      stockId,
+      price: stock.currentPrice,
+    });
+  }
+  if (priceUpdates.length > 0) {
+    await prisma.stockPrice.createMany({
+      data: priceUpdates,
+    });
+  }
+
+  console.log("New prices inserted at", new Date().toLocaleTimeString());
+}
+
+await loadStocks(); // run once at startup
+setInterval(updateMockPricesDB, 3000);

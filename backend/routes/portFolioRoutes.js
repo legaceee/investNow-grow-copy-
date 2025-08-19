@@ -2,12 +2,12 @@
 import express from "express";
 import { requireAuth } from "../controllers/authControlller.js";
 import {
-  buyStock,
   getPortfolio,
-  sellStock,
+  getPortfolioByName,
 } from "../controllers/portfolioController.js";
 
 const router = express.Router();
 
-router.get("/portfolio", requireAuth, getPortfolio);
+router.get("/", requireAuth, getPortfolio);
+router.get("/:name", requireAuth, getPortfolioByName);
 export default router;

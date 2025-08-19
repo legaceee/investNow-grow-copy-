@@ -5,9 +5,8 @@
 // Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
 
 generator client {
-  provider = "prisma-client-js"
+  provider      = "prisma-client-js"
   binaryTargets = ["native", "debian-openssl-3.0.x"]
-
 }
 
 datasource db {
@@ -16,73 +15,79 @@ datasource db {
 }
 
 model User {
-  id             String       @id @default(uuid())
-  email          String       @unique
-  username       String       @unique
-  password       String?    
-  googleId       String?    @unique //stores unique google id
-  avatarUrl  String?  
-  cashBalance    Float        @default(0) // 💰 User's available funds
-  createdAt      DateTime     @default(now())
-  kycStatus     String   @default("PENDING") // PENDING, APPROVED, REJECTED
-  kycDocument   String?  // file path or URL to uploaded document
-  role           Role         @default(USER) 
-  updatedAt      DateTime     @updatedAt
+  id             String        @id @default(uuid())
+  email          String        @unique
+  username       String        @unique
+  password       String?
+  googleId       String?       @unique //stores unique google id
+  avatarUrl      String?
+  cashBalance    Float         @default(0) // 💰 User's available funds
+  createdAt      DateTime      @default(now())
+  kycStatus      String        @default("PENDING") // PENDING, APPROVED, REJECTED
+  kycDocument    String? // file path or URL to uploaded document
+  role           Role          @default(USER)
+  updatedAt      DateTime      @updatedAt
   portfolios     Portfolio[]
   transactions   Transaction[]
-  watchlistItems Watchlist[] 
+  watchlistItems Watchlist[]
 }
 
 model Stock {
-  id            String     @id @default(uuid())
-  symbol        String     @unique
-  companyName   String
-  currentPrice  Float
-  exchange      String
-  sector        String
-  totalQuantity BigInt
-  marketCap     Float
-  createdAt     DateTime   @default(now())
-  updatedAt     DateTime   @updatedAt
+  id             String          @id @default(uuid())
+  symbol         String          @unique
+  companyName    String
+  currentPrice   Float
+  exchange       String
+  sector         String
+  totalQuantity  BigInt
+  marketCap      Float
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
   portfolioItems PortfolioItem[]
-  transactions  Transaction[]
-  watchlistedBy Watchlist[]
+  transactions   Transaction[]
+  watchlistedBy  Watchlist[]
+  prices         StockPrice[]
+}
 
+model StockPrice {
+  id        String   @id @default(uuid())
+  stockId   String
+  price     Float
+  createdAt DateTime @default(now())
+  stock     Stock    @relation(fields: [stockId], references: [id])
 }
 
 model Portfolio {
-  id             String         @id @default(uuid())
-  name           String         @default("Default Portfolio")
-  user           User           @relation(fields: [userId], references: [id])
+  id             String          @id @default(uuid())
+  name           String          @default("Default Portfolio")
+  user           User            @relation(fields: [userId], references: [id])
   userId         String
   portfolioItems PortfolioItem[]
-  createdAt      DateTime       @default(now())
+  createdAt      DateTime        @default(now())
 }
 
-
 model PortfolioItem {
-  id          String     @id @default(uuid())
-  stock       Stock      @relation(fields: [stockId], references: [id])
+  id          String    @id @default(uuid())
+  stock       Stock     @relation(fields: [stockId], references: [id])
   stockId     String
-  portfolio   Portfolio  @relation(fields: [portfolioId], references: [id])
+  portfolio   Portfolio @relation(fields: [portfolioId], references: [id])
   portfolioId String
   quantity    Int
   avgBuyPrice Float
 }
 
-
 model Transaction {
-  id          String            @id @default(uuid())
-  user        User              @relation(fields: [userId], references: [id])
-  userId      String
-  stock       Stock?            @relation(fields: [stockId], references: [id])
-  stockId     String?
-   amount      Float? 
-  type        TransactionType
-  quantity    Int?
-  price       Float?
-  totalValue  Float?
-  createdAt   DateTime          @default(now())
+  id         String          @id @default(uuid())
+  user       User            @relation(fields: [userId], references: [id])
+  userId     String
+  stock      Stock?          @relation(fields: [stockId], references: [id])
+  stockId    String?
+  amount     Float?
+  type       TransactionType
+  quantity   Int?
+  price      Float?
+  totalValue Float?
+  createdAt  DateTime        @default(now())
 }
 
 model Watchlist {
@@ -102,8 +107,8 @@ enum TransactionType {
   DEPOSIT
   WITHDRAW
 }
-enum Role{
+
+enum Role {
   USER
   ADMIN
-
 }
