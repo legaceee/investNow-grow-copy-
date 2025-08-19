@@ -1,4 +1,5 @@
 import bcrypt from "bcryptjs";
+import { promisify } from "util";
 import jwt from "jsonwebtoken";
 import prisma from "../config/prismaClient.js"; // Prisma DB client
 import { CatchAsync } from "../utils/catchAsync.js";

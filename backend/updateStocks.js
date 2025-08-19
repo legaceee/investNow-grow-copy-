@@ -1,6 +1,8 @@
 import fs from "fs";
 import prisma from "./config/prismaClient.js";
+import Redis from "ioredis";
 
+const redis = new Redis();
 function getVolatility(price) {
   if (price < 200) return 0.05; // 5% for low-priced stocks
   if (price < 1000) return 0.02; // 2% for mid-cap
@@ -41,6 +43,7 @@ async function updateMockPricesDB() {
       stockId,
       price: stock.currentPrice,
     });
+    redis.publish("stock-prices", JSON.stringify(update));
   }
   if (priceUpdates.length > 0) {
     await prisma.stockPrice.createMany({
