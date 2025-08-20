@@ -25,10 +25,9 @@ app.use("/api/v1/stocks", orderRoute);
 app.use("/api/v1/portfolio", portfolioRoute);
 app.use("/api/v1/wallet", walletRoute);
 app.use("/api/v1/transactions", transactionRoute);
-//fix this ye error derha h
-// app.all("/.*/", (req, res, next) => {
-//   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
-// });
+app.all("*", (req, res, next) => {
+  next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
+});
 
 app.use(globalErrorHandler);
 // Export the app for use in server.js

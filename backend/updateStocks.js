@@ -3,6 +3,7 @@ import prisma from "./config/prismaClient.js";
 import Redis from "ioredis";
 
 const redis = new Redis();
+
 function getVolatility(price) {
   if (price < 200) return 0.05; // 5% for low-priced stocks
   if (price < 1000) return 0.02; // 2% for mid-cap
@@ -17,7 +18,6 @@ function getNewPrice(currentPrice) {
 }
 
 let stocks = JSON.parse(fs.readFileSync("stocks.json"));
-
 let stockMap = {}; // symbol -> id
 
 async function loadStocks() {
@@ -39,19 +39,30 @@ async function updateMockPricesDB() {
       continue;
     }
 
+    // prepare DB insert
     priceUpdates.push({
       stockId,
       price: stock.currentPrice,
     });
+
+    // publish to Redis (real-time)
+    const update = {
+      stockId,
+      symbol: stock.symbol,
+      price: stock.currentPrice,
+      timestamp: new Date().toISOString(),
+    };
     redis.publish("stock-prices", JSON.stringify(update));
   }
+
+  // bulk insert to DB
   if (priceUpdates.length > 0) {
     await prisma.stockPrice.createMany({
       data: priceUpdates,
     });
   }
 
-  console.log("New prices inserted at", new Date().toLocaleTimeString());
+  console.log("✅ New prices inserted at", new Date().toLocaleTimeString());
 }
 
 await loadStocks(); // run once at startup
