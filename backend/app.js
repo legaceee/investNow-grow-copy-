@@ -25,7 +25,7 @@ app.use("/api/v1/stocks", orderRoute);
 app.use("/api/v1/portfolio", portfolioRoute);
 app.use("/api/v1/wallet", walletRoute);
 app.use("/api/v1/transactions", transactionRoute);
-app.all("*", (req, res, next) => {
+app.all(/.*/, (req, res, next) => {
   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
 });
 

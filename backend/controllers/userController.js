@@ -1,5 +1,6 @@
 // controllers/userController.js
 import prisma from "../config/prismaClient.js";
+import AppError from "../utils/appError.js";
 import { CatchAsync } from "../utils/catchAsync.js";
 
 export const getAllUsers = CatchAsync(async (req, res) => {
@@ -15,8 +16,12 @@ export const getAllUsers = CatchAsync(async (req, res) => {
 });
 
 export const updateProfile = CatchAsync(async (req, res) => {
+  const userId = req.user.id;
+  if (!userId) {
+    return next(new AppError("you must be login ", 400));
+  }
   const updatedUser = await prisma.user.update({
-    where: { id: req.user.id },
+    where: { id: userId },
     data: {
       username: req.body.username,
       avatarUrl: req.body.avatarUrl,

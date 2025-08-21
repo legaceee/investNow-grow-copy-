@@ -65,5 +65,7 @@ async function updateMockPricesDB() {
   console.log("✅ New prices inserted at", new Date().toLocaleTimeString());
 }
 
-await loadStocks(); // run once at startup
-setInterval(updateMockPricesDB, 3000);
+export default async function updateStock() {
+  await loadStocks(); // run once at startup
+  setInterval(updateMockPricesDB, 3000);
+}

@@ -12,20 +12,31 @@ export const requireAuth = CatchAsync(async (req, res, next) => {
   if (!token) {
     return res.status(401).json({ message: "No token, unauthorized" });
   }
-  console.log(token);
-  console.log("JWT_SECRET in requireAuth:", process.env.JWT_SECRET);
 
   const decoded = jwt.verify(token, process.env.JWT_SECRET);
   if (!decoded || !decoded.id) {
     console.log("Invalid token:", decoded);
   }
-  console.log("Decoded token:", decoded);
+
   const user = await prisma.user.findUnique({ where: { id: decoded.id } });
   console.log("User from DB:", user);
   if (!user) {
     return res.status(401).json({ message: "User not found" });
   }
-
+  if (user.passwordChangedAt) {
+    const changedTimestamp = parseInt(
+      user.passwordChangedAt.getTime() / 1000,
+      10
+    );
+    if (decoded.iat < changedTimestamp) {
+      return next(
+        new AppError(
+          "User recently changed password. Please log in again.",
+          401
+        )
+      );
+    }
+  }
   req.user = user; //  attach user object to request
   next();
 });
@@ -57,23 +68,19 @@ export const requireAuth = CatchAsync(async (req, res, next) => {
 export const signup = CatchAsync(async (req, res, next) => {
   const { username, email, password, confirmPassword } = req.body;
 
-  // 1️ Validate required fields
   if (!username || !email || !password || !confirmPassword) {
     return next(new AppError("All fields are required", 400));
   }
 
-  // 2️ Confirm password match
   if (password !== confirmPassword) {
     return next(new AppError("Passwords do not match", 400));
   }
 
-  // 3️ Validate email format
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   if (!emailRegex.test(email)) {
     return next(new AppError("Invalid email format", 400));
   }
 
-  // 4️ Strong password rule
   if (
     password.length < 8 ||
     !/[A-Z]/.test(password) ||
@@ -87,7 +94,6 @@ export const signup = CatchAsync(async (req, res, next) => {
     );
   }
 
-  // 5️ Check if user exists
   const existingUser = await prisma.user.findFirst({
     where: {
       OR: [{ username }, { email }],
@@ -97,18 +103,14 @@ export const signup = CatchAsync(async (req, res, next) => {
     return next(new AppError("Username or email already taken", 400));
   }
 
-  // 6️ Hash password
   const hashedPassword = await bcrypt.hash(password, 10);
 
-  // 7️ Create user
   const user = await prisma.user.create({
     data: { username, email, password: hashedPassword, role: "USER" },
   });
 
-  // 8️ Generate JWT
   const token = signToken(user.id, user.username);
 
-  // 9 Send response
   res.status(201).json({
     status: "success",
     message: "User registered successfully",
@@ -124,12 +126,10 @@ export const signup = CatchAsync(async (req, res, next) => {
 export const login = CatchAsync(async (req, res, next) => {
   const { email, password } = req.body;
 
-  // 1️ Validate input
   if (!email || !password) {
     return res.status(400).json({ message: "Email and password are required" });
   }
 
-  // 2️ Find user in DB
   const user = await prisma.user.findUnique({
     where: { email },
   });
@@ -138,20 +138,15 @@ export const login = CatchAsync(async (req, res, next) => {
     return res.status(401).json({ message: "Invalid email or password" });
   }
 
-  // 3️ Compare password
   const isMatch = await bcrypt.compare(password, user.password);
   if (!isMatch) {
     return res.status(401).json({ message: "Invalid email or password" });
   }
 
-  // 4️ Sign JWT token
   const token = signToken(user.id, user.username);
-  console.log("User from DB:", user);
-  console.log("User.id used in token:", user.id);
 
   console.log("JWT_SECRET:", process.env.JWT_SECRET);
 
-  // 5️ Send response
   res.status(200).json({
     status: "success",
     token,
@@ -160,5 +155,49 @@ export const login = CatchAsync(async (req, res, next) => {
       username: user.username,
       email: user.email,
     },
+  });
+});
+
+export const updatePassword = CatchAsync(async (req, res, next) => {
+  const userId = req.user?.id;
+  if (!userId) {
+    return next(new AppError("You must be logged in", 400));
+  }
+
+  const { currentPassword, newPassword } = req.body;
+  console.log(currentPassword);
+  if (!currentPassword || !newPassword) {
+    return next(new AppError("Please provide current and new password", 400));
+  }
+
+  const user = await prisma.user.findUnique({ where: { id: userId } });
+  if (!user) {
+    return next(new AppError("User not found", 404));
+  }
+
+  const isPasswordCorrect = await bcrypt.compare(
+    currentPassword,
+    user.password
+  );
+  if (!isPasswordCorrect) {
+    return next(new AppError("Your current password is wrong", 401));
+  }
+
+  const hashedPassword = await bcrypt.hash(newPassword, 12);
+
+  const updatedUser = await prisma.user.update({
+    where: { id: userId },
+    data: {
+      password: hashedPassword,
+      passwordChangedAt: new Date(),
+    },
+  });
+
+  const token = signToken(updatedUser.id);
+
+  res.status(200).json({
+    status: "success",
+    message: "Password updated successfully. Logged in again.",
+    token,
   });
 });
