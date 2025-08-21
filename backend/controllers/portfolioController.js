@@ -1,4 +1,5 @@
 import prisma from "../config/prismaClient.js";
+import AppError from "../utils/appError.js";
 import { CatchAsync } from "../utils/catchAsync.js";
 
 export const getPortfolio = async (req, res) => {
@@ -30,7 +31,7 @@ export const getPortfolioByName = CatchAsync(async (req, res, next) => {
   const { name } = req.params;
   const userId = req.user.id;
   if (!name) {
-    return res.status(400).json({ error: "Portfolio name is required" });
+    return next(new AppError("name of portfolio is required ", 400));
   }
 
   let portfolio;
