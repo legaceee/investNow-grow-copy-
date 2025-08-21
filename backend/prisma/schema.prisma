@@ -21,7 +21,8 @@ model User {
   password       String?
   googleId       String?       @unique //stores unique google id
   avatarUrl      String?
-  cashBalance    Float         @default(0) // 💰 User's available funds
+  cashBalance    Float         @default(0) //  User's available funds
+  reservedCash   Decimal  @default(0)
   createdAt      DateTime      @default(now())
   kycStatus      String        @default("PENDING") // PENDING, APPROVED, REJECTED
   kycDocument    String? // file path or URL to uploaded document
@@ -101,6 +102,21 @@ model Watchlist {
 
   @@unique([userId, stockId])
 }
+model Order {
+  id          String   @id @default(uuid())
+  userId      String
+  stockId     String
+  side        String   // "BUY" | "SELL"
+  type        String   // "MARKET" | "LIMIT"
+  limitPrice  Decimal? // null for market
+  qty         Int
+  filledQty   Int      @default(0)
+  status      String   // "OPEN" | "FILLED" | "CANCELLED" | "PARTIAL"
+  createdAt   DateTime @default(now())
+  // indexes you’ll likely want:
+  @@index([stockId, status, side, limitPrice])
+}
+
 
 enum TransactionType {
   BUY
