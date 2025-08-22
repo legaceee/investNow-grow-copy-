@@ -1,9 +1,10 @@
-import { LogIn, Search } from "lucide-react";
+import { LogIn, Search as SearchIcon } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import Login from "../../pages/Login";
 import Button from "./Button";
+import Search from "./Search";
 
-function Navbar({ clicked, clickManage }) {
+function Navbar({ clicked, clickManage, isModal, modalManage }) {
   const [query, setQuery] = useState("");
 
   console.log(clicked, clickManage);
@@ -56,14 +57,8 @@ function Navbar({ clicked, clickManage }) {
                 />
               </svg>
             </div>
-            <input
-              type="text"
-              placeholder="Search..."
-              ref={inputEl}
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              className="block w-96 pl-10 pr-3 py-2 border border-gray-300 rounded-lg leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
-            />
+
+            <Search />
             <h2 className="absolute inset-y-0 flex items-center pointer-events-none right-48 font-gray-500 text-sm">
               ctrl+k
             </h2>

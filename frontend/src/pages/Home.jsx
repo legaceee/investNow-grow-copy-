@@ -7,15 +7,23 @@ import Hero3 from "../assets/Component/Hero3";
 import Hero4 from "../assets/Component/Hero4";
 import Login from "./Login";
 import Hero0 from "../assets/Hero0";
+import Search from "../assets/Component/Search";
 
 function Home() {
   const [clicked, setIsClicked] = useState(false);
+  const [isModal, setIsModal] = useState(false);
   return (
     <>
       <div className="flex flex-col items-center justify-center min-h-screen bg-white">
-        <Navbar clicked={clicked} clickManage={setIsClicked} />
+        <Navbar
+          clicked={clicked}
+          clickManage={setIsClicked}
+          isModal={isModal}
+          modalManage={setIsModal}
+        />
         <Hero0 />
       </div>
+
       {clicked ? <Login clicked={clicked} clickManage={setIsClicked} /> : ""}
       <div>
         <Hero1 />
