@@ -37,5 +37,7 @@ export const updateProfile = CatchAsync(async (req, res) => {
     data: parsedData,
   });
 
-  res.json({ message: "Profile updated", user: updatedUser });
+  res
+    .status(200)
+    .json({ message: "Profile updated", data: { user: updatedUser } });
 });
