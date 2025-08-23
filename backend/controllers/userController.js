@@ -1,7 +1,13 @@
 // controllers/userController.js
+import { z } from "zod";
 import prisma from "../config/prismaClient.js";
 import AppError from "../utils/appError.js";
 import { CatchAsync } from "../utils/catchAsync.js";
+
+const updateProfileSchema = z.object({
+  username: z.string().min(3).max(30).optional(),
+  avatarUrl: z.string().url().optional(),
+});
 
 export const getAllUsers = CatchAsync(async (req, res) => {
   const users = await prisma.user.findMany({
@@ -25,12 +31,10 @@ export const updateProfile = CatchAsync(async (req, res) => {
   if (!userId) {
     return next(new AppError("you must be login ", 400));
   }
+  const parsedData = updateProfileSchema.parse(req.body);
   const updatedUser = await prisma.user.update({
     where: { id: userId },
-    data: {
-      username: req.body.username,
-      avatarUrl: req.body.avatarUrl,
-    },
+    data: parsedData,
   });
 
   res.json({ message: "Profile updated", user: updatedUser });
