@@ -1,7 +1,7 @@
 // routes/userRoutes.js
 
 import express from "express";
-import { getAllUsers } from "../controllers/userController.js";
+import { getAllUsers, updateProfile } from "../controllers/userController.js";
 import {
   signup,
   login,
@@ -16,7 +16,8 @@ const router = express.Router();
 
 router.post("/register", signup);
 router.post("/login", login);
-router.post("/updatePassword", requireAuth, updatePassword);
+router.patch("/updatePassword", requireAuth, updatePassword);
+router.patch("/updateME", requireAuth, updateProfile);
 router.get("/", requireAdmin, getAllUsers);
 
 export default router;

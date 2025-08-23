@@ -16,6 +16,11 @@ export const getAllUsers = CatchAsync(async (req, res) => {
 });
 
 export const updateProfile = CatchAsync(async (req, res) => {
+  if (req.body.newPassword) {
+    return next(
+      new AppError("to change password use /passwordChange route", 400)
+    );
+  }
   const userId = req.user.id;
   if (!userId) {
     return next(new AppError("you must be login ", 400));
