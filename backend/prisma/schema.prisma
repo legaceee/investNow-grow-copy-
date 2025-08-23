@@ -23,6 +23,7 @@ model User {
   avatarUrl      String?
   cashBalance    Float         @default(0) //  User's available funds
   reservedCash   Decimal  @default(0)
+    active    Boolean @default(true)
   createdAt      DateTime      @default(now())
   kycStatus      String        @default("PENDING") // PENDING, APPROVED, REJECTED
   kycDocument    String? // file path or URL to uploaded document
@@ -62,7 +63,7 @@ model StockPrice {
 model Portfolio {
   id             String          @id @default(uuid())
   name           String          @default("Default Portfolio")
-  user           User            @relation(fields: [userId], references: [id])
+  user           User            @relation(fields: [userId], references: [id] ,onDelete: Cascade)
   userId         String
   portfolioItems PortfolioItem[]
   createdAt      DateTime        @default(now())
@@ -80,7 +81,7 @@ model PortfolioItem {
 
 model Transaction {
   id         String          @id @default(uuid())
-  user       User            @relation(fields: [userId], references: [id])
+  user       User            @relation(fields: [userId], references: [id],onDelete: Cascade)
   userId     String
   stock      Stock?          @relation(fields: [stockId], references: [id])
   stockId    String?
@@ -94,7 +95,7 @@ model Transaction {
 
 model Watchlist {
   id        String   @id @default(uuid())
-  user      User     @relation(fields: [userId], references: [id])
+  user      User     @relation(fields: [userId], references: [id],onDelete: Cascade)
   userId    String
   stock     Stock    @relation(fields: [stockId], references: [id])
   stockId   String

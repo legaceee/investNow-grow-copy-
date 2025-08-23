@@ -1,4 +1,4 @@
-import { getOrderBook } from "../utils/orderBooks";
+import { getOrderBook } from "../utils/orderBooks.js";
 export const placeOrder = (req, res) => {
   try {
     const { id, symbol, side, type, price, qty } = req.body;

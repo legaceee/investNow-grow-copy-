@@ -21,7 +21,7 @@ export const getAllUsers = CatchAsync(async (req, res) => {
   });
 });
 
-export const updateProfile = CatchAsync(async (req, res) => {
+export const updateProfile = CatchAsync(async (req, res, next) => {
   if (req.body.newPassword) {
     return next(
       new AppError("to change password use /passwordChange route", 400)
@@ -40,4 +40,24 @@ export const updateProfile = CatchAsync(async (req, res) => {
   res
     .status(200)
     .json({ message: "Profile updated", data: { user: updatedUser } });
+});
+
+export const deleteMyAccount = CatchAsync(async (req, res, next) => {
+  const userId = req.user.id;
+  const { password } = req.body;
+  if (!userId) {
+    return next(new AppError("You must be logged in", 401));
+  }
+  const isPasswordCorrect = await bcrypt.compare(password, user.password);
+  if (!isPasswordCorrect) {
+    return next(new AppError("Incorrect password", 401));
+  }
+  await prisma.user.delete({
+    where: { id: userId },
+  });
+
+  res.status(200).json({
+    status: "success",
+    message: "Your account has been deleted",
+  });
 });
