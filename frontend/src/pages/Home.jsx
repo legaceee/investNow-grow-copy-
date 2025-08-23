@@ -8,10 +8,13 @@ import Hero4 from "../assets/Component/Hero4";
 import Login from "./Login";
 import Hero0 from "../assets/Hero0";
 import Search from "../assets/Component/Search";
+import SearchModal from "../assets/Component/SearchModal";
 
 function Home() {
   const [clicked, setIsClicked] = useState(false);
   const [isModal, setIsModal] = useState(false);
+
+  //manage the state above effectively can be done with one state also
   return (
     <>
       <div className="flex flex-col items-center justify-center min-h-screen bg-white">
@@ -23,6 +26,8 @@ function Home() {
         />
         <Hero0 />
       </div>
+
+      {isModal && <SearchModal onClose={() => setIsModal(false)} />}
 
       {clicked ? <Login clicked={clicked} clickManage={setIsClicked} /> : ""}
       <div>

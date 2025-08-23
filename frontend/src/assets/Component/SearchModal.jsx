@@ -1,4 +1,21 @@
-function SearchModal({ setIsOpen }) {
+import { useEffect, useRef } from "react";
+import { X, Search as SearchIcon } from "lucide-react";
+
+export default function SearchModal({ onClose }) {
+  const inputRef = useRef(null);
+
+  // focus the modal input & lock body scroll
+  useEffect(() => {
+    inputRef.current?.focus();
+    document.body.classList.add("overflow-hidden");
+    const onEsc = (e) => e.key === "Escape" && onClose();
+    window.addEventListener("keydown", onEsc);
+    return () => {
+      document.body.classList.remove("overflow-hidden");
+      window.removeEventListener("keydown", onEsc);
+    };
+  }, [onClose]);
+
   const popular = [
     "OLA Electric Mobility Ltd.",
     "Tata Motors Ltd.",
@@ -9,54 +26,70 @@ function SearchModal({ setIsOpen }) {
   ];
 
   return (
-    <div>
-      <div className="absolute top-full right-1/2 w-[500px] bg-white shadow-xl rounded-xl p-4 z-50">
-        <div className="flex space-x-3 mb-4 text-sm text-gray-600">
-          <button className="px-3 py-1 rounded-full bg-gray-200 text-black">
-            All
-          </button>
-          <button className="px-3 py-1 rounded-full hover:bg-gray-100">
-            Stocks
-          </button>
-          <button className="px-3 py-1 rounded-full hover:bg-gray-100">
-            F&O
-          </button>
-          <button className="px-3 py-1 rounded-full hover:bg-gray-100">
-            Mutual Funds
-          </button>
-          <button className="px-3 py-1 rounded-full hover:bg-gray-100">
-            ETF
-          </button>
-          <button className="px-3 py-1 rounded-full hover:bg-gray-100">
-            FAQs
+    // overlay
+    <div
+      className="fixed inset-0 z-[60] bg-black/40 backdrop-blur-sm flex items-center justify-center p-4"
+      onClick={onClose}
+    >
+      {/* modal card */}
+      <div
+        className="w-full max-w-2xl rounded-2xl bg-white shadow-2xl ring-1 ring-black/10"
+        onClick={(e) => e.stopPropagation()}
+      >
+        {/* search input */}
+        <div className="relative p-4 border-b">
+          <SearchIcon className="absolute left-6 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400" />
+          <input
+            ref={inputRef}
+            type="text"
+            placeholder="Search Groww..."
+            className="w-full pl-10 pr-10 py-3 rounded-lg outline-none placeholder-gray-400"
+          />
+          <button
+            className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600"
+            onClick={onClose}
+            aria-label="Close"
+          >
+            <X className="h-5 w-5" />
           </button>
         </div>
 
-        <div>
+        {/* chips */}
+        <div className="px-4 py-3 flex flex-wrap gap-2 text-sm">
+          {["All", "Stocks", "F&O", "Mutual Funds", "ETF", "FAQs"].map(
+            (t, i) => (
+              <button
+                key={t}
+                className={`px-3 py-1 rounded-full border ${
+                  i === 0
+                    ? "bg-gray-100 border-gray-200"
+                    : "hover:bg-gray-50 border-gray-200"
+                }`}
+              >
+                {t}
+              </button>
+            )
+          )}
+        </div>
+
+        {/* list */}
+        <div className="px-4 pb-4">
           <p className="text-sm font-medium text-gray-500 mb-2">
             Popular on Groww
           </p>
-          <ul className="space-y-2">
-            {popular.map((item, index) => (
+          <ul className="max-h-72 overflow-auto">
+            {popular.map((item) => (
               <li
-                key={index}
-                className="cursor-pointer hover:bg-gray-100 p-2 rounded-md"
+                key={item}
+                className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 cursor-pointer"
               >
-                {item}
+                <span className="text-gray-300">↗</span>
+                <span>{item}</span>
               </li>
             ))}
           </ul>
         </div>
-
-        <button
-          className="absolute top-2 right-2 text-gray-400 hover:text-black"
-          onClick={() => setIsOpen(false)}
-        >
-          ✕
-        </button>
       </div>
     </div>
   );
 }
-
-export default SearchModal;

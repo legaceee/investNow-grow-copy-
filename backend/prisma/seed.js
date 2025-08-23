@@ -17,7 +17,7 @@ async function main() {
 
   for (const stock of stocksData) {
     await prisma.stock.upsert({
-      where: { symbol: stock.symbol }, // ✅ match by unique symbol
+      where: { symbol: stock.symbol }, //  match by unique symbol
       update: {
         companyName: stock.companyName,
         currentPrice: stock.currentPrice,
