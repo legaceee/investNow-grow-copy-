@@ -7,6 +7,22 @@ import AppError from "../utils/appError.js"; // custom error handler
 import { signToken } from "../utils/signToken.js";
 
 //require authentication for protected routes
+export const createSendToken = (user, statusCode, res) => {
+  const token = signToken(user.id, user.username);
+  const safeUser = {
+    id: user.id,
+    username: user.username,
+    email: user.email,
+    role: user.role,
+  };
+  res.status(statusCode).json({
+    status: "success",
+    token,
+    data: {
+      user: safeUser,
+    },
+  });
+};
 export const requireAuth = CatchAsync(async (req, res, next) => {
   const token = req.headers.authorization?.split(" ")[1];
   if (!token) {
@@ -109,18 +125,7 @@ export const signup = CatchAsync(async (req, res, next) => {
     data: { username, email, password: hashedPassword, role: "USER" },
   });
 
-  const token = signToken(user.id, user.username);
-
-  res.status(201).json({
-    status: "success",
-    message: "User registered successfully",
-    token,
-    user: {
-      id: user.id,
-      username: user.username,
-      email: user.email,
-    },
-  });
+  createSendToken(user, 201, res);
 });
 
 export const login = CatchAsync(async (req, res, next) => {
@@ -143,19 +148,7 @@ export const login = CatchAsync(async (req, res, next) => {
     return res.status(401).json({ message: "Invalid email or password" });
   }
 
-  const token = signToken(user.id, user.username);
-
-  console.log("JWT_SECRET:", process.env.JWT_SECRET);
-
-  res.status(200).json({
-    status: "success",
-    token,
-    user: {
-      id: user.id,
-      username: user.username,
-      email: user.email,
-    },
-  });
+  createSendToken(user, 201, res);
 });
 
 export const updatePassword = CatchAsync(async (req, res, next) => {
@@ -193,11 +186,5 @@ export const updatePassword = CatchAsync(async (req, res, next) => {
     },
   });
 
-  const token = signToken(updatedUser.id);
-
-  res.status(200).json({
-    status: "success",
-    message: "Password updated successfully. Logged in again.",
-    token,
-  });
+  createSendToken(updatedUser, 201, res);
 });

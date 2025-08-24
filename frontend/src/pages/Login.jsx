@@ -19,11 +19,8 @@ export default Login;
  */
 
 import { useGoogleLogin } from "@react-oauth/google";
-function Login({ clicked, clickManage }) {
-  function onClose() {
-    clickManage((clicked) => !clicked);
-  }
-
+import Modal from "../assets/Component/Modal";
+function Login({ onClose }) {
   const login = useGoogleLogin({
     onSuccess: (tokenResponse) => {
       console.log(tokenResponse);
@@ -36,22 +33,17 @@ function Login({ clicked, clickManage }) {
 
   return (
     <div>
-      <div
-        className="fixed inset-0 bg-black bg-opacity-40 z-40"
-        onClick={onClose}
-      />
-
-      <div className="fixed inset-0 z-50 flex items-center justify-center">
-        <div className="flex w-[90%] max-w-3xl h-[400px] bg-white rounded-xl overflow-hidden shadow-xl animate-scale">
+      <Modal onClose={onClose}>
+        <div className="grid grid-cols-5 w-[90%] max-w-3xl h-[400px] bg-white rounded-xl overflow-hidden shadow-xl animate-scale">
           {/* Left panel */}
-          <div className="w-2/5 bg-green-500 text-white flex flex-col justify-center p-6">
+          <div className="col-span-2 bg-green-500 text-white flex flex-col justify-center p-8">
             <h2 className="text-2xl font-bold mb-2">Simple, Free</h2>
             <p className="text-xl">Investing.</p>
             <span className="mt-4 font-medium">Mutual Funds</span>
           </div>
 
           {/* Right panel */}
-          <div className="w-3/5 p-8 flex flex-col gap-4 relative">
+          <div className="col-span-3 p-8 flex flex-col gap-4 relative">
             <button
               onClick={onClose}
               className="absolute top-2 right-4 text-gray-400 hover:text-black text-xl hover:z-30"
@@ -86,7 +78,7 @@ function Login({ clicked, clickManage }) {
             </p>
           </div>
         </div>
-      </div>
+      </Modal>
     </div>
   );
 }

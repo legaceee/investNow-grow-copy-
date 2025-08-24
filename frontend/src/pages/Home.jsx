@@ -12,7 +12,7 @@ import SearchModal from "../assets/Component/SearchModal";
 
 function Home() {
   const [clicked, setIsClicked] = useState(false);
-  const [isModal, setIsModal] = useState(false);
+  const [isModal, setIsModal] = useState(null);
 
   //manage the state above effectively can be done with one state also
   return (
@@ -27,9 +27,9 @@ function Home() {
         <Hero0 />
       </div>
 
-      {isModal && <SearchModal onClose={() => setIsModal(false)} />}
+      {isModal === "search" && <SearchModal onClose={() => setIsModal(null)} />}
 
-      {clicked ? <Login clicked={clicked} clickManage={setIsClicked} /> : ""}
+      {isModal === "login" && <Login onClose={() => setIsModal(null)} />}
       <div>
         <Hero1 />
       </div>

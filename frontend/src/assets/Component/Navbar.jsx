@@ -106,7 +106,7 @@ export default function Navbar({ modalManage, clickManage }) {
             placeholder="Search Groww..."
             className="block w-96 pl-3 pr-16 py-2 border border-gray-300 rounded-lg leading-5 bg-white placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
             onFocus={() => {
-              modalManage(true);
+              modalManage("search");
 
               setTimeout(() => inputEl.current?.blur(), 0);
             }}
@@ -119,7 +119,7 @@ export default function Navbar({ modalManage, clickManage }) {
         </div>
 
         <div className="flex items-center mr-10">
-          <Button clickManage={clickManage}>Login/Signup</Button>
+          <Button clickManage={() => modalManage("login")}>Login/Signup</Button>
         </div>
       </div>
     </nav>
