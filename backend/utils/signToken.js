@@ -6,6 +6,6 @@ export const signToken = (id, username) => {
   return jwt.sign(
     { id, username }, // payload
     process.env.JWT_SECRET, // secret
-    { expiresIn: "1h" } // options
+    { expiresIn: process.env.JWT_EXPIRES_IN } // options
   );
 };
