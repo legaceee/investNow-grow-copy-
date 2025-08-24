@@ -10,10 +10,16 @@ import walletRoute from "./routes/walletRoute.js";
 import transactionRoute from "./routes/transactionRoutes.js";
 import AppError from "./utils/appError.js";
 import globalErrorHandler from "./utils/gobalErrorHandler.js";
-
+import rateLimit from "express-rate-limit";
 const app = express();
 
 // Middleware
+const limiter = rateLimit({
+  max: 100,
+  windowMs: 60 * 60 * 1000,
+  message: "too many req from this ip ,please try again in an hour",
+});
+app.use("/api", limiter);
 app.use(cors());
 app.use(express.json()); // for parsing application/json
 app.use(morgan("dev")); // logs incoming requests
