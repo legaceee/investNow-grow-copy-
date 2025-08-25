@@ -34,7 +34,10 @@ function Login({ onClose }) {
   return (
     <div>
       <Modal onClose={onClose}>
-        <div className="grid grid-cols-5 w-[90%] max-w-3xl h-[400px] bg-white rounded-xl overflow-hidden shadow-xl animate-scale">
+        <div
+          className="grid grid-cols-5 w-[100%] max-w-3xl h-[400px] bg-white rounded-xl overflow-hidden shadow-xl animate-scale"
+          onClick={(e) => e.stopPropagation()}
+        >
           {/* Left panel */}
           <div className="col-span-2 bg-green-500 text-white flex flex-col justify-center p-8">
             <h2 className="text-2xl font-bold mb-2">Simple, Free</h2>
