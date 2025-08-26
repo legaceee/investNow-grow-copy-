@@ -2,7 +2,7 @@
 import express from "express";
 import cors from "cors";
 import morgan from "morgan";
-
+import helmet from "helmet";
 import userRoute from "./routes/userRouter.js";
 import orderRoute from "./routes/orderRoutes.js";
 import portfolioRoute from "./routes/portFolioRoutes.js";
@@ -14,6 +14,7 @@ import rateLimit from "express-rate-limit";
 const app = express();
 
 // Middleware
+app.use(helmet());
 const limiter = rateLimit({
   max: 100,
   windowMs: 60 * 60 * 1000,
@@ -21,7 +22,9 @@ const limiter = rateLimit({
 });
 app.use("/api", limiter);
 app.use(cors());
-app.use(express.json()); // for parsing application/json
+app.use(express.json({ limit: "10mb" }));
+app.use(express.urlencoded({ limit: "10mb", extended: true }));
+// for parsing application/json
 app.use(morgan("dev")); // logs incoming requests
 
 // Example route

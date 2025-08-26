@@ -12,8 +12,10 @@ services:
     command: npm run dev
     environment:
       - DATABASE_URL=postgresql://postgres:postgres@db:5432/stockdb
+      - REDIS_URL=redis://redis:6379 #  add redis env here
     depends_on:
       - db
+      - redis
 
   frontend:
     build: ./frontend
@@ -31,5 +33,20 @@ services:
     volumes:
       - pgdata:/var/lib/postgresql/data
 
+  redis:
+    image: redis:7
+    command: >
+      redis-server --maxmemory 200mb --maxmemory-policy allkeys-lru
+    ports:
+      - "6379:6379"
+    volumes:
+      - redisdata:/data
+    deploy:
+      resources:
+        limits:
+          memory: 300M
+          cpus: "0.50" # limit Redis to half a CPU
+
 volumes:
   pgdata:
+  redisdata:

@@ -5,12 +5,14 @@ dotenv.config();
 import { createServer } from "http";
 import { Server } from "socket.io";
 import Redis from "ioredis";
+import { subscriber } from "./utils/redisClient.js";
 
 import app from "./app.js";
 import prisma from "./config/prismaClient.js";
 import updateStock from "./updateStocks.js";
 
-// ✅ Handle BigInt serialization for JSON
+const userSubscriptions = new Map();
+//  Handle BigInt serialization for JSON
 BigInt.prototype.toJSON = function () {
   return this.toString();
 };
@@ -21,7 +23,7 @@ async function startServer() {
   try {
     // Test DB connection
     await prisma.$connect();
-    console.log("✅ Connected to PostgreSQL via Prisma");
+    console.log(" Connected to PostgreSQL via Prisma");
 
     // Create HTTP server from Express app
     const server = createServer(app);
@@ -30,18 +32,37 @@ async function startServer() {
     const io = new Server(server, {
       cors: { origin: "*" },
     });
+    io.on("connection", (socket) => {
+      console.log(`client connected: ${socket.id}`);
 
+      socket.on("subscribe", (symbols) => {
+        userSubscriptions.set(socket.id, new set(symbols));
+        console.log(`${socket.id} subscribed to`, symbols);
+      });
+      socket.on("disconnect", () => {
+        userSubscriptions.delete(socket.id);
+        console.log(`client disconnected: ${socket.id}`);
+      });
+    });
     // Setup Redis
-    const redis = new Redis();
-    redis.subscribe("stock-prices");
+    await subscriber.subscribe("stock-prices");
 
-    redis.on("message", (channel, message) => {
+    subscriber.on("message", (channel, message) => {
       if (channel === "stock-prices") {
-        const data = JSON.parse(message);
-        io.emit("price-update", data); // broadcast to all connected clients
+        const updates = JSON.parse(message);
+
+        //filter per client
+        for (const [socketId, symbols] of userSubscriptions.entries()) {
+          const socket = io.sockets.sockets.get(socketId);
+          if (!socket) continue;
+
+          const filtered = updates.filter((u) => symbols.has(u.symbol));
+          if (filtered.length > 0) {
+            socket.emit("price-update", filtered);
+          }
+        }
       }
     });
-
     // Start Express + Socket.IO server
     server.listen(PORT, () => {
       console.log(`🚀 Server running on http://localhost:${PORT}`);

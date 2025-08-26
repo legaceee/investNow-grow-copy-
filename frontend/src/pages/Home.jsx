@@ -7,27 +7,22 @@ import Hero3 from "../assets/Component/Hero3";
 import Hero4 from "../assets/Component/Hero4";
 import Login from "./Login";
 import Hero0 from "../assets/Hero0";
-import Search from "../assets/Component/Search";
+
 import SearchModal from "../assets/Component/SearchModal";
 
 function Home() {
-  const [clicked, setIsClicked] = useState(false);
   const [isModal, setIsModal] = useState(null);
 
-  //manage the state above effectively can be done with one state also
   return (
     <>
       <div className="flex flex-col items-center justify-center min-h-screen bg-white">
-        <Navbar
-          clicked={clicked}
-          clickManage={setIsClicked}
-          isModal={isModal}
-          modalManage={setIsModal}
-        />
+        <Navbar isModal={isModal} modalManage={setIsModal} />
         <Hero0 />
       </div>
 
-      {isModal === "search" && <SearchModal onClose={() => setIsModal(null)} />}
+      {isModal === "search" && (
+        <SearchModal onClose={() => setIsModal(null)} setIsModal={setIsModal} />
+      )}
 
       {isModal === "login" && <Login onClose={() => setIsModal(null)} />}
       <div>

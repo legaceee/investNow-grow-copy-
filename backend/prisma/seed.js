@@ -7,7 +7,7 @@ import dotenv from "dotenv";
 dotenv.config({ path: path.resolve(process.cwd(), "../.env") });
 
 async function main() {
-  console.log("🌱 Seeding stocks (upsert)...");
+  console.log(" Seeding stocks (upsert)...");
 
   const __filename = fileURLToPath(import.meta.url);
   const __dirname = path.dirname(__filename);
@@ -39,12 +39,12 @@ async function main() {
     });
   }
 
-  console.log("✅ Stock upsert completed!");
+  console.log(" Stock upsert completed!");
 }
 
 main()
   .catch((e) => {
-    console.error("❌ Error seeding stocks:", e);
+    console.error(" Error seeding stocks:", e);
     process.exit(1);
   })
   .finally(async () => {

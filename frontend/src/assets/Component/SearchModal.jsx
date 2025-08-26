@@ -6,14 +6,19 @@ export default function SearchModal({ onClose }) {
   const inputRef = useRef(null);
 
   // focus the modal input & lock body scroll
+  const onKeyDown = (e) => {
+    if (e.key === "Escape") {
+      onClose();
+    }
+  };
   useEffect(() => {
     inputRef.current?.focus();
     document.body.classList.add("overflow-hidden");
-    const onEsc = (e) => e.key === "Escape" && onClose();
-    window.addEventListener("keydown", onEsc);
+
+    window.addEventListener("keydown", onKeyDown);
     return () => {
       document.body.classList.remove("overflow-hidden");
-      window.removeEventListener("keydown", onEsc);
+      window.removeEventListener("keydown", onKeyDown);
     };
   }, [onClose]);
 
@@ -39,7 +44,7 @@ export default function SearchModal({ onClose }) {
           <input
             ref={inputRef}
             type="text"
-            placeholder="Search Groww..."
+            placeholder="Search INVESTnow..."
             className="w-full pl-10 pr-10 py-3 rounded-lg outline-none placeholder-gray-400"
           />
           <button
@@ -72,7 +77,7 @@ export default function SearchModal({ onClose }) {
         {/* list */}
         <div className="px-4 pb-4">
           <p className="text-sm font-medium text-gray-500 mb-2">
-            Popular on Groww
+            Popular on INVESTnow
           </p>
           <ul className="max-h-72 overflow-auto">
             {popular.map((item) => (

@@ -69,7 +69,7 @@ import { useEffect, useRef, useState } from "react";
 
 import Button from "./Button";
 
-export default function Navbar({ modalManage, clickManage }) {
+export default function Navbar({ modalManage }) {
   const [query, setQuery] = useState("");
   const inputEl = useRef(null);
 
@@ -77,7 +77,8 @@ export default function Navbar({ modalManage, clickManage }) {
     function onKey(e) {
       if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
         e.preventDefault();
-        modalManage(true);
+        console.log("Ctrl+K detected");
+        modalManage("search");
       }
     }
     document.addEventListener("keydown", onKey);
