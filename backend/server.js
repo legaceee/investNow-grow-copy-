@@ -4,15 +4,13 @@ dotenv.config();
 
 import { createServer } from "http";
 import { Server } from "socket.io";
-import Redis from "ioredis";
 import { subscriber } from "./utils/redisClient.js";
 
 import app from "./app.js";
 import prisma from "./config/prismaClient.js";
 import updateStock from "./updateStocks.js";
 
-const userSubscriptions = new Map();
-//  Handle BigInt serialization for JSON
+// Handle BigInt serialization for JSON
 BigInt.prototype.toJSON = function () {
   return this.toString();
 };
@@ -32,44 +30,63 @@ async function startServer() {
     const io = new Server(server, {
       cors: { origin: "*" },
     });
+
+    // symbol -> Set of socket ids
+    const symbolSubscriptions = new Map();
+
     io.on("connection", (socket) => {
-      console.log(`client connected: ${socket.id}`);
+      console.log(` client connected: ${socket.id}`);
 
       socket.on("subscribe", (symbols) => {
-        userSubscriptions.set(socket.id, new set(symbols));
+        // remove old subscriptions
+        for (const subs of symbolSubscriptions.values()) {
+          subs.delete(socket.id);
+        }
+
+        // add new subscriptions
+        for (const sym of symbols) {
+          if (!symbolSubscriptions.has(sym)) {
+            symbolSubscriptions.set(sym, new Set());
+          }
+          symbolSubscriptions.get(sym).add(socket.id);
+        }
         console.log(`${socket.id} subscribed to`, symbols);
       });
+
       socket.on("disconnect", () => {
-        userSubscriptions.delete(socket.id);
-        console.log(`client disconnected: ${socket.id}`);
+        for (const subs of symbolSubscriptions.values()) {
+          subs.delete(socket.id);
+        }
+        console.log(` client disconnected: ${socket.id}`);
       });
     });
-    // Setup Redis
+
+    // Redis consumer
     await subscriber.subscribe("stock-prices");
-
     subscriber.on("message", (channel, message) => {
-      if (channel === "stock-prices") {
-        const updates = JSON.parse(message);
+      if (channel !== "stock-prices") return;
 
-        //filter per client
-        for (const [socketId, symbols] of userSubscriptions.entries()) {
+      const updates = JSON.parse(message);
+
+      for (const update of updates) {
+        const subs = symbolSubscriptions.get(update.symbol);
+        if (!subs) continue;
+
+        for (const socketId of subs) {
           const socket = io.sockets.sockets.get(socketId);
-          if (!socket) continue;
-
-          const filtered = updates.filter((u) => symbols.has(u.symbol));
-          if (filtered.length > 0) {
-            socket.emit("price-update", filtered);
+          if (socket) {
+            socket.emit("price-update", [update]);
           }
         }
       }
     });
-    // Start Express + Socket.IO server
+
     server.listen(PORT, () => {
-      console.log(`🚀 Server running on http://localhost:${PORT}`);
+      console.log(` Server running on http://localhost:${PORT}`);
       updateStock(); // start updating prices automatically
     });
   } catch (error) {
-    console.error("❌ Failed to start server:", error);
+    console.error(" Failed to start server:", error);
     process.exit(1);
   }
 }

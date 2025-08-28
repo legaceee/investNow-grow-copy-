@@ -7,6 +7,7 @@ import AppError from "../utils/appError.js"; // custom error handler
 import { signToken } from "../utils/signToken.js";
 import crypto from "crypto";
 import nodemailer from "nodemailer";
+import { generateOTP } from "../utils/generateOTP.js";
 //require authentication for protected routes
 export const createSendToken = (user, statusCode, res) => {
   const token = signToken(user.id, user.username);
@@ -19,7 +20,7 @@ export const createSendToken = (user, statusCode, res) => {
   };
   const safeUser = {
     id: user.id,
-    username: user.username,
+    username: user.username || null,
     email: user.email,
     role: user.role,
   };
@@ -186,7 +187,7 @@ export const updatePassword = CatchAsync(async (req, res, next) => {
     return next(new AppError("Your current password is wrong", 401));
   }
 
-  const hashedPassword = await bcrypt.hash(newPassword, 12);
+  const hashedPassword = await bcrypt.hash(newPassword, 10);
 
   const updatedUser = await prisma.user.update({
     where: { id: userId },
@@ -210,7 +211,7 @@ export const sendOtp = CatchAsync(async (req, res) => {
   }
 
   // Generate OTP
-  const { otp, hashedOtp } = generateOTP();
+  const { otp, hashedOtp } = await generateOTP();
   const expiry = new Date(Date.now() + 10 * 60 * 1000); // 10 min expiry
 
   // Upsert OTP record

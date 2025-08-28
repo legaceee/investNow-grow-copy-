@@ -10,12 +10,11 @@ async function consumeStockUpdates() {
         data.forEach((stock) => {
           handleStockUpdate(stock);
         });
-      } 
+      }
       //  Case 2: Single stock object
       else {
         handleStockUpdate(data);
       }
-
     } catch (err) {
       console.error("Error parsing stock update:", err);
     }
@@ -26,10 +25,8 @@ async function consumeStockUpdates() {
 
 function handleStockUpdate(stock) {
   console.log(
-    `🔔 ${stock.symbol} | Price: ${stock.price} | Time: ${stock.timeStamp}`
+    ` ${stock.symbol} | Price: ${stock.price} | Time: ${stock.timeStamp}`
   );
-
- 
-
+}
 
 consumeStockUpdates();
