@@ -62,15 +62,33 @@ model Stock {
   portfolioItems PortfolioItem[]
   transactions   Transaction[]
   watchlistedBy  Watchlist[]
-  prices         StockPrice[]
+   intradayPrices IntradayCandle[]   // intraday 1-min OHLC
+  dailyHistory   DailyHistory[]
 }
 
-model StockPrice {
+model IntradayCandle {
   id        String   @id @default(uuid())
   stockId   String
-  price     Float
-  createdAt DateTime @default(now())
   stock     Stock    @relation(fields: [stockId], references: [id])
+  interval  String   
+  open      Float
+  high      Float
+  low       Float
+  close     Float
+  volume    BigInt?
+  timestamp DateTime 
+}
+
+model DailyHistory {
+  id        String   @id @default(uuid())
+  stockId   String
+  stock     Stock    @relation(fields: [stockId], references: [id])
+  date      DateTime @default(now()) 
+  open      Float
+  high      Float
+  low       Float
+  close     Float
+  volume    BigInt?
 }
 
 model Portfolio {
@@ -120,14 +138,13 @@ model Order {
   id          String   @id @default(uuid())
   userId      String
   stockId     String
-  side        String   // "BUY" | "SELL"
-  type        String   // "MARKET" | "LIMIT"
-  limitPrice  Decimal? // null for market
+  side        String   
+  type        String 
+  limitPrice  Decimal? 
   qty         Int
   filledQty   Int      @default(0)
-  status      String   // "OPEN" | "FILLED" | "CANCELLED" | "PARTIAL"
+  status      String   
   createdAt   DateTime @default(now())
-  // indexes you’ll likely want:
   @@index([stockId, status, side, limitPrice])
 }
 
