@@ -1,5 +1,10 @@
 import { Pen } from "lucide-react";
-function Otpwindow({ setEmailOtpSend, email, onClose }) {
+function Otpwindow({ setEmailOtpSend, email, onVerify, onClose, modalManage }) {
+  function onClck() {
+    onVerify();
+    modalManage("pin");
+    // setEmailOtpSend((emailOtpSend) => !emailOtpSend);
+  }
   return (
     <div className="col-span-3 p-8 flex flex-col gap-4 relative">
       <button
@@ -28,7 +33,7 @@ function Otpwindow({ setEmailOtpSend, email, onClose }) {
       />
       <button
         className="bg-green-500 text-white py-2 rounded-md hover:bg-green-600"
-        onClick={() => setEmailOtpSend((emailOtpSend) => !emailOtpSend)}
+        onClick={onClck}
       >
         verify
       </button>

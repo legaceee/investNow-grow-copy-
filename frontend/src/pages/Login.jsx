@@ -23,7 +23,7 @@ import Modal from "../assets/Component/Modal";
 import { Pen } from "lucide-react";
 import Otpwindow from "../assets/Component/Otpwindow";
 import SignupWindow from "../assets/Component/SignupWindow";
-function Login({ onClose }) {
+function Login({ onClose, onClick, modalManage }) {
   const [emailOtpSend, setEmailOtpSend] = useState(false);
   const [email, setEmail] = useState("");
 
@@ -65,6 +65,8 @@ function Login({ onClose }) {
               setEmailOtpSend={setEmailOtpSend}
               email={email}
               onClose={onClose}
+              onVerify={onClick}
+              modalManage={modalManage}
             />
           )}
         </div>
