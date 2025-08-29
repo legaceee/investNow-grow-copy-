@@ -62,34 +62,25 @@ model Stock {
   portfolioItems PortfolioItem[]
   transactions   Transaction[]
   watchlistedBy  Watchlist[]
-   intradayPrices IntradayCandle[]   // intraday 1-min OHLC
-  dailyHistory   DailyHistory[]
+  candle Candle[]
 }
 
-model IntradayCandle {
+model Candle {
   id        String   @id @default(uuid())
-  stockId   String
   stock     Stock    @relation(fields: [stockId], references: [id])
-  interval  String   
+  stockId   String
+  interval  String   // "1m", "5m", "15m", "1d"
+  time      DateTime // start of the candle
   open      Float
   high      Float
   low       Float
   close     Float
-  volume    BigInt?
-  timestamp DateTime 
+  volume    Float    @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  @@unique([stockId, interval, time])
 }
 
-model DailyHistory {
-  id        String   @id @default(uuid())
-  stockId   String
-  stock     Stock    @relation(fields: [stockId], references: [id])
-  date      DateTime @default(now()) 
-  open      Float
-  high      Float
-  low       Float
-  close     Float
-  volume    BigInt?
-}
 
 model Portfolio {
   id             String          @id @default(uuid())

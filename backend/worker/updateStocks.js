@@ -153,8 +153,10 @@
 // }
 
 import fs from "fs";
-import prisma from "./config/prismaClient.js";
-import { publisher } from "./utils/redisClient.js";
+import prisma from "../config/prismaClient.js";
+import { publisher } from "../utils/redisClient.js";
+import { updateCandles } from "./ohlc.js";
+import "./flusher.js";
 
 // Helpers
 function getVolatility(price) {
@@ -180,7 +182,6 @@ async function loadStocks() {
   stockMap = Object.fromEntries(dbStocks.map((s) => [s.symbol, s.id]));
 }
 
-//  Batch publisher helper
 async function publishInBatches(channel, updates, batchSize = 100) {
   const pipeline = publisher.pipeline();
 
@@ -193,7 +194,6 @@ async function publishInBatches(channel, updates, batchSize = 100) {
 }
 
 async function updateMockPricesDB() {
-  const priceUpdates = [];
   const redisUpdates = [];
 
   for (let stock of stocks) {
@@ -205,24 +205,16 @@ async function updateMockPricesDB() {
       continue;
     }
 
-    // DB batch insert
-    priceUpdates.push({
-      stockId,
-      price: stock.currentPrice,
-    });
-
-    // Redis batch update
-    redisUpdates.push({
+    const update = {
       stockId,
       symbol: stock.symbol,
       price: stock.currentPrice,
       timeStamp: new Date().toISOString(),
-    });
-  }
+    };
 
-  //  Bulk insert into DB
-  if (priceUpdates.length > 0) {
-    await prisma.stockPrice.createMany({ data: priceUpdates });
+    redisUpdates.push(update);
+
+    updateCandles(update);
   }
 
   //  Publish in smaller JSON batches (100 per message)
