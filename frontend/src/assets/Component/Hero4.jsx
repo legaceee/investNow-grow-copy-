@@ -48,6 +48,9 @@
 
 export default Hero4; */
 
+import { Link } from "react-router-dom";
+import Footer from "./Footer";
+
 function Hero4() {
   return (
     <div>
@@ -66,7 +69,9 @@ function Hero4() {
             4
           </div>
         </div>
-        <div className="w-full bg-gray-100  h-[600px] z-10 relative  -mt-[146px]"></div>
+        <div className="-mt-[149px]">
+          <Footer />
+        </div>
       </div>
     </div>
   );

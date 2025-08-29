@@ -46,6 +46,6 @@ export async function flushCandles() {
   }
 }
 
-// run flush every 5s
+// run flush every 1min
 
 setInterval(flushCandles, 10 * 1000);
