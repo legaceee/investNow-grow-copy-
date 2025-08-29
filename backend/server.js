@@ -8,7 +8,7 @@ import { subscriber } from "./utils/redisClient.js";
 
 import app from "./app.js";
 import prisma from "./config/prismaClient.js";
-import updateStock from "./updateStocks.js";
+import updateStock from "./worker/updateStocks.js";
 
 // Handle BigInt serialization for JSON
 BigInt.prototype.toJSON = function () {

@@ -1,66 +1,51 @@
-import prisma from "../config/prismaClient.js";
 import { candleBuckets, resetCandleBucket } from "./ohlc.js";
+import prisma from "../config/prismaClient.js";
 
-// Flush closed candles from in-memory bucket to Postgres
+function shouldFlush(interval, bucketTime, now) {
+  if (interval === "1m") {
+    return now.getTime() - bucketTime.getTime() >= 60 * 1000;
+  }
+  if (interval === "5m") {
+    return now.getTime() - bucketTime.getTime() >= 5 * 60 * 1000;
+  }
+  if (interval === "1d") {
+    // flush once day has passed
+    return now.getDate() !== bucketTime.getDate();
+  }
+  return false;
+}
 
 export async function flushCandles() {
   const now = new Date();
   const flushList = [];
 
-  for (const [symbol, intervals] of Object.entries(candleBuckets)) {
-    for (const [bucketKey, data] of Object.entries(intervals)) {
-      const [interval, isoTime] = bucketKey.split(":");
-      const bucketTime = new Date(isoTime);
+  for (const [key, data] of Object.entries(candleBuckets)) {
+    const [symbol, interval, ...rest] = key.split(":");
+    const isoTime = rest.join(":");
+    const bucketTime = new Date(isoTime);
 
-      // Check if bucket has closed
-      if (shouldFlush(interval, bucketTime, now)) {
-        flushList.push({
-          stockId: data.stockId,
-          interval,
-          time: bucketTime,
-          open: data.open,
-          high: data.high,
-          low: data.low,
-          close: data.close,
-          volume: data.volume,
-        });
+    if (shouldFlush(interval, bucketTime, now)) {
+      flushList.push({
+        stockId: data.stockId,
+        interval,
+        time: bucketTime,
+        open: data.open,
+        high: data.high,
+        low: data.low,
+        close: data.close,
+        volume: data.volume,
+      });
 
-        resetCandleBucket(symbol, bucketKey);
-      }
+      resetCandleBucket(key);
     }
   }
 
-  // Batch insert if we have flushed candles
   if (flushList.length > 0) {
     await prisma.candle.createMany({ data: flushList });
-    console.log(
-      `✅ Flushed ${flushList.length} candles at ${now.toLocaleTimeString()}`
-    );
+    console.log(` Flushed ${flushList.length} candles at ${now.toISOString()}`);
   }
 }
 
-// Decide if a bucket is ready to be flushed
-
-function shouldFlush(interval, bucketTime, now) {
-  const roundedNow = new Date(now);
-
-  if (interval === "1m") {
-    roundedNow.setSeconds(0, 0);
-    return bucketTime < roundedNow;
-  }
-
-  if (interval === "5m") {
-    const minutes = Math.floor(now.getMinutes() / 5) * 5;
-    roundedNow.setMinutes(minutes, 0, 0);
-    return bucketTime < roundedNow;
-  }
-
-  if (interval === "1d") {
-    roundedNow.setUTCHours(0, 0, 0, 0);
-    return bucketTime < roundedNow;
-  }
-
-  return false;
-}
+// run flush every 5s
 
 setInterval(flushCandles, 10 * 1000);

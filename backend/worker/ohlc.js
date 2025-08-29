@@ -4,17 +4,19 @@ let candleBuckets = {};
 
 export function updateCandles(stockUpdate) {
   const { stockId, symbol, price, timeStamp } = stockUpdate;
+  console.log(stockId, symbol);
   const ts = new Date(timeStamp);
 
   const oneMinKey = `${symbol}:1m:${startOfMinute(ts).toISOString()}`;
   upsertCandle(oneMinKey, stockId, price, "1m", startOfMinute(ts));
-
+  console.log(oneMinKey);
   const fiveMinStart = new Date(
     Math.floor(ts.getTime() / (5 * 60 * 1000)) * 5 * 60 * 1000
   );
+
   const fiveMinKey = `${symbol}:5m:${fiveMinStart.toISOString()}`;
   upsertCandle(fiveMinKey, stockId, price, "5m", fiveMinStart);
-
+  console.log(fiveMinKey);
   const dayKey = `${symbol}:1d:${startOfDay(ts).toISOString()}`;
   upsertCandle(dayKey, stockId, price, "1d", startOfDay(ts));
 }
@@ -31,6 +33,7 @@ function upsertCandle(key, stockId, price, interval, bucketStart) {
       volume: 1,
       timestamp: bucketStart,
     };
+    console.log(candleBuckets[key]);
   } else {
     let c = candleBuckets[key];
     c.high = Math.max(c.high, price);
@@ -42,3 +45,5 @@ function upsertCandle(key, stockId, price, interval, bucketStart) {
 export function resetCandleBucket(key) {
   delete candleBuckets[key];
 }
+
+export { candleBuckets };
