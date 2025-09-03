@@ -1,3 +1,4 @@
+import Button from "./Button";
 import Modal from "./Modal";
 function PinModal() {
   return (
@@ -6,7 +7,7 @@ function PinModal() {
         <div className="flex justify-center text-3xl m-3">
           <h2>ENTER YOUR PIN</h2>
         </div>
-        <div className="flex justify-center  gap-8 m-3">
+        <div className="flex justify-center  gap-8 m-3 mt-10">
           <input
             type="password"
             className="bg-slate-100 w-14 h-14 text-center"
@@ -26,6 +27,9 @@ function PinModal() {
             type="password"
             className="bg-slate-100 w-14 h-14 text-center"
           />
+        </div>
+        <div className="flex justify-center mt-16">
+          <Button>CONTINUE</Button>
         </div>
       </div>
     </Modal>

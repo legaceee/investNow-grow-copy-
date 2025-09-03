@@ -9,7 +9,7 @@ import {
 
 function Footer({ path = [] }) {
   return (
-    <footer className="w-full bg-gray-100 h-[600px] z-10 relative  pl-32 pr-32 pt-24">
+    <footer className="w-full bg-gray-100  z-10 relative  px-6 md:px-32 pr-32 pt-24">
       <div className="flex flex-col">
         {/* breadcrumbs */}
         <div className="flex">
@@ -22,7 +22,7 @@ function Footer({ path = [] }) {
       {/* 🔹 Footer columns */}
       <div className="flex justify-between">
         <div>
-          <h3>INVESTnow</h3>
+          <h3 className="text-lg">INVESTnow</h3>
           <div className="flex flex-col">
             <span>Lorem, ipsum dolor, wenkatu</span>
             <span>Lorem ipsum dolor sit.</span>
@@ -43,7 +43,7 @@ function Footer({ path = [] }) {
         </div>
 
         <div>
-          <h3>INVESTnoww</h3>
+          <h3 className="text-lg">INVESTnoww</h3>
           <div>
             <h3>home</h3>
             <h3>services</h3>
