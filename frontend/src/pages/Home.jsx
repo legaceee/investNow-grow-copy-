@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "../assets/Component/Navbar";
 
 import Hero1 from "../assets/Component/Hero1";
@@ -14,9 +14,6 @@ import GuestNavbar from "../assets/Component/GuestNavbar";
 import ModalRoot from "../assets/Component/ModalRoot";
 
 function Home() {
-  const [isModal, setIsModal] = useState(null);
-  const [isLogin, setIsLogin] = useState(false);
-
   return (
     <>
       <div className="flex flex-col items-center justify-center min-h-screen bg-white">

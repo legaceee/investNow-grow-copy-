@@ -11,21 +11,25 @@ function PinModal() {
           <input
             type="password"
             className="bg-slate-100 w-14 h-14 text-center"
+            maxLength={1}
           />
 
           <input
             type="password"
             className="bg-slate-100 w-14 h-14 text-center"
+            maxLength={1}
           />
 
           <input
             type="password"
             className="bg-slate-100 w-14 h-14 text-center"
+            maxLength={1}
           />
 
           <input
             type="password"
             className="bg-slate-100 w-14 h-14 text-center"
+            maxLength={1}
           />
         </div>
         <div className="flex justify-center mt-16">

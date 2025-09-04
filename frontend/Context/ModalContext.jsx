@@ -4,6 +4,8 @@ const ModalContext = createContext();
 
 export function ModalProvider({ children }) {
   const [modal, setModal] = useState(null);
+  const openModal = (name) => setModal(name);
+  const closeModal = () => setModal(null);
 
   // Global shortcut for search modal
   useEffect(() => {
@@ -18,7 +20,7 @@ export function ModalProvider({ children }) {
   }, []);
 
   return (
-    <ModalContext.Provider value={{ modal, setModal }}>
+    <ModalContext.Provider value={{ modal, setModal, openModal, closeModal }}>
       {children}
     </ModalContext.Provider>
   );
