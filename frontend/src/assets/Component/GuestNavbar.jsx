@@ -3,12 +3,12 @@ import Button from "./Button";
 import { useModal } from "../../../Context/ModalContext";
 
 function GuestNavbar() {
-  const { setModal } = useModal;
-  const modalManage = setModal;
+  const { setModal } = useModal();
+
   return (
     <nav>
       <Navbar>
-        <Button clickManage={() => modalManage("login")}>Login/Signup</Button>
+        <Button clickManage={() => setModal("login")}>Login/Signup</Button>
       </Navbar>
     </nav>
   );

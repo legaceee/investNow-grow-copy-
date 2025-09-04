@@ -1,7 +1,7 @@
 // components/ModalRoot.jsx
 import ReactDOM from "react-dom";
-import { useModal } from "../context/ModalContext";
-import Login from "../pages/Login";
+import { useModal } from "../../../Context/ModalContext";
+import Login from "../../pages/Login";
 import SearchModal from "./SearchModal";
 import PinModal from "./PinModal";
 

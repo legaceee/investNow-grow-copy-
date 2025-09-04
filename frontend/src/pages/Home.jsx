@@ -10,6 +10,8 @@ import Hero0 from "../assets/Hero0";
 
 import SearchModal from "../assets/Component/SearchModal";
 import PinModal from "../assets/Component/PinModal";
+import GuestNavbar from "../assets/Component/GuestNavbar";
+import ModalRoot from "../assets/Component/ModalRoot";
 
 function Home() {
   const [isModal, setIsModal] = useState(null);
@@ -18,11 +20,12 @@ function Home() {
   return (
     <>
       <div className="flex flex-col items-center justify-center min-h-screen bg-white">
-        <Navbar isModal={isModal} modalManage={setIsModal} />
+        {/* <Navbar isModal={isModal} modalManage={setIsModal} /> */}
+        <GuestNavbar />
         <Hero0 />
       </div>
 
-      {isModal === "search" && (
+      {/* {isModal === "search" && (
         <SearchModal onClose={() => setIsModal(null)} setIsModal={setIsModal} />
       )}
 
@@ -33,7 +36,8 @@ function Home() {
           onClick={() => setIsLogin(true)}
         />
       )}
-      {isModal === "pin" && <PinModal />}
+      {isModal === "pin" && <PinModal />} */}
+
       <div>
         <Hero1 />
       </div>
