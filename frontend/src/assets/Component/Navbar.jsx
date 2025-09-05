@@ -21,7 +21,7 @@ export default function Navbar({ children }) {
   }, [setModal]);
 
   return (
-    <nav className="bg-white p-4 z-50">
+    <nav className="bg-white p-4 z-50 ">
       <div className="flex justify-around items-center fixed top-0 left-0 right-0 z-50 bg-white p-4">
         {/* Logo */}
         <div className="flex items-center">

@@ -1,11 +1,13 @@
 import AuthNavbar from "../assets/Component/AuthNavbar";
-import GuestNavbar from "../assets/Component/GuestNavbar";
-import Navbar from "../assets/Component/Navbar";
+import MiddleModal from "../assets/Component/MiddleModal";
 
 function AccountPage() {
   return (
-    <div>
+    <div className="overflow-hidden h-screen">
       <AuthNavbar />
+      <div className="min-h-screen bg-white mt-20">
+        <MiddleModal />
+      </div>
     </div>
   );
 }
