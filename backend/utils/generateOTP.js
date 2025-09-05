@@ -1,7 +1,7 @@
 import crypto from "crypto";
 
-export const generateOTP = async () => {
-  const otp = crypto.randomInt(10000, 99999).toString();
-  const hashedOtp = await bcrypt.hash(otp, 10);
+export async function generateOTP() {
+  const otp = Math.floor(10000 + Math.random() * 90000).toString(); // 5-digit OTP
+  const hashedOtp = crypto.createHash("sha256").update(otp).digest("hex");
   return { otp, hashedOtp };
-};
+}

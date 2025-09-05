@@ -1,4 +1,28 @@
+import { useState } from "react";
+import axios from "axios";
 function SignupWindow({ email, setEmail, onClose, login, setEmailOtpSend }) {
+  const [inputEmail, setInputEmail] = useState("");
+
+  async function handleContinue() {
+    try {
+      // Step 1: Call backend to send OTP
+      const res = await axios.post(
+        "http://localhost:4000/api/v1/users/send-otp",
+        {
+          email: inputEmail,
+        }
+      );
+
+      if (res.status === 200) {
+        // Step 2: Save email for OTP window
+        setEmail(inputEmail);
+        // Step 3: Open OTP modal
+        setEmailOtpSend(true);
+      }
+    } catch (err) {
+      alert(err.response?.data?.error || "Error sending OTP");
+    }
+  }
   return (
     <div className="col-span-3 p-8 flex flex-col gap-4 relative">
       <button
@@ -29,11 +53,7 @@ function SignupWindow({ email, setEmail, onClose, login, setEmailOtpSend }) {
       />
       <button
         className="bg-green-500 text-white py-2 rounded-md hover:bg-green-600"
-        onClick={() => {
-          if (email.trim()) {
-            setEmailOtpSend(true);
-          }
-        }}
+        onClick={handleContinue}
       >
         Continue
       </button>
@@ -47,3 +67,54 @@ function SignupWindow({ email, setEmail, onClose, login, setEmailOtpSend }) {
 }
 
 export default SignupWindow;
+// import { useState } from "react";
+// import axios from "axios";
+
+// function SignupWindow({ setEmailOtpSend, setEmail, modalManage }) {
+//   const [inputEmail, setInputEmail] = useState("");
+
+//   async function handleContinue() {
+//     try {
+//       // Step 1: Call backend to send OTP
+//       const res = await axios.post(
+//         "http://localhost:4000/api/v1/users/send-otp",
+//         {
+//           email: inputEmail,
+//         }
+//       );
+
+//       if (res.status === 200) {
+//         // Step 2: Save email for OTP window
+//         setEmail(inputEmail);
+//         // Step 3: Open OTP modal
+//         setEmailOtpSend(true);
+//       }
+//     } catch (err) {
+//       alert(err.response?.data?.error || "Error sending OTP");
+//     }
+//   }
+
+//   return (
+//     <div className="col-span-3 p-8 flex flex-col gap-4">
+//       <h3 className="text-xl font-semibold">Create your account</h3>
+//       <h3 className="text-xs text-green-400">EMAIL ADDRESS</h3>
+
+//       <input
+//         type="email"
+//         value={inputEmail}
+//         onChange={(e) => setInputEmail(e.target.value)}
+//         placeholder="Enter your email"
+//         className="border rounded-md p-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-400"
+//       />
+
+//       <button
+//         className="bg-green-500 text-white py-2 rounded-md hover:bg-green-600"
+//         onClick={handleContinue}
+//       >
+//         Continue
+//       </button>
+//     </div>
+//   );
+// }
+
+// export default SignupWindow;

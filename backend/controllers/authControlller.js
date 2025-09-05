@@ -228,7 +228,7 @@ export const sendOtp = CatchAsync(async (req, res) => {
   });
 
   await transporter.sendMail({
-    from: `"Groww Clone" <${process.env.EMAIL_USER}>`,
+    from: `"INVESTnoww" <${process.env.EMAIL_USER}>`,
     to: email,
     subject: "Verify your email",
     text: `Your OTP is ${otp}. It will expire in 10 minutes.`,
