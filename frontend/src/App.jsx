@@ -7,6 +7,7 @@ import GuestNavbar from "./assets/Component/GuestNavbar";
 import { ModalProvider } from "../Context/ModalContext";
 import ModalRoot from "./assets/Component/ModalRoot";
 import AccountPage from "./pages/AccountPage";
+import Stock from "./pages/Stock";
 const clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID;
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/loggedIn" element={<AccountPage />} />
             <Route path="/foot" element={<Footer />} />
+            <Route path="/stock/:name" element={<Stock />} />
           </Routes>
           <ModalRoot />
         </ModalProvider>

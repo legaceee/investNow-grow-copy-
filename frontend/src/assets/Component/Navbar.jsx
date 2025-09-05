@@ -21,8 +21,8 @@ export default function Navbar({ children }) {
   }, [setModal]);
 
   return (
-    <nav className="bg-white p-4 z-50 ">
-      <div className="flex justify-around items-center fixed top-0 left-0 right-0 z-50 bg-white p-4">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white  ">
+      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
         {/* Logo */}
         <div className="flex items-center">
           <h1 className="text-lg font-bold">
