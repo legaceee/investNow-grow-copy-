@@ -13,8 +13,8 @@ function Footer({ path = [] }) {
       <div className="flex flex-col">
         {/* breadcrumbs */}
         <div className="flex">
-          <Link to={"/"}>{path[0]}</Link>
-          <Link to={"/"}>{path[1]}</Link>
+          <Link to={"/"}>{path[0]}&#62;</Link>
+          <Link to={"/"}>{path[1]}&#62;</Link>
           <Link to={"/"}>{path[2]}</Link>
         </div>
       </div>
