@@ -1,11 +1,14 @@
 import { useState } from "react";
 import axios from "axios";
+import Loading from "./Loader";
 
 function SignupWindow({ setEmail, onClose, login, setEmailOtpSend }) {
   const [inputEmail, setInputEmail] = useState("");
+  const [loading, setLoading] = useState(false);
 
   async function handleContinue() {
     try {
+      setLoading(true);
       // Step 1: Call backend to send OTP
       const res = await axios.post(
         "http://localhost:4000/api/v1/users/send-otp",
@@ -19,10 +22,15 @@ function SignupWindow({ setEmail, onClose, login, setEmailOtpSend }) {
         setEmail(inputEmail);
         // Step 3: Open OTP modal
         setEmailOtpSend(true);
+        setLoading(false);
       }
     } catch (err) {
       alert(err.response?.data?.error || "Error sending OTP");
+      setLoading(false);
     }
+  }
+  if (loading) {
+    return <Loading text="sending OTP" />;
   }
 
   return (

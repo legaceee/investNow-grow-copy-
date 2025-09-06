@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import { useEffect } from "react";
 import { useState } from "react";
+import Loading from "./Loader";
 
 export default function UserProfile() {
   const [user, setUser] = useState(null);
@@ -34,7 +35,7 @@ export default function UserProfile() {
 
     fetchUser();
   }, []);
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <Loading />;
   if (!user) return <p>No user logged in</p>;
   return (
     <div className="w-72 bg-white rounded-xl shadow-lg border border-gray-200 p-4">
