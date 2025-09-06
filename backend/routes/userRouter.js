@@ -1,7 +1,11 @@
 // routes/userRoutes.js
 
 import express from "express";
-import { getAllUsers, updateProfile } from "../controllers/userController.js";
+import {
+  getAllUsers,
+  getUser,
+  updateProfile,
+} from "../controllers/userController.js";
 import {
   signup,
   login,
@@ -25,6 +29,7 @@ router.post("/login", login);
 router.post("/watchlist", requireAuth, watchList);
 router.patch("/updatePassword", requireAuth, updatePassword);
 router.patch("/updateME", requireAuth, updateProfile);
+router.get("/getMe", requireAuth, getUser);
 router.get("/", requireAdmin, getAllUsers);
 
 export default router;

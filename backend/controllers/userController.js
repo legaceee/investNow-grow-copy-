@@ -61,3 +61,23 @@ export const deleteMyAccount = CatchAsync(async (req, res, next) => {
     message: "Your account has been deleted",
   });
 });
+
+export const getUser = CatchAsync(async (req, res, next) => {
+  const userId = req.user.id;
+  if (!userId) {
+    return next(new AppError("You must be logged in", 401));
+  }
+  const user = await prisma.user.findUnique({
+    where: { id: userId },
+    select: { id: true, username: true, email: true, createdAt: true },
+  });
+  if (!user) {
+    return next(new AppError("User not found", 404));
+  }
+  res.status(200).json({
+    status: "success",
+    data: {
+      user,
+    },
+  });
+});

@@ -200,28 +200,58 @@ export const updatePassword = CatchAsync(async (req, res, next) => {
   createSendToken(updatedUser, 201, res);
 });
 
+// export const sendOtp = CatchAsync(async (req, res) => {
+//   const { email } = req.body;
+
+//   let user = await prisma.user.findUnique({ where: { email } });
+//   if (!user) {
+//     user = await prisma.user.create({
+//       data: { email, username: email.split("@")[0] }, // temp username
+//     });
+//   }
+
+//   // Generate OTP
+//   const { otp, hashedOtp } = await generateOTP();
+//   const expiry = new Date(Date.now() + 10 * 60 * 1000); // 10 min expiry
+
+//   // Upsert OTP record
+//   await prisma.emailVerification.upsert({
+//     where: { userId: user.id },
+//     update: { otpCode: hashedOtp, expiresAt: expiry },
+//     create: { userId: user.id, otpCode: hashedOtp, expiresAt: expiry },
+//   });
+
+//   // Send OTP via email
+//   const transporter = nodemailer.createTransport({
+//     service: "gmail",
+//     auth: { user: process.env.EMAIL_USER, pass: process.env.EMAIL_PASS },
+//   });
+
+//   await transporter.sendMail({
+//     from: `"INVESTnoww" <${process.env.EMAIL_USER}>`,
+//     to: email,
+//     subject: "Verify your email",
+//     text: `Your OTP is ${otp}. It will expire in 10 minutes.`,
+//   });
+
+//   res.status(200).json({ message: "OTP sent to email" });
+// });
+
+// sendOtp.js
 export const sendOtp = CatchAsync(async (req, res) => {
   const { email } = req.body;
 
-  let user = await prisma.user.findUnique({ where: { email } });
-  if (!user) {
-    user = await prisma.user.create({
-      data: { email, username: email.split("@")[0] }, // temp username
-    });
-  }
+  // Just check if OTP already exists
+  const otp = Math.floor(100000 + Math.random() * 900000).toString();
+  const hashedOtp = crypto.createHash("sha256").update(otp).digest("hex");
+  const expiry = new Date(Date.now() + 10 * 60 * 1000);
 
-  // Generate OTP
-  const { otp, hashedOtp } = await generateOTP();
-  const expiry = new Date(Date.now() + 10 * 60 * 1000); // 10 min expiry
-
-  // Upsert OTP record
   await prisma.emailVerification.upsert({
-    where: { userId: user.id },
+    where: { email },
     update: { otpCode: hashedOtp, expiresAt: expiry },
-    create: { userId: user.id, otpCode: hashedOtp, expiresAt: expiry },
+    create: { email, otpCode: hashedOtp, expiresAt: expiry },
   });
 
-  // Send OTP via email
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: { user: process.env.EMAIL_USER, pass: process.env.EMAIL_PASS },
@@ -237,12 +267,45 @@ export const sendOtp = CatchAsync(async (req, res) => {
   res.status(200).json({ message: "OTP sent to email" });
 });
 
+// export const verifyOtp = CatchAsync(async (req, res) => {
+//   const { email, otp } = req.body;
+
+//   const user = await prisma.user.findUnique({ where: { email } });
+//   if (!user) return res.status(404).json({ error: "User not found" });
+
+//   const record = await prisma.emailVerification.findUnique({
+//     where: { userId: user.id },
+//   });
+
+//   if (!record) return res.status(400).json({ error: "No OTP found" });
+//   if (record.expiresAt < new Date())
+//     return res.status(400).json({ error: "OTP expired" });
+
+//   // Compare hashed OTP
+//   const hashedOtp = crypto.createHash("sha256").update(otp).digest("hex");
+//   if (hashedOtp !== record.otpCode) {
+//     return res.status(400).json({ error: "Invalid OTP" });
+//   }
+
+//   // Success → mark verified
+//   await prisma.user.update({
+//     where: { id: user.id },
+//     data: { emailVerified: true },
+//   });
+
+//   // Delete OTP record
+//   await prisma.emailVerification.delete({ where: { userId: user.id } });
+
+//   res.status(200).json({ message: "Email verified successfully" });
+// });
 export const verifyOtp = CatchAsync(async (req, res) => {
   const { email, otp } = req.body;
 
+  // 1. Find user
   const user = await prisma.user.findUnique({ where: { email } });
   if (!user) return res.status(404).json({ error: "User not found" });
 
+  // 2. Get OTP record
   const record = await prisma.emailVerification.findUnique({
     where: { userId: user.id },
   });
@@ -251,19 +314,19 @@ export const verifyOtp = CatchAsync(async (req, res) => {
   if (record.expiresAt < new Date())
     return res.status(400).json({ error: "OTP expired" });
 
-  // Compare hashed OTP
+  // 3. Compare OTP
   const hashedOtp = crypto.createHash("sha256").update(otp).digest("hex");
   if (hashedOtp !== record.otpCode) {
     return res.status(400).json({ error: "Invalid OTP" });
   }
 
-  // Success → mark verified
+  // 4. Mark email as verified
   await prisma.user.update({
     where: { id: user.id },
     data: { emailVerified: true },
   });
 
-  // Delete OTP record
+  // 5. Delete OTP record (cleanup)
   await prisma.emailVerification.delete({ where: { userId: user.id } });
 
   res.status(200).json({ message: "Email verified successfully" });

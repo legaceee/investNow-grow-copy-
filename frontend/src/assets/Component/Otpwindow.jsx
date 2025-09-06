@@ -41,7 +41,7 @@ function Otpwindow({ setEmailOtpSend, email, onClose, modalManage }) {
       );
 
       if (res.data.status === "success") {
-        alert("Signup successful 🎉");
+        alert("Signup successful ");
         modalManage("pin"); // proceed to PIN modal
       }
     } catch (err) {

@@ -1,3 +1,4 @@
+import axios from "axios";
 import {
   Settings,
   LogOut,
@@ -6,14 +7,41 @@ import {
   ClipboardList,
   Wallet,
 } from "lucide-react";
+import { useEffect } from "react";
+import { useState } from "react";
 
 export default function UserProfile() {
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    async function fetchUser() {
+      try {
+        const res = await axios.get(
+          "http://localhost:4000/api/v1/users/getMe",
+          {
+            withCredentials: true, // send cookies/JWT
+          }
+        );
+        setUser(res.data.data.user);
+      } catch (err) {
+        console.error("Failed to fetch user:", err);
+        setUser(null);
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    fetchUser();
+  }, []);
+  if (loading) return <p>Loading...</p>;
+  if (!user) return <p>No user logged in</p>;
   return (
     <div className="w-72 bg-white rounded-xl shadow-lg border border-gray-200 p-4">
       {/* User info */}
       <div className="flex items-center justify-between mb-3">
         <div>
-          <p className="font-semibold text-gray-900">aman pandey</p>
+          <p className="font-semibold text-gray-900">{user}</p>
           <p className="text-gray-500 text-xs">a***********s@gmail.com</p>
         </div>
         <Settings className="w-4 h-4 text-gray-500 cursor-pointer" />
