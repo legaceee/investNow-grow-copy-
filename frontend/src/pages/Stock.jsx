@@ -115,6 +115,7 @@ import { NavLink, useParams } from "react-router-dom";
 import AuthNavbar from "../assets/Component/AuthNavbar";
 import Performance from "../assets/Component/Performance";
 import Footer from "../assets/Component/Footer";
+import Button from "../assets/Component/Button";
 
 function Stock() {
   const { name } = useParams();
@@ -188,6 +189,10 @@ function Stock() {
                   </button>
                 )
               )}
+            </div>
+            <div className="flex mt-4 ">
+              <Button>BUY</Button>
+              <Button>SELL</Button>
             </div>
 
             {/* Tabs */}

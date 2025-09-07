@@ -3,6 +3,7 @@ import { z } from "zod";
 import prisma from "../config/prismaClient.js";
 import AppError from "../utils/appError.js";
 import { CatchAsync } from "../utils/catchAsync.js";
+import bcrypt from "bcryptjs";
 
 const updateProfileSchema = z.object({
   username: z.string().min(3).max(30).optional(),
@@ -48,6 +49,7 @@ export const deleteMyAccount = CatchAsync(async (req, res, next) => {
   if (!userId) {
     return next(new AppError("You must be logged in", 401));
   }
+  const user = await prisma.user.findUnique({ where: { id: userId } });
   const isPasswordCorrect = await bcrypt.compare(password, user.password);
   if (!isPasswordCorrect) {
     return next(new AppError("Incorrect password", 401));

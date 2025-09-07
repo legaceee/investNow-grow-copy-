@@ -43,7 +43,7 @@ export default function UserProfile() {
       <div className="flex items-center justify-between mb-3">
         <div>
           <p className="font-semibold text-gray-900">{user}</p>
-          <p className="text-gray-500 text-xs">a***********s@gmail.com</p>
+          <p className="text-gray-500 text-xs">{user.email}</p>
         </div>
         <Settings className="w-4 h-4 text-gray-500 cursor-pointer" />
       </div>
