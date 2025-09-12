@@ -1,15 +1,21 @@
 import { useEffect, useRef } from "react";
 import { X, Search as SearchIcon } from "lucide-react";
 import Modal from "./Modal";
+import { useState } from "react";
 
 export default function SearchModal({ onClose }) {
   const inputRef = useRef(null);
+  const [search, setSearch] = useState("");
+  const [result, setResults] = useState([]);
 
   // focus the modal input & lock body scroll
   const onKeyDown = (e) => {
     if (e.key === "Escape") {
       onClose();
     }
+  };
+  const handleInputChange = (event) => {
+    setSearch(event.target.value);
   };
   useEffect(() => {
     inputRef.current?.focus();
@@ -21,15 +27,48 @@ export default function SearchModal({ onClose }) {
       window.removeEventListener("keydown", onKeyDown);
     };
   }, [onClose]);
+  useEffect(() => {
+    if (!search.trim()) {
+      setResults([]);
+      return;
+    }
 
-  const popular = [
-    "OLA Electric Mobility Ltd.",
-    "Tata Motors Ltd.",
-    "National Securities Depository Ltd.",
-    "Suzlon Energy Ltd.",
-    "Rico Auto Industries Ltd.",
-    "Reliance Power Ltd.",
-  ];
+    const controller = new AbortController();
+
+    const timeoutId = setTimeout(async () => {
+      try {
+        const res = await fetch(
+          `http://localhost:4000/api/v1/stocks/${encodeURIComponent(search)}`,
+          {
+            signal: controller.signal,
+          }
+        );
+        if (!res.ok) throw new Error("Failed to fetch");
+        const data = await res.json();
+        const names = data.map((stock) => stock.companyName);
+
+        setResults(names);
+      } catch (err) {
+        if (err.name !== "AbortError") {
+          console.error(err);
+        }
+      }
+    }, 300); // 300ms debounce
+
+    return () => {
+      clearTimeout(timeoutId);
+      controller.abort();
+    };
+  }, [search]);
+
+  // const popular = [
+  //   "OLA Electric Mobility Ltd.",
+  //   "Tata Motors Ltd.",
+  //   "National Securities Depository Ltd.",
+  //   "Suzlon Energy Ltd.",
+  //   "Rico Auto Industries Ltd.",
+  //   "Reliance Power Ltd.",
+  // ];
 
   return (
     // overlay
@@ -46,6 +85,8 @@ export default function SearchModal({ onClose }) {
             type="text"
             placeholder="Search INVESTnow..."
             className="w-full pl-10 pr-10 py-3 rounded-lg outline-none placeholder-gray-400"
+            value={search}
+            onChange={handleInputChange}
           />
           <button
             className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600"
@@ -80,7 +121,7 @@ export default function SearchModal({ onClose }) {
             Popular on INVESTnow
           </p>
           <ul className="max-h-72 overflow-auto">
-            {popular.map((item) => (
+            {result.map((item) => (
               <li
                 key={item}
                 className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 cursor-pointer"

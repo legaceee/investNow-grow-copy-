@@ -66,7 +66,7 @@ export const searchStocks = async (req, res) => {
     });
 
     // 3. Search
-    const result = fuse.search(search).slice(0, 10); // top 10
+    const result = fuse.search(search).slice(0, 5); // top 5
 
     res.json(result.map((r) => r.item));
   } catch (error) {

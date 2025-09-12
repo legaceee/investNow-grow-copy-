@@ -133,7 +133,13 @@ export const signup = CatchAsync(async (req, res, next) => {
   const hashedPassword = await bcrypt.hash(password, 10);
 
   const user = await prisma.user.create({
-    data: { username, email, password: hashedPassword, role: "USER" },
+    data: {
+      username,
+      email,
+      password: hashedPassword,
+      role: "USER",
+      emailVerified: true,
+    },
   });
 
   createSendToken(user, 201, res);
@@ -246,28 +252,8 @@ export const verifyOtp = CatchAsync(async (req, res) => {
     return res.status(400).json({ error: "Invalid OTP" });
   }
 
-  //  OTP valid → create user now
-  // let user = await prisma.user.findUnique({ where: { email } });
-  // if (!user) {
-  //   user = await prisma.user.create({
-  //     data: { email, username: email.split("@")[0], emailVerified: true },
-  //   });
-  // } else {
-  //   await prisma.user.update({
-  //     where: { email },
-  //     data: { emailVerified: true },
-  //   });
-  // }
-
   // cleanup
   await prisma.emailVerification.delete({ where: { email } });
 
   res.status(200).json({ message: "Email verified successfully" });
-});
-
-export const delUser = CatchAsync(async (req, res, next) => {
-  const userId = req.user.id;
-  if (!userId) return next(new AppError("login first", 400));
-  const user = await prisma.user.delete({ where: { userId } });
-  res.status(200).json({ message: "user deleted" });
 });
