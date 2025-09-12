@@ -13,7 +13,7 @@ const router = express.Router();
 router.get("/", getAllStocks);
 router.get("/prices", stockPriceHistory);
 router.get("/:search", searchStocks);
-router.get("/:symbol", requireAuth, getStockBySymbol);
+router.get("/sym/:symbol", getStockBySymbol);
 router.post("/buy/:symbol", requireAuth, placeOrder, buyStock);
 router.post("/sell/:symbol", requireAuth, sellStock);
 export default router;

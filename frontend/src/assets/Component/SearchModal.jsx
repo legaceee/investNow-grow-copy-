@@ -2,12 +2,13 @@ import { useEffect, useRef } from "react";
 import { X, Search as SearchIcon } from "lucide-react";
 import Modal from "./Modal";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function SearchModal({ onClose }) {
   const inputRef = useRef(null);
   const [search, setSearch] = useState("");
   const [result, setResults] = useState([]);
-
+  const navigate = useNavigate();
   // focus the modal input & lock body scroll
   const onKeyDown = (e) => {
     if (e.key === "Escape") {
@@ -17,6 +18,10 @@ export default function SearchModal({ onClose }) {
   const handleInputChange = (event) => {
     setSearch(event.target.value);
   };
+  const handleClick = (stockObj) => {
+    navigate(`/stock/${stockObj.symbol}`, { state: { stock: stockObj } });
+  };
+
   useEffect(() => {
     inputRef.current?.focus();
     document.body.classList.add("overflow-hidden");
@@ -45,9 +50,8 @@ export default function SearchModal({ onClose }) {
         );
         if (!res.ok) throw new Error("Failed to fetch");
         const data = await res.json();
-        const names = data.map((stock) => stock.companyName);
 
-        setResults(names);
+        setResults(data);
       } catch (err) {
         if (err.name !== "AbortError") {
           console.error(err);
@@ -123,11 +127,12 @@ export default function SearchModal({ onClose }) {
           <ul className="max-h-72 overflow-auto">
             {result.map((item) => (
               <li
-                key={item}
+                key={item.id}
                 className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 cursor-pointer"
+                onClick={() => handleClick(item)}
               >
                 <span className="text-gray-300">↗</span>
-                <span>{item}</span>
+                <span>{item.companyName}</span>
               </li>
             ))}
           </ul>

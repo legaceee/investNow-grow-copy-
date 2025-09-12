@@ -19,7 +19,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/loggedIn" element={<AccountPage />} />
             <Route path="/foot" element={<Footer />} />
-            <Route path="/stock/:name" element={<Stock />} />
+            <Route path="/stock/:id" element={<Stock />} />
           </Routes>
           <ModalRoot />
         </ModalProvider>
