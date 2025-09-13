@@ -10,7 +10,6 @@ function Stock() {
   const location = useLocation();
   const stockObj = location.state?.stock; // full object if passed
   const [stockInfo, setStockInfo] = useState(stockObj || {});
-
   useEffect(() => {
     if (id) {
       async function getStock() {
@@ -19,7 +18,23 @@ function Stock() {
             `http://localhost:4000/api/v1/stocks/sym/${id}`
           );
           const data = await res.json();
-          setStockInfo(data.data.stock);
+          console.log(data.data.stock);
+          const stockData = data.data.stock;
+
+          const chartRes = await fetch(
+            `http://localhost:4000/api/v1/candle/${stockData.id}/candles?interval=1m`
+          );
+          const candleData = await chartRes.json();
+
+          setStockInfo({
+            ...stockData,
+            candles: candleData.data.candles.slice(0, 5),
+          });
+
+          console.log("Stock + Candles:", {
+            ...stockData,
+            candles: candleData.data.candles.slice(0, 5),
+          });
         } catch (err) {
           console.error(err);
         }
@@ -69,16 +84,19 @@ function Stock() {
             {/* OHLC */}
             <div className="flex gap-6 mt-4 text-sm text-gray-700">
               <p>
-                O <span className="text-black">59.80</span>
+                O{" "}
+                <span className="text-black">{stockInfo.candles[0].open}</span>
               </p>
               <p>
-                H <span className="text-black">59.99</span>
+                H{" "}
+                <span className="text-black">{stockInfo.candles[0].high}</span>
               </p>
               <p>
-                L <span className="text-black">59.72</span>
+                L <span className="text-black">{stockInfo.candles[0].low}</span>
               </p>
               <p>
-                C <span className="text-black">59.92</span>
+                C{" "}
+                <span className="text-black">{stockInfo.candles[0].close}</span>
               </p>
             </div>
 
