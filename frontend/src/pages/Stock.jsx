@@ -125,7 +125,7 @@ function Stock() {
                 Looking to invest in Stocks?
               </p>
               <p className="text-sm text-gray-600 mb-4">
-                Create your demat account on Groww in 2 minutes
+                Create your demat account on INVESTnoww in 2 minutes
               </p>
               <button className="w-full bg-green-600 text-white py-2 rounded-md">
                 Unlock Stocks

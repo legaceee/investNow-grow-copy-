@@ -2,6 +2,7 @@ import { CatchAsync } from "../utils/catchAsync.js";
 import prisma from "../config/prismaClient.js"; // Prisma client instance
 
 import Fuse from "fuse.js";
+import AppError from "../utils/appError.js";
 // Get all stocks
 export const getAllStocks = CatchAsync(async (req, res, next) => {
   const stocks = await prisma.stock.findMany({
@@ -224,10 +225,34 @@ export const sellStock = async (req, res) => {
   }
 };
 
-export const stockPriceHistory = CatchAsync(async (req, res, next) => {
-  const result = await prisma.stockPrice.findMany({ select: { price: true } });
-  if (!result) {
-    res.status(400).json({ error: "no results" });
+export const getCandle = CatchAsync(async (req, res, next) => {
+  const { id } = req.params;
+  const { interval } = req.query;
+
+  if (!id || !interval) {
+    return next(new AppError("Stock id and interval are required", 400));
   }
-  res.status(200).json({ result });
+
+  const candles = await prisma.candle.findMany({
+    where: {
+      stockId: id.toString(),
+      interval: interval,
+    },
+    orderBy: {
+      time: "desc",
+    },
+    take: 100,
+  });
+
+  if (!candles || candles.length === 0) {
+    return next(new AppError("No candles found for this stock/interval", 404));
+  }
+
+  res.status(200).json({
+    status: "success",
+    results: candles.length,
+    data: {
+      candles,
+    },
+  });
 });

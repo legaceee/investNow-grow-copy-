@@ -8,6 +8,7 @@ import orderRoute from "./routes/orderRoutes.js";
 import portfolioRoute from "./routes/portFolioRoutes.js";
 import walletRoute from "./routes/walletRoute.js";
 import transactionRoute from "./routes/transactionRoutes.js";
+import stockRoute from "./routes/stockRoutes.js";
 import AppError from "./utils/appError.js";
 import globalErrorHandler from "./utils/gobalErrorHandler.js";
 import rateLimit from "express-rate-limit";
@@ -34,6 +35,7 @@ app.use("/api/v1/stocks", orderRoute);
 app.use("/api/v1/portfolio", portfolioRoute);
 app.use("/api/v1/wallet", walletRoute);
 app.use("/api/v1/transactions", transactionRoute);
+app.use("/api/v1/candle", stockRoute);
 app.all(/.*/, (req, res, next) => {
   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
 });
