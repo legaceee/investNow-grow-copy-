@@ -10,16 +10,20 @@ function Hero1() {
   } */
 
   return (
-    <div className="flex justify-between mt-10 pt-[80px] pb-[80px] bg-white">
-      <div className="flex flex-col pl-40 pt-10">
-        <img src={buildinggroww} alt="Building Groww" className="w-24 h-24" />
-        <h2 className="text-[60px] font-semibold text-slate-700">
+    <div className="flex flex-col lg:flex-row lg:justify-between gap-10 mt-10 py-16 bg-white">
+      <div className="flex flex-col pt-2">
+        <img
+          src={buildinggroww}
+          alt="Building Groww"
+          className="w-16 h-16 sm:w-24 sm:h-24"
+        />
+        <h2 className="text-3xl sm:text-5xl lg:text-[60px] font-semibold text-slate-700 leading-tight mt-3">
           Indian markets
           <br />
           at your fingertip
         </h2>
 
-        <ul className="flex flex-col gap-4 text-[20px] font-semibold mt-8 rounded-sm">
+        <ul className="flex flex-col gap-4 text-base sm:text-[20px] font-semibold mt-8 rounded-sm max-w-md">
           <li className="p-4 border  border-gray-200 rounded-xl hover:shadow-md transition ">
             Stocks & Intraday
           </li>
@@ -31,8 +35,12 @@ function Hero1() {
           </li>
         </ul>
       </div>
-      <div className="flex ml-40 pr-48">
-        <img src={phonegroww} alt="Groww Phone" className="w-64 mt-10 h-100%" />
+      <div className="flex justify-center lg:justify-end">
+        <img
+          src={phonegroww}
+          alt="Groww Phone"
+          className="w-48 sm:w-64 mt-2 sm:mt-10"
+        />
       </div>
     </div>
   );

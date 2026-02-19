@@ -1,51 +1,48 @@
-import React from "react";
-import Navbar from "../assets/Component/Navbar";
-
+import GuestNavbar from "../assets/Component/GuestNavbar";
+import Footer from "../assets/Component/Footer";
 import Hero1 from "../assets/Component/Hero1";
 import Hero2 from "../assets/Component/Hero2";
 import Hero3 from "../assets/Component/Hero3";
 import Hero4 from "../assets/Component/Hero4";
-import Login from "./Login";
 import Hero0 from "../assets/Hero0";
-
-import SearchModal from "../assets/Component/SearchModal";
-import PinModal from "../assets/Component/PinModal";
-import GuestNavbar from "../assets/Component/GuestNavbar";
-import ModalRoot from "../assets/Component/ModalRoot";
 
 function Home() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center min-h-screen bg-white">
-        {/* <Navbar isModal={isModal} modalManage={setIsModal} /> */}
+      <div className="flex flex-col min-h-screen bg-white">
         <GuestNavbar />
-        <Hero0 />
+        <main className="w-full">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <Hero0 />
+          </div>
+        </main>
       </div>
 
-      {/* {isModal === "search" && (
-        <SearchModal onClose={() => setIsModal(null)} setIsModal={setIsModal} />
-      )}
+      <section className="w-full bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <Hero1 />
+        </div>
+      </section>
 
-      {isModal === "login" && (
-        <Login
-          modalManage={setIsModal}
-          onClose={() => setIsModal(null)}
-          onClick={() => setIsLogin(true)}
-        />
-      )}
-      {isModal === "pin" && <PinModal />} */}
+      <section className="w-full bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <Hero2 />
+        </div>
+      </section>
 
-      <div>
-        <Hero1 />
-      </div>
-      <div className="flex ml-36">
-        <Hero2 />
-      </div>
-      <Hero3 />
+      <section className="w-full bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <Hero3 />
+        </div>
+      </section>
 
-      <div>
-        <Hero4 />
-      </div>
+      <section className="w-full bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <Hero4 />
+        </div>
+      </section>
+
+      <Footer />
     </>
   );
 }

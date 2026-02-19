@@ -49,9 +49,9 @@ function Stock() {
       <AuthNavbar />
 
       {/* Page container */}
-      <div className="max-w-7xl mx-auto px-6 mt-20 mb-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 mt-20 mb-6">
         {/* Notice Bar */}
-        <div className="flex justify-between items-center border rounded-md p-3 text-sm bg-gray-50">
+        <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2 border rounded-md p-3 text-sm bg-gray-50">
           <p>The current prices are delayed, activate stocks for live prices</p>
           <NavLink to={"/"} className="text-green-600 font-medium">
             Activate Stocks
@@ -59,7 +59,7 @@ function Stock() {
         </div>
 
         {/* Main Section */}
-        <div className="flex mt-8 gap-8">
+        <div className="flex flex-col lg:flex-row mt-8 gap-8">
           {/* Left Section */}
           <div className="flex-1">
             {/* Stock Info */}
@@ -82,7 +82,7 @@ function Stock() {
             </div>
 
             {/* OHLC */}
-            <div className="flex gap-6 mt-4 text-sm text-gray-700">
+            {/* <div className="flex gap-6 mt-4 text-sm text-gray-700">
               <p>
                 O{" "}
                 <span className="text-black">{stockInfo.candles[0].open}</span>
@@ -98,15 +98,15 @@ function Stock() {
                 C{" "}
                 <span className="text-black">{stockInfo.candles[0].close}</span>
               </p>
-            </div>
+            </div> */}
 
             {/* Chart */}
-            <div className="mt-6 h-80 bg-gray-100 border rounded-md flex items-center justify-center">
+            <div className="mt-6 h-64 sm:h-80 bg-gray-100 border rounded-md flex items-center justify-center">
               <p className="text-gray-500">[Candlestick Chart]</p>
             </div>
 
             {/* Timeframes */}
-            <div className="flex gap-3 mt-4">
+            <div className="flex flex-wrap gap-2 sm:gap-3 mt-4">
               {["1D", "1W", "1M", "3M", "6M", "1Y", "3Y", "5Y", "All"].map(
                 (t) => (
                   <button
@@ -118,18 +118,18 @@ function Stock() {
                 )
               )}
             </div>
-            <div className="flex mt-4 ">
+            <div className="flex flex-wrap gap-3 mt-4">
               <Button>BUY</Button>
               <Button>SELL</Button>
             </div>
 
             {/* Tabs */}
-            <div className="flex mt-10 gap-8 border-b">
-              <div className="text-xl border-b-4 border-green-500 pb-2">
+            <div className="flex mt-10 gap-6 sm:gap-8 border-b overflow-x-auto">
+              <div className="text-base sm:text-xl whitespace-nowrap border-b-4 border-green-500 pb-2">
                 Overview
               </div>
-              <div className="text-xl pb-2">News</div>
-              <div className="text-xl pb-2">Events</div>
+              <div className="text-base sm:text-xl whitespace-nowrap pb-2">News</div>
+              <div className="text-base sm:text-xl whitespace-nowrap pb-2">Events</div>
             </div>
 
             {/* Performance Section */}
@@ -137,7 +137,7 @@ function Stock() {
           </div>
 
           {/* Right Section */}
-          <div className="w-80">
+          <div className="w-full lg:w-80">
             <div className="border rounded-lg p-6 bg-gray-50 text-center ">
               <p className="text-lg font-medium mb-2">
                 Looking to invest in Stocks?

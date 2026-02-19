@@ -34,7 +34,7 @@ function SignupWindow({ setEmail, onClose, login, setEmailOtpSend }) {
   }
 
   return (
-    <div className="col-span-3 p-8 flex flex-col gap-4 relative">
+    <div className="sm:col-span-3 p-4 sm:p-8 flex flex-col gap-4 relative">
       <button
         onClick={onClose}
         className="absolute top-2 right-4 text-gray-400 hover:text-black text-xl hover:z-30"

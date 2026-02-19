@@ -10,7 +10,7 @@ function Performance() {
 
         <div className="flex flex-col gap-4">
           {/* Row 1 */}
-          <div className="flex items-center gap-4">
+          <div className="flex flex-col sm:flex-row sm:items-center gap-4">
             <div className="flex flex-col">
               <div className="text-gray-500">TODAY'S LOW</div>
               <div>xrs</div>
@@ -26,7 +26,7 @@ function Performance() {
           </div>
 
           {/* Row 2 */}
-          <div className="flex items-center gap-4">
+          <div className="flex flex-col sm:flex-row sm:items-center gap-4">
             <div className="flex flex-col">
               <div className="text-gray-500">52W LOW</div>
               <div>xrs</div>
@@ -42,7 +42,7 @@ function Performance() {
           </div>
         </div>
         <hr className="border-t-2 opacity-25 border-dashed border-gray-400 my-4 mt-4" />
-        <div className="grid grid-cols-4 gap-4 mt-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
           <div className="flex flex-col">
             <p>OPEN</p>
             <p className="text-lg">x</p>

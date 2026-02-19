@@ -48,29 +48,23 @@
 
 export default Hero4; */
 
-import { Link } from "react-router-dom";
-import Footer from "./Footer";
-
 function Hero4() {
   return (
     <div>
       <div className="flex flex-col">
-        <div className="flex justify-center gap-5 mt-20">
-          <div className="h-[300px] w-[290px] bg-slate-500 rounded-2xl  relative  left-36 -rotate-6  top-4  hover:-translate-y-28 transition-all duration-500  hover:z-10 hover:rotate-0">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-16">
+          <div className="h-56 sm:h-64 bg-slate-500 rounded-2xl transition-all duration-500 hover:-translate-y-6 hover:z-10 lg:-rotate-6 hover:rotate-0">
             1
           </div>
-          <div className="h-[200px] w-[320px] bg-red-400 rounded-2xl relative top-10 left-16 rotate-3  hover:rotate-0 hover:z-10 hover:-translate-y-14 transition-all duration-500">
+          <div className="h-48 sm:h-56 bg-red-400 rounded-2xl transition-all duration-500 hover:-translate-y-6 hover:z-10 lg:rotate-3 hover:rotate-0">
             2
           </div>
-          <div className="h-[200px] w-[320px] bg-slate-500 rounded-2xl relative  hover:-translate-y-9 hover:z-10  transition-all duration-500">
+          <div className="h-48 sm:h-56 bg-slate-500 rounded-2xl transition-all duration-500 hover:-translate-y-6 hover:z-10">
             3
           </div>
-          <div className="w-[345px] h-[347px] bg-orange-300 rounded-2xl relative  right-40 top-6 rotate-6  hover:rotate-0 hover:-translate-y-20  transition-all duration-500 ">
+          <div className="h-56 sm:h-72 bg-orange-300 rounded-2xl transition-all duration-500 hover:-translate-y-6 hover:z-10 lg:rotate-6 hover:rotate-0">
             4
           </div>
-        </div>
-        <div className="-mt-[149px]">
-          <Footer />
         </div>
       </div>
     </div>

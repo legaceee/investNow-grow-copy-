@@ -24,11 +24,11 @@ function Login() {
   return (
     <Modal onClose={closeModal}>
       <div
-        className="grid grid-cols-5 w-[100%] max-w-3xl h-[400px] bg-white rounded-xl overflow-hidden shadow-xl animate-scale"
+        className="grid grid-cols-1 sm:grid-cols-5 w-full max-w-3xl bg-white rounded-xl overflow-hidden shadow-xl animate-scale sm:h-[400px]"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Left panel */}
-        <div className="col-span-2 bg-green-500 text-white flex flex-col justify-center p-8">
+        <div className="sm:col-span-2 bg-green-500 text-white flex flex-col justify-center p-6 sm:p-8">
           <h2 className="text-2xl font-bold mb-2">Simple, Free</h2>
           <p className="text-xl">Investing.</p>
           <span className="mt-4 font-medium">Mutual Funds</span>

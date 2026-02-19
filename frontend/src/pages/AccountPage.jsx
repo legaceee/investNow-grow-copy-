@@ -3,9 +3,9 @@ import MiddleModal from "../assets/Component/MiddleModal";
 
 function AccountPage() {
   return (
-    <div className="overflow-hidden h-screen">
+    <div className="min-h-screen bg-white overflow-x-hidden">
       <AuthNavbar />
-      <div className="min-h-screen bg-white mt-20">
+      <div className="min-h-screen pt-20">
         <MiddleModal />
       </div>
     </div>
